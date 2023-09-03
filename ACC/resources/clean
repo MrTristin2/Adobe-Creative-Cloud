@@ -1,0 +1,118 @@
+/*************************************************************************
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2015 Adobe Systems Incorporated
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and are protected by all applicable intellectual property
+ * laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ **************************************************************************/
+ 
+/*{"c":"2014-07-16T23:34:26Z","s":"prod-origin-83c205ec","v":"783743"}*/
+/*
+ * The Typekit service used to deliver this font or fonts for use on websites
+ * is provided by Adobe and is subject to these Terms of Use
+ * http://www.adobe.com/products/eulas/tou_typekit. For font license
+ * information, see the list below.
+ *
+ * adobe-clean:
+ *   - http://typekit.com/eulas/000000000000000000014f4e
+ *   - http://typekit.com/eulas/000000000000000000014f50
+ *   - http://typekit.com/eulas/000000000000000000014f52
+ *   - http://typekit.com/eulas/000000000000000000014f4d
+ *   - http://typekit.com/eulas/000000000000000000014f4f
+ *   - http://typekit.com/eulas/000000000000000000014f51
+ * adobe-clean-semi-condensed:
+ *   - http://typekit.com/eulas/000000000000000000014823
+ *   - http://typekit.com/eulas/000000000000000000014825
+ *   - http://typekit.com/eulas/000000000000000000014822
+ *   - http://typekit.com/eulas/000000000000000000014824
+ *
+ * (c) 2009-2014 Adobe Systems Incorporated. All Rights Reserved.
+ */
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-LightIt.otf');
+    font-style: italic;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-It.otf');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-Bold.otf');
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-Light.otf');
+    font-style: normal;
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-Regular.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-Bold.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "adobe-clean";
+    src: url('./fonts/AdobeClean-ExtraBold.otf');
+    font-style: normal;
+    font-weight: 800;
+}
+
+@font-face {
+    font-family: "adobe-clean-semi-condensed";
+    src: url('./fonts/AdobeClean-SemiCnIt.otf');
+    font-style: italic;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "adobe-clean-semi-condensed";
+    src: url('./fonts/AdobeClean-BoldSemiCnIt.otf');
+    font-style: italic;
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: "adobe-clean-semi-condensed";
+    src: url('./fonts/AdobeClean-SemiCn.otf');
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "adobe-clean-semi-condensed";
+    src: url('./fonts/AdobeClean-BoldSemiCn.otf');
+    font-style: normal;
+    font-weight: 700;
+}
+
