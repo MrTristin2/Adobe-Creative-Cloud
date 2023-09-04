@@ -1,0 +1,17 @@
+{
+    "id":"com.adobe.ccd.extension.sam",
+    "version":"1.0.0",
+    "type":"native",
+    "native":{
+       "interface":{
+          "type":"napi",
+          "version":"1"
+       },
+       "mac":{
+          "entryPoint":"./native/sam-v2.dylib"
+       },
+       "win":{
+          "entryPoint":"./native/sam-v2.dll"
+       }
+    }
+}

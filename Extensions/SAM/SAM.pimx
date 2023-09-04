@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>6EEAE3BB-CC7B-4B45-808B-77310559F46E</packageid>
+	<name>SAM</name>
+	<version>1.2.1.52</version>
+	<target_location>/Extensions/SAM/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>SAM</name>
+			<assets_size>34585082</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvPjxGaWxlPjxJbnN0YWxsUGF0aD5c
+bmF0aXZlXHNhbS12Mi5kbGw8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWdu
+YXR1cmU8L1NpZ25hdHVyZVR5cGU+PFNpZ25hdHVyZUluZm8+QWRvYmUgSW5jLnt8fURpZ2lDZXJ0
+IFRydXN0ZWQgRzQgQ29kZSBTaWduaW5nIFJTQTQwOTYgU0hBMzg0IDIwMjEgQ0Exe3x9RGlnaUNl
+cnQgVHJ1c3RlZCBSb290IEc0e3x9RGlnaUNlcnQgQXNzdXJlZCBJRCBSb290IENBPC9TaWduYXR1
+cmVJbmZvPjwvRmlsZT48L1ZhbGlkYXRpb25JbmZvPg==</validation_xml>
+				<sig>AIjUAesaaSeGOZdEDtiP2ah/nnlWYK5XYWypboqZElIXU2XN9iUX4WqECjHCyvEaXe37L9nwyyQB70Uym2AI8fARisOet7vfaorTVMT7hvgDXMRSi3mpl0s+uq14al6WLYXXjlu+MOoVStZajEYzheohuAlfpWX2jUdWkE7+O06CHoqs7DYW/6NUNLU4xPMeDTrhegflN1S8OVqLUJQxweL7JtiniR7F6Kh2bui5PdRVVQ1n9/iRjvwN0eH5XjBaLlRmAERz0IGx1A1yAM4xSXWWgIN+EP+zMcMGLv8QwstCg2jpZdR/Q8UIDnTlnWWBPJN1oJkkQJnhis0d2sCbsoFAF0Hsi7tamCkHpeFj0PEmMS9Ip+2TrGNRztTCuw+TU3qcYizrweeZSo7oGmzUwScweJ6dRenCvBdf5P7QwysViAe3YqEB2zRWdW+bSFCFa9W/HstaiZasizUJD8NCjY1YPQ+3Va3qDmdhyghMaZNoWxzasYVY9IPZWU3dHxo4</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>
