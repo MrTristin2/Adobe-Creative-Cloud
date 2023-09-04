@@ -1,0 +1,200 @@
+.cqa .spectrum-Icon, .cqa .spectrum-UIIcon {
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  pointer-events: none;
+}
+.cqa .spectrum-Icon:not(:root), .cqa .spectrum-UIIcon:not(:root) {
+    overflow: hidden;
+  }
+.cqa .spectrum-Icon--sizeXXS, .cqa .spectrum-Icon--sizeXXS img, .cqa .spectrum-Icon--sizeXXS svg {
+    height: 9px;
+    width: 9px;
+  }
+.cqa .spectrum-Icon--sizeXS, .cqa .spectrum-Icon--sizeXS img, .cqa .spectrum-Icon--sizeXS svg {
+    height: 12px;
+    width: 12px;
+  }
+.cqa .spectrum-Icon--sizeS, .cqa .spectrum-Icon--sizeS img, .cqa .spectrum-Icon--sizeS svg {
+    height: 18px;
+    width: 18px;
+  }
+.cqa .spectrum-Icon--sizeM, .cqa .spectrum-Icon--sizeM img, .cqa .spectrum-Icon--sizeM svg {
+    height: 24px;
+    width: 24px;
+  }
+.cqa .spectrum-Icon--sizeL, .cqa .spectrum-Icon--sizeL img, .cqa .spectrum-Icon--sizeL svg {
+    height: 36px;
+    width: 36px;
+  }
+.cqa .spectrum-Icon--sizeXL, .cqa .spectrum-Icon--sizeXL img, .cqa .spectrum-Icon--sizeXL svg {
+    height: 48px;
+    width: 48px;
+  }
+.cqa .spectrum-Icon--sizeXXL, .cqa .spectrum-Icon--sizeXXL img, .cqa .spectrum-Icon--sizeXXL svg {
+    height: 72px;
+    width: 72px;
+  }
+.cqa .spectrum--medium .spectrum-UIIcon--large {
+    display: none;
+  }
+.cqa .spectrum--medium .spectrum-UIIcon--medium {
+    display: inline;
+  }
+.cqa .spectrum--large .spectrum-UIIcon--medium {
+    display: none;
+  }
+.cqa .spectrum--large .spectrum-UIIcon--large {
+    display: inline;
+  }
+.cqa .spectrum--large {
+  --ui-icon-large-display: block;
+  --ui-icon-medium-display: none;
+}
+.cqa .spectrum--medium {
+  --ui-icon-medium-display: block;
+  --ui-icon-large-display: none;
+}
+.cqa .spectrum-UIIcon--large {
+  display: var(--ui-icon-large-display);
+}
+.cqa .spectrum-UIIcon--medium {
+  display: var(--ui-icon-medium-display);
+}
+.cqa .spectrum-UIIcon-AlertMedium {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-AlertSmall {
+  width: 14px;
+  height: 14px;
+}
+.cqa .spectrum-UIIcon-ArrowDownSmall {
+  width: 8px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-ArrowLeftMedium {
+  width: 14px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-Asterisk {
+  width: 8px;
+  height: 8px;
+}
+.cqa .spectrum-UIIcon-CheckmarkMedium {
+  width: 12px;
+  height: 12px;
+}
+.cqa .spectrum-UIIcon-CheckmarkSmall {
+  width: 10px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-ChevronDownMedium {
+  width: 10px;
+  height: 6px;
+}
+.cqa .spectrum-UIIcon-ChevronDownSmall {
+  width: 8px;
+  height: 6px;
+}
+.cqa .spectrum-UIIcon-ChevronLeftLarge {
+  width: 12px;
+  height: 16px;
+}
+.cqa .spectrum-UIIcon-ChevronLeftMedium {
+  width: 6px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-ChevronRightLarge {
+  width: 12px;
+  height: 16px;
+}
+.cqa .spectrum-UIIcon-ChevronRightMedium {
+  width: 6px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-ChevronRightSmall {
+  width: 6px;
+  height: 8px;
+}
+.cqa .spectrum-UIIcon-ChevronUpSmall {
+  width: 8px;
+  height: 6px;
+}
+.cqa .spectrum-UIIcon-CornerTriangle {
+  width: 5px;
+  height: 5px;
+}
+.cqa .spectrum-UIIcon-CrossLarge {
+  width: 12px;
+  height: 12px;
+}
+.cqa .spectrum-UIIcon-CrossMedium {
+  width: 8px;
+  height: 8px;
+}
+.cqa .spectrum-UIIcon-CrossSmall {
+  width: 8px;
+  height: 8px;
+}
+.cqa .spectrum-UIIcon-DashSmall {
+  width: 10px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-DoubleGripper {
+  width: 16px;
+  height: 4px;
+}
+.cqa .spectrum-UIIcon-FolderBreadcrumb {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-HelpMedium {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-HelpSmall {
+  width: 14px;
+  height: 14px;
+}
+.cqa .spectrum-UIIcon-InfoMedium {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-InfoSmall {
+  width: 14px;
+  height: 14px;
+}
+.cqa .spectrum-UIIcon-Magnifier {
+  width: 16px;
+  height: 16px;
+}
+.cqa .spectrum-UIIcon-SkipLeft {
+  width: 9px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-SkipRight {
+  width: 9px;
+  height: 10px;
+}
+.cqa .spectrum-UIIcon-Star {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-StarOutline {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-SuccessMedium {
+  width: 18px;
+  height: 18px;
+}
+.cqa .spectrum-UIIcon-SuccessSmall {
+  width: 14px;
+  height: 14px;
+}
+.cqa .spectrum-UIIcon-TripleGripper {
+  width: 10px;
+  height: 7px;
+}
+
