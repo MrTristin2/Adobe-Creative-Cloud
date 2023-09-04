@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "字體",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "將字體新增至 Creative Cloud",
+  "componentfonts.byof.panel.done": "完成",
+  "componentfonts.signout.warning": "所有新增和安裝的 Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "自訂字體",
+  "componentfonts.error.boundary.fullView.heading": "頁面無法使用",
+  "componentfonts.error.boundary.text": "我們無法載入此內容，請稍後再試一次。"
+}

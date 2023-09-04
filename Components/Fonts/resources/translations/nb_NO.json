@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Skrifter",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Legg til skrifter i Creative Cloud",
+  "componentfonts.byof.panel.done": "Ferdig",
+  "componentfonts.signout.warning": "Alle Adobe Fonts-skrifter som er lagt til og installert",
+  "componentfonts.header.tab.Custom.fonts": "Spesialskrifter",
+  "componentfonts.error.boundary.fullView.heading": "Siden er ikke tilgjengelig",
+  "componentfonts.error.boundary.text": "Dette innholdet kunne ikke lastes inn. Prøv igjen senere."
+}

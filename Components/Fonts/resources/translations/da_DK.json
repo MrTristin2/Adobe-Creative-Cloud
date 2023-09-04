@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Skrifttyper",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Føj skrifttyper til Creative Cloud",
+  "componentfonts.byof.panel.done": "OK",
+  "componentfonts.signout.warning": "Alle tilføjede og installerede skrifttyper fra Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "Tilpassede skrifttyper",
+  "componentfonts.error.boundary.fullView.heading": "Siden er ikke tilgængelig",
+  "componentfonts.error.boundary.text": "Dette indhold kan ikke indlæses. Prøv igen senere."
+}

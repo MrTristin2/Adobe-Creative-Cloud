@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Schriften",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Schriften zu Creative Cloud hinzufügen",
+  "componentfonts.byof.panel.done": "Fertig",
+  "componentfonts.signout.warning": "Alle hinzugefügten und installierten Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "Benutzerdefinierte Schriften",
+  "componentfonts.error.boundary.fullView.heading": "Seite nicht verfügbar",
+  "componentfonts.error.boundary.text": "Diese Inhalte können nicht geladen werden. Versuchen Sie es später erneut."
+}

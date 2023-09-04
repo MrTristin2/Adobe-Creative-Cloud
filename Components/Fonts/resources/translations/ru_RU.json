@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Шрифты",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Добавить шрифты в Creative Cloud",
+  "componentfonts.byof.panel.done": "Готово",
+  "componentfonts.signout.warning": "Все добавленные и установленные шрифты Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "Пользовательские шрифты",
+  "componentfonts.error.boundary.fullView.heading": "Страница недоступна",
+  "componentfonts.error.boundary.text": "Не удалось загрузить этот контент. Повторите попытку позже."
+}

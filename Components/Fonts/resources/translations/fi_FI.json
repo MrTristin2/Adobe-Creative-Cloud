@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Kirjasimet",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Lisää kirjasimia Creative Cloudiin",
+  "componentfonts.byof.panel.done": "Valmis",
+  "componentfonts.signout.warning": "Kaikki lisätyt ja asennetut Adobe Fonts -kirjasimet",
+  "componentfonts.header.tab.Custom.fonts": "Mukautetut kirjasimet",
+  "componentfonts.error.boundary.fullView.heading": "Sivu ei ole käytettävissä.",
+  "componentfonts.error.boundary.text": "Tätä sisältöä ei voi ladata. Yritä myöhemmin uudelleen."
+}

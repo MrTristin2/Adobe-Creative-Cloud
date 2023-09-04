@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Teckensnitt",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Lägg till typsnitt i Creative Cloud",
+  "componentfonts.byof.panel.done": "Klart",
+  "componentfonts.signout.warning": "Alla tillagda och installerade Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "Anpassade teckensnitt",
+  "componentfonts.error.boundary.fullView.heading": "Sidan är inte tillgänglig",
+  "componentfonts.error.boundary.text": "Innehållet kan inte läsas in. Försök igen senare."
+}

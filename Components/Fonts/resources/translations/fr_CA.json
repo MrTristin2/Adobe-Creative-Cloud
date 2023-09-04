@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Polices",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Ajouter des polices à Creative Cloud",
+  "componentfonts.byof.panel.done": "Terminé",
+  "componentfonts.signout.warning": "Toutes les polices Adobe Fonts ajoutées et installées",
+  "componentfonts.header.tab.Custom.fonts": "Polices personnalisées",
+  "componentfonts.error.boundary.fullView.heading": "Page non disponible",
+  "componentfonts.error.boundary.text": "Impossible de charger ce contenu, veuillez réessayer plus tard."
+}

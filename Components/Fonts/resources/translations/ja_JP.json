@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "フォント",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Creative Cloud にフォントを追加",
+  "componentfonts.byof.panel.done": "完了",
+  "componentfonts.signout.warning": "追加およびインストールされたすべての Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "カスタムフォント",
+  "componentfonts.error.boundary.fullView.heading": "ページが利用できません",
+  "componentfonts.error.boundary.text": "このコンテンツを読み込めませんでした。後で再試行してください。"
+}

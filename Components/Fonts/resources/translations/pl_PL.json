@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Czcionki",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Dodaj czcionki do Creative Cloud",
+  "componentfonts.byof.panel.done": "Gotowe",
+  "componentfonts.signout.warning": "wszystkie dodane i zainstalowane czcionki Adobe Fonts",
+  "componentfonts.header.tab.Custom.fonts": "Czcionki niestandardowe",
+  "componentfonts.error.boundary.fullView.heading": "Strona jest niedostępna",
+  "componentfonts.error.boundary.text": "Nie udało się wczytać tej zawartości. Spróbuj ponownie później."
+}

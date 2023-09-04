@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Fontlar",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Creative Cloud'a font ekle",
+  "componentfonts.byof.panel.done": "Bitti",
+  "componentfonts.signout.warning": "Tüm eklenmiş ve yüklü Adobe Fonts içeriği",
+  "componentfonts.header.tab.Custom.fonts": "Özel fontlar",
+  "componentfonts.error.boundary.fullView.heading": "Sayfa kullanılamıyor",
+  "componentfonts.error.boundary.text": "Bu içeriği yükleyemiyoruz, lütfen daha sonra yeniden deneyin."
+}
