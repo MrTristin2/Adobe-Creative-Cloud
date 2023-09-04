@@ -1,0 +1,179 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2019 Adobe
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+:root {
+    --header-height: 47px;
+}
+
+.sdk-HeaderView-headerForSizedContainer {
+    opacity: 0;
+    position: absolute !important;
+    transition: opacity 1.5s ease;
+}
+
+.sdk-HeaderView-headerForSizedContainerWithSearch {
+    opacity: 1;
+    position: absolute !important;
+}
+
+.sdk-HeaderView-header {
+    align-items: center;
+    background-color: #f5f5f5;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.08);
+    box-sizing: border-box;
+    display: flex;
+    height: var(--header-height);
+    max-height: var(--header-height);
+    outline: 0;
+    padding: 0 0 0 12px;
+    position: relative;
+    width: 100%;
+    z-index: 1001;
+}
+
+.sdk-HeaderView-dummyDiv {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.sdk-HeaderView-branding {
+    align-items: center;
+    display: flex;
+    flex: 0 0 auto;
+    height: 100%;
+    overflow: hidden;
+}
+
+.sdk-HeaderView-centreInfo {
+    align-items: center;
+    display: flex;
+    flex: 1 1 auto;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+}
+
+.sdk-HeaderView-leftFileinfoWithBranding {
+    justify-content: left;
+    margin-left: 60px;
+    text-align: left !important;
+}
+
+.sdk-HeaderView-leftFileinfoWithBrandingAndLeftButton {
+    justify-content: left;
+    margin-left: 110px;
+    text-align: left !important;
+}
+
+.sdk-HeaderView-leftFileinfoWithoutBranding {
+    justify-content: left;
+    margin-left: 0;
+    text-align: left !important;
+}
+
+.sdk-HeaderView-sideMenuButton {
+    margin: 0 8px 0 0;
+}
+
+.sdk-HeaderView-actionButton .spectrum-Icon {
+    height: 14px;
+    margin-left: 5px;
+    width: 14px;
+}
+
+button {
+    padding: 0 5px;
+}
+
+.sdk-HeaderView-navSection {
+    align-items: center;
+    display: grid;
+}
+
+.sdk-HeaderView-toolsSection {
+    align-items: center;
+    display: grid;
+    margin-right: 12px;
+}
+
+@media (max-width: 550px) {
+    .sdk-HeaderView-branding {
+        flex: 1 1 auto;
+        min-width: 0;
+    }
+
+    .sdk-HeaderView-actionButton {
+        display: none !important;
+    }
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .sdk-HeaderView-centreInfo {
+        position: relative !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .sdk-HeaderView-leftFileinfoWithBranding {
+        margin-left: 12px !important;
+    }
+
+    .sdk-HeaderView-leftFileinfoWithBrandingAndLeftButton {
+        margin-left: 62px !important;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 550px) {
+    .sdk-HeaderView-leftFileinfoWithBranding {
+        margin-left: 12px !important;
+    }
+
+    .sdk-HeaderView-leftFileinfoWithBrandingAndLeftButton {
+        margin-left: 62px !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .sdk-HeaderView-leftFileinfoWithBranding {
+        margin-left: 12px !important;
+    }
+
+    .sdk-HeaderView-leftFileinfoWithBrandingAndLeftButton {
+        margin-left: 62px !important;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sdk-HeaderView-leftFileinfoWithBranding {
+        margin-left: 12px !important;
+    }
+
+    .sdk-HeaderView-leftFileinfoWithBrandingAndLeftButton {
+        margin-left: 62px !important;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1280px) {
+    .sdk-HeaderView-leftFileinfoWithBranding {
+        margin-left: 12px !important;
+    }
+
+    .sdk-HeaderView-leftFileinfoWithBrandingAndLeftButton {
+        margin-left: 62px !important;
+    }
+}
