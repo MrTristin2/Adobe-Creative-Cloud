@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>6BF95588-EB3D-45EB-8CB9-09C7ED4C1F3D</packageid>
+	<name>OneUp</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/OneUp/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>OneUp</name>
+			<assets_size>42086659</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>lMwV7vwUMwK7inWGkTdOvjdqLqsUQKQf6ftA5+cS7wLpoCa5c//4an/j75u5CvfRGHwUsCdnnJIOc7kPG8iISZKssZZQz4Z2+t/vz0u+Ec8hfkNmyJFyBzMRRctCaHP8zryscgQJbqDXwcSpxL7+aFlE5VZr+NA1sdPQRLhiooZU3mup0/gk+uD5k3XJqkC64/YBYhza4LvUQAOa5DVc0zGB2I0N64p/WBNjC3BSph5nRzIawF+rxjvmYA8fUn4VlDC84sO8BWyc0IvBR88gGP9bUkkmbmPT/8RSpF5dcCI86mAcd4orFUsEftciXF+KPAuIi6L0M868Z12NSDxylTEelMgkjjnpQ+Ea1hK39qibf77rwcIKwyDLv6EGnXkiK+aEh57G9O7tkQI/jkmUaIRaLfKX8PDi6quzALkOctIoi6V8aBIcZroq5dw0BIqTnAb9zX9Z5SaHz0at2SDfmuJ7DD3+v3OUVrOrK7ModtdPw1PUZZh9YnlJPQSJHe0y</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>
