@@ -1,0 +1,8 @@
+{
+    "id": "CCDCloudSync",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": "./index.js",
+        "css": "./index.css"
+    }
+}
