@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>B927A8E3-B300-4961-BDD3-F2828E751717</packageid>
+	<name>Fonts</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/Fonts/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>Fonts</name>
+			<assets_size>2152791</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>EKZ8O90cE9K0T24rtWwzLxdCGVZbyLBBGyie40DQdXkxgBVl8It+dMOIldqf86iYr2BqEVwgnzyL7JGUFxEoEegGxvPmCJ3utWsQE9/CBrpBuG/BLi2VeBQE/YfpGJVbSZxiPGhsMVMFWOVVgzuvXmxJhlA1uHh3PhoFXUY3yBXj3TP8SMnpGZ/hIGskjMN470tJWbHa5BJSjaNQSuIyL5L3BR1DvQu2ul0wl7JAlaImuN+rp4hYFouKDE8tNRMdiP/Y/G3h3MHk+XwhkfHJvk4RCR5mnVJE0pNT+hxKKTVZQLkKyd4DYBhNQ9QwsuKCeLHXN7fmBmo9fuYxPGKi8j+xuUecnLaDHX9/QA1pKWguBpCc72fhsdlN7ZJFmJJXfQIQuS5iCMHb0+goxuQ7am651S0coC6qbgSbbNr72zSqPV0fKRbsgk0btb+vxloqnCY9FhPwWqRmrd9dgUfY9QAk9d68vsqah+Nb8mkrJA56K5MOipb5GBHNXSkDqvy+</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

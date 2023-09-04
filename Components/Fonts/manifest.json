@@ -1,0 +1,10 @@
+{
+    "id": "CCDFonts",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": "./index.js",
+        "css": "./index.css"
+    },
+    "packageName": "Fonts",
+    "packageDependencies": []
+}
