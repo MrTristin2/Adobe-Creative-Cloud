@@ -5,91 +5,21 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = void 0;
 
-require("../util/Polyfill");
+var _CallbackTypes = _interopRequireDefault(require("../constants/CallbackTypes"));
 
-var _mobx = require("mobx");
+var _ServiceRegistry = require("../util/ServiceRegistry");
 
-var _ViewSDKInterfaceApp = _interopRequireDefault(require("./ViewSDKInterfaceApp"));
+var _ApiConstants = _interopRequireDefault(require("../constants/ApiConstants"));
 
-var _AdobeDCViewBase = _interopRequireDefault(require("./AdobeDCViewBase"));
+var _Events = _interopRequireWildcard(require("../constants/Events"));
 
-var _ValidationService = _interopRequireDefault(require("../service/ValidationService"));
+var _APICommands = require("../constants/APICommands");
 
-var _CallbackService = _interopRequireDefault(require("../service/CallbackService"));
+var _ViewMode = _interopRequireWildcard(require("../constants/ViewMode"));
 
-var _EventHandlerService = _interopRequireDefault(require("../service/EventHandlerService"));
+function _getRequireWildcardCache(nodeInterop) { if (typeof WeakMap !== "function") return null; var cacheBabelInterop = new WeakMap(); var cacheNodeInterop = new WeakMap(); return (_getRequireWildcardCache = function (nodeInterop) { return nodeInterop ? cacheNodeInterop : cacheBabelInterop; })(nodeInterop); }
 
-var _LocaleService = _interopRequireDefault(require("../service/LocaleService"));
-
-var _AppStore = _interopRequireDefault(require("../store/AppStore"));
-
-var _LoggingService = _interopRequireDefault(require("../service/LoggingService"));
-
-var _AnalyticsProviderService = _interopRequireDefault(require("../service/AnalyticsProviderService"));
-
-var _PollingService = _interopRequireDefault(require("../service/PollingService"));
-
-var _EventsService = _interopRequireDefault(require("../service/EventsService"));
-
-var _EmbedModeService = _interopRequireDefault(require("../service/EmbedModeService"));
-
-var _FullScreenManager = _interopRequireDefault(require("../service/FullScreenManager"));
-
-var _CommandReceiverService = _interopRequireDefault(require("../service/CommandReceiverService"));
-
-var _PerformanceService = _interopRequireDefault(require("../service/PerformanceService"));
-
-var _IntegrationProvider = _interopRequireDefault(require("../provider/IntegrationProvider"));
-
-var _dcCore = require("dc-core");
-
-var _UIHandler = _interopRequireDefault(require("../service/UIHandler"));
-
-var _HUDService = _interopRequireDefault(require("../service/HUDService"));
-
-var _UIActionHandlerService = _interopRequireDefault(require("../service/UIActionHandlerService"));
-
-var _CommandManager = _interopRequireDefault(require("../managers/CommandManager"));
-
-var _AnnotationManager = _interopRequireDefault(require("../managers/AnnotationManager"));
-
-var _AdobeViewer = _interopRequireDefault(require("./AdobeViewer"));
-
-var _ServiceRegistry = _interopRequireDefault(require("../util/ServiceRegistry"));
-
-var _UserApi = _interopRequireDefault(require("../api/UserApi"));
-
-var _FileApi = _interopRequireDefault(require("../api/FileApi"));
-
-var _CommentsApi = _interopRequireDefault(require("../api/CommentsApi"));
-
-var _dialogs = _interopRequireDefault(require("../preview/react-component/dialogs"));
-
-var _ConfigStore = _interopRequireDefault(require("../store/ConfigStore"));
-
-var _UIActionConfigStore = _interopRequireDefault(require("../store/UIActionConfigStore"));
-
-var _ComponentRegistry = _interopRequireDefault(require("../util/ComponentRegistry"));
-
-var _AppContainer = _interopRequireDefault(require("../preview/react-component/main-app/container/AppContainer"));
-
-var _MainApp = _interopRequireDefault(require("../preview/react-component/main-app/presentation/MainApp"));
-
-var _Preview = _interopRequireDefault(require("../preview/react-component/preview/presentation/Preview"));
-
-var _AdobeMenuActions = _interopRequireDefault(require("../preview/react-component/header/presentation/side-menu/AdobeMenuActions"));
-
-var _HeaderView = _interopRequireDefault(require("../preview/react-component/header/presentation/HeaderView"));
-
-var _HeaderFileInfoView = _interopRequireDefault(require("../preview/react-component/header-file-info/presentation/HeaderFileInfoView"));
-
-var _ContinuousIcon = _interopRequireDefault(require("../icons/ContinuousIcon"));
-
-var _SinglePageIcon = _interopRequireDefault(require("../icons/SinglePageIcon"));
-
-var _HidingBrandingContainer = _interopRequireDefault(require("../preview/react-component/hiding-branding/container/HidingBrandingContainer"));
-
-var _PreviewErrorIcon = _interopRequireDefault(require("../icons/PreviewErrorIcon"));
+function _interopRequireWildcard(obj, nodeInterop) { if (!nodeInterop && obj && obj.__esModule) { return obj; } if (obj === null || typeof obj !== "object" && typeof obj !== "function") { return { default: obj }; } var cache = _getRequireWildcardCache(nodeInterop); if (cache && cache.has(obj)) { return cache.get(obj); } var newObj = {}; var hasPropertyDescriptor = Object.defineProperty && Object.getOwnPropertyDescriptor; for (var key in obj) { if (key !== "default" && Object.prototype.hasOwnProperty.call(obj, key)) { var desc = hasPropertyDescriptor ? Object.getOwnPropertyDescriptor(obj, key) : null; if (desc && (desc.get || desc.set)) { Object.defineProperty(newObj, key, desc); } else { newObj[key] = obj[key]; } } } newObj.default = obj; if (cache) { cache.set(obj, newObj); } return newObj; }
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -109,115 +39,73 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 * is strictly forbidden unless prior written permission is obtained
 * from Adobe.
 **************************************************************************/
-// Polyfill for some IE functions
-(0, _mobx.useStrict)(true);
+class AdobeDCView {
+  constructor(config) {
+    this._serviceFactory = new _ServiceRegistry.ServiceRegistry();
 
-const _registerComponents = () => {
-  _ComponentRegistry.default.register("AppContainer", _AppContainer.default);
-
-  _ComponentRegistry.default.register("App", _MainApp.default);
-
-  _ComponentRegistry.default.register("Preview", _Preview.default);
-
-  _ComponentRegistry.default.register("HeaderView", _HeaderView.default);
-
-  _ComponentRegistry.default.register("AdobeMenuActions", _AdobeMenuActions.default);
-
-  _ComponentRegistry.default.register("HeaderFileInfoView", _HeaderFileInfoView.default);
-
-  _ComponentRegistry.default.register("ContinuousIcon", _ContinuousIcon.default);
-
-  _ComponentRegistry.default.register("SinglePageIcon", _SinglePageIcon.default);
-
-  _ComponentRegistry.default.register("HidingBrandingContainer", _HidingBrandingContainer.default);
-
-  _ComponentRegistry.default.register("PreviewErrorIcon", _PreviewErrorIcon.default);
-};
-
-class AdobeDCView extends _AdobeDCViewBase.default {
-  _initServiceFactory(config) {
-    const intProv = _ServiceRegistry.default.getService("IntegrationProvider");
-
-    _ServiceRegistry.default.clear();
-
-    this._serviceFactory.register("ConfigStore", new _ConfigStore.default());
-
-    this._serviceFactory.register("UIActionConfigStore", new _UIActionConfigStore.default());
-
-    this._serviceFactory.register("UserApi", new _UserApi.default());
-
-    this._serviceFactory.register("FileApi", new _FileApi.default());
-
-    this._serviceFactory.register("CommentsApi", new _CommentsApi.default());
-
-    this._serviceFactory.register("DialogApi", new _dialogs.default());
-
-    this._serviceFactory.register("CallbackService", new _CallbackService.default());
-
-    this._serviceFactory.register("ValidationService", new _ValidationService.default());
-
-    this._serviceFactory.register("EventHandlerService", new _EventHandlerService.default());
-
-    this._serviceFactory.register("LocaleService", new _LocaleService.default());
-
-    this._serviceFactory.register("LoggingService", new _LoggingService.default());
-
-    this._serviceFactory.register("EventsService", new _EventsService.default());
-
-    this._serviceFactory.register("PollingService", new _PollingService.default());
-
-    this._serviceFactory.register("CommandReceiverService", new _CommandReceiverService.default());
-
-    this._serviceFactory.register("FullScreenManager", new _FullScreenManager.default());
-
-    this._serviceFactory.register("PerformanceService", new _PerformanceService.default());
-
-    this._serviceFactory.register("AnalyticsProviderService", new _AnalyticsProviderService.default());
-
-    this._serviceFactory.register("EmbedModeService", new _EmbedModeService.default(this._serviceFactory));
-
-    this._serviceFactory.register("UIHandler", new _UIHandler.default());
-
-    this._serviceFactory.register("HUDService", new _HUDService.default());
-
-    this._serviceFactory.register("UIActionHandlerService", new _UIActionHandlerService.default());
-
-    this._serviceFactory.register("AdobeViewer", new _AdobeViewer.default(this._serviceFactory));
-
-    this._serviceFactory.register("AnnotationManager", new _AnnotationManager.default(this._serviceFactory));
-
-    this._serviceFactory.register("CommandManager", new _CommandManager.default(this._serviceFactory));
-
-    this._serviceFactory.register("ViewSDKInterfaceApp", new _ViewSDKInterfaceApp.default(config, this._serviceFactory));
-
-    _ServiceRegistry.default.initServices(this._serviceFactory.getServices());
-
-    if (intProv) {
-      intProv.initAPIs();
-
-      this._serviceFactory.register("IntegrationProvider", intProv);
-    } else {
-      this._serviceFactory.register("IntegrationProvider", new _IntegrationProvider.default());
-
-      (0, _dcCore.addProvider)("integrationProvider", this._serviceFactory.getService("IntegrationProvider"));
-    }
-
-    this._serviceFactory.register("AppStore", new _AppStore.default()); // Initializing Services
+    this._initServiceFactory(config);
+  } // eslint-disable-next-line no-unused-vars
 
 
-    _ServiceRegistry.default.initServices(this._serviceFactory.getServices());
+  _initServiceFactory(config) {// to be overridden by child class
+  }
+  /**
+   * previewFile(fileInfo, previewConfig) method to preview/embed pdf file.
+   * @method
+   * @param {object} fileInfo - file information to preview.
+   * @param {object} previewConfig - config to control the UI of file preview.
+   * @returns {Promise} - promise that resolves to PreviewRef when PDF is rendered.
+   */
 
-    this._serviceFactory.getService("LocaleService").initialize(_dcCore.locale2.getLocale());
 
-    this._serviceFactory.getService("EventHandlerService").initialize();
+  previewFile(fileInfo, previewConfig) {
+    return this._serviceFactory.getService("ViewSDKInterfaceApp").previewFile(fileInfo, previewConfig || {});
+  }
+  /**
+   * method used to provide progress of file loading (for showing progress in loader)
+   *
+   * @param {Number} loaded - percentage of file loading
+   * @param {Number} total - total file size
+   */
 
-    this._serviceFactory.getService("CallbackService").initialize();
 
-    this._serviceFactory.getService("EmbedModeService").initialize();
+  fileLoadingProgress(loaded, total) {
+    this._serviceFactory.getService("ViewSDKInterfaceApp").fileProgressLoadingData(loaded, total);
+  }
+  /**
+   * Enum for Callback, Events and others
+   * @type {enum}
+   */
 
-    this._serviceFactory.getService("PollingService").initialize();
 
-    _registerComponents();
+  static get Enum() {
+    return {
+      CallbackType: _CallbackTypes.default,
+      ApiResponseCode: _ApiConstants.default.API_RESPONSE,
+      Events: _Events.default,
+      PDFAnalyticsEvents: _Events.PDFAnalyticsEvents,
+      AnnotationEvents: _Events.AnnotationEvents,
+      AnnotationTypes: _Events.AnnotationTypes,
+      FilePreviewEvents: _Events.FilePreviewEvents,
+      OverlayEvents: _Events.OverlayEvents,
+      ViewMode: _ViewMode.default,
+      EmbedMode: _ViewMode.Preset,
+      AnnotationAPICommands: _APICommands.AnnotationAPICommands,
+      AppAPICommands: _APICommands.AppAPICommands,
+      PreviewAPICommands: _APICommands.PreviewAPICommands
+    };
+  }
+  /**
+   * registerCallback method to register callbacks
+   * @method
+   * @param {string} type - type of callback
+   * @param {Function} callback.
+   * @param {object} options - parameters for extra information
+   */
+
+
+  registerCallback(type, callback, options) {
+    this._serviceFactory.getService("ViewSDKInterfaceApp").registerCallback(type, callback, options || {});
   }
 
 }
