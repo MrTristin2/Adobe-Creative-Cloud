@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>38E394F7-CAE1-4EFB-8696-B78252358816</packageid>
+	<name>WebFS</name>
+	<version>1.2.0.53</version>
+	<target_location>/Extensions/WebFS/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>WebFS</name>
+			<assets_size>2092774</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvPjxGaWxlPjxJbnN0YWxsUGF0aD5c
+bmF0aXZlXHdlYi1mcy5kbGw8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWdu
+YXR1cmU8L1NpZ25hdHVyZVR5cGU+PFNpZ25hdHVyZUluZm8+QWRvYmUgSW5jLnt8fURpZ2lDZXJ0
+IFRydXN0ZWQgRzQgQ29kZSBTaWduaW5nIFJTQTQwOTYgU0hBMzg0IDIwMjEgQ0Exe3x9RGlnaUNl
+cnQgVHJ1c3RlZCBSb290IEc0e3x9RGlnaUNlcnQgQXNzdXJlZCBJRCBSb290IENBPC9TaWduYXR1
+cmVJbmZvPjwvRmlsZT48RmlsZT48SW5zdGFsbFBhdGg+XG5hdGl2ZVxXZWJWaWV3MkxvYWRlci5k
+bGw8L0luc3RhbGxQYXRoPjxTaWduYXR1cmVUeXBlPkRpZ2l0YWxTaWduYXR1cmU8L1NpZ25hdHVy
+ZVR5cGU+PFNpZ25hdHVyZUluZm8+QWRvYmUgSW5jLnt8fURpZ2lDZXJ0IFRydXN0ZWQgRzQgQ29k
+ZSBTaWduaW5nIFJTQTQwOTYgU0hBMzg0IDIwMjEgQ0Exe3x9RGlnaUNlcnQgVHJ1c3RlZCBSb290
+IEc0e3x9RGlnaUNlcnQgQXNzdXJlZCBJRCBSb290IENBPC9TaWduYXR1cmVJbmZvPjwvRmlsZT48
+L1ZhbGlkYXRpb25JbmZvPg==</validation_xml>
+				<sig>L+v810Xq3woGQZHT93WWHrS49ino/GTgai24xqua4Z19nxJbrS60Y/MJvFblYB/iW6xk3Ya+xGb9zAiFBTS+uylLXrA+uIgjZmhmMJsQWqIuubN6ZvKd3qUGHVPiR35fLOLbc1u+HKf22PJOPDP5boWmgj4hIFJ+A+p8/wsZngeADz534cesPXV0M8AZu/G+NIj7HVN3iI6S4McvLSKrAyHff9ubiN/jV9eYwvDG95n07L7XY/uX7Y5c8Rvv83zVvkTjYOcxsFZJuuU1S85YYcywFdTYvvcbJ4d9ecjVX1XF74d7udcrbtniCI5Ov8NJ4Lh5u8n9IE/ySopcgD5W1dwGWGYo+SknTjzVEIUwMDKFDMxijMVmqRxXiGS0MDWDPWBsdueuai3EptWisf0wEhIa8d6/+/aKHOTfjux4sBb10vq5JOTzBnZhPBx53WVmzOcnRUquc7ZbouSGyDs5QE9br9hAIWfh0d9Cp3LDPxiNKYPQGK7hbheNWFZBRsUN</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

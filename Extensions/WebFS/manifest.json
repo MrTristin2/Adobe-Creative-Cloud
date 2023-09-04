@@ -1,0 +1,25 @@
+{
+   "id":"com.adobe.ccd.extension.fs",
+   "version":"1.0.0",
+   "type":"hybrid",
+   "native":{
+      "interface":{
+         "type":"napi",
+         "version":"1"
+      },
+      "mac":{
+         "entryPoint":"./native/web-fs.dylib"
+      },
+      "win":{
+         "entryPoint":"./native/web-fs.dll"
+      }
+   },
+   "js":{
+      "interface":{
+         "type":"es6",
+         "version":"1"
+      },
+      "jsEntryPoint":"./js/fs_bundle.js",
+      "jsInitFn":"initFileSystem"
+   }
+}
