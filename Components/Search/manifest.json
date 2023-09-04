@@ -1,0 +1,10 @@
+{
+    "id": "CCDSearch",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": "./index.js",
+        "css": "./index.css"
+    },
+    "packageName": "Search",
+    "packageDependencies": ["Apps", "Assets"]
+}
