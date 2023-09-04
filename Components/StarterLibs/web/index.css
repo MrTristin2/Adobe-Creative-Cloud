@@ -1,0 +1,566 @@
+.ccd-starter-libs .spectrum-Icon, .ccd-starter-libs .spectrum-UIIcon {
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  pointer-events: none;
+}
+.ccd-starter-libs .spectrum-Icon:not(:root), .ccd-starter-libs .spectrum-UIIcon:not(:root) {
+    overflow: hidden;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeXXS, .ccd-starter-libs .spectrum-Icon--sizeXXS img, .ccd-starter-libs .spectrum-Icon--sizeXXS svg {
+    height: 9px;
+    width: 9px;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeXS, .ccd-starter-libs .spectrum-Icon--sizeXS img, .ccd-starter-libs .spectrum-Icon--sizeXS svg {
+    height: 12px;
+    width: 12px;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeS, .ccd-starter-libs .spectrum-Icon--sizeS img, .ccd-starter-libs .spectrum-Icon--sizeS svg {
+    height: 18px;
+    width: 18px;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeM, .ccd-starter-libs .spectrum-Icon--sizeM img, .ccd-starter-libs .spectrum-Icon--sizeM svg {
+    height: 24px;
+    width: 24px;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeL, .ccd-starter-libs .spectrum-Icon--sizeL img, .ccd-starter-libs .spectrum-Icon--sizeL svg {
+    height: 36px;
+    width: 36px;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeXL, .ccd-starter-libs .spectrum-Icon--sizeXL img, .ccd-starter-libs .spectrum-Icon--sizeXL svg {
+    height: 48px;
+    width: 48px;
+  }
+.ccd-starter-libs .spectrum-Icon--sizeXXL, .ccd-starter-libs .spectrum-Icon--sizeXXL img, .ccd-starter-libs .spectrum-Icon--sizeXXL svg {
+    height: 72px;
+    width: 72px;
+  }
+.ccd-starter-libs .spectrum--medium .spectrum-UIIcon--large {
+    display: none;
+  }
+.ccd-starter-libs .spectrum--medium .spectrum-UIIcon--medium {
+    display: inline;
+  }
+.ccd-starter-libs .spectrum--large .spectrum-UIIcon--medium {
+    display: none;
+  }
+.ccd-starter-libs .spectrum--large .spectrum-UIIcon--large {
+    display: inline;
+  }
+.ccd-starter-libs .spectrum--large {
+  --ui-icon-large-display: block;
+  --ui-icon-medium-display: none;
+}
+.ccd-starter-libs .spectrum--medium {
+  --ui-icon-medium-display: block;
+  --ui-icon-large-display: none;
+}
+.ccd-starter-libs .spectrum-UIIcon--large {
+  display: var(--ui-icon-large-display);
+}
+.ccd-starter-libs .spectrum-UIIcon--medium {
+  display: var(--ui-icon-medium-display);
+}
+.ccd-starter-libs .spectrum-UIIcon-AlertMedium {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-AlertSmall {
+  width: 14px;
+  height: 14px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ArrowDownSmall {
+  width: 8px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ArrowLeftMedium {
+  width: 14px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-Asterisk {
+  width: 8px;
+  height: 8px;
+}
+.ccd-starter-libs .spectrum-UIIcon-CheckmarkMedium {
+  width: 12px;
+  height: 12px;
+}
+.ccd-starter-libs .spectrum-UIIcon-CheckmarkSmall {
+  width: 10px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronDownMedium {
+  width: 10px;
+  height: 6px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronDownSmall {
+  width: 8px;
+  height: 6px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronLeftLarge {
+  width: 12px;
+  height: 16px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronLeftMedium {
+  width: 6px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronRightLarge {
+  width: 12px;
+  height: 16px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronRightMedium {
+  width: 6px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronRightSmall {
+  width: 6px;
+  height: 8px;
+}
+.ccd-starter-libs .spectrum-UIIcon-ChevronUpSmall {
+  width: 8px;
+  height: 6px;
+}
+.ccd-starter-libs .spectrum-UIIcon-CornerTriangle {
+  width: 5px;
+  height: 5px;
+}
+.ccd-starter-libs .spectrum-UIIcon-CrossLarge {
+  width: 12px;
+  height: 12px;
+}
+.ccd-starter-libs .spectrum-UIIcon-CrossMedium {
+  width: 8px;
+  height: 8px;
+}
+.ccd-starter-libs .spectrum-UIIcon-CrossSmall {
+  width: 8px;
+  height: 8px;
+}
+.ccd-starter-libs .spectrum-UIIcon-DashSmall {
+  width: 10px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-DoubleGripper {
+  width: 16px;
+  height: 4px;
+}
+.ccd-starter-libs .spectrum-UIIcon-FolderBreadcrumb {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-HelpMedium {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-HelpSmall {
+  width: 14px;
+  height: 14px;
+}
+.ccd-starter-libs .spectrum-UIIcon-InfoMedium {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-InfoSmall {
+  width: 14px;
+  height: 14px;
+}
+.ccd-starter-libs .spectrum-UIIcon-Magnifier {
+  width: 16px;
+  height: 16px;
+}
+.ccd-starter-libs .spectrum-UIIcon-SkipLeft {
+  width: 9px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-SkipRight {
+  width: 9px;
+  height: 10px;
+}
+.ccd-starter-libs .spectrum-UIIcon-Star {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-StarOutline {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-SuccessMedium {
+  width: 18px;
+  height: 18px;
+}
+.ccd-starter-libs .spectrum-UIIcon-SuccessSmall {
+  width: 14px;
+  height: 14px;
+}
+.ccd-starter-libs .spectrum-UIIcon-TripleGripper {
+  width: 10px;
+  height: 7px;
+}
+
+.ccd-starter-libs .sk-sidenav{background-color:var(--spectrum-global-color-gray-50);border-right:solid 0.125rem var(--spectrum-global-color-gray-200);padding-left:1rem;padding-right:1rem;user-select:none;width:16rem !important}.ccd-starter-libs .sk-sidenav ul{width:13.875rem}@media only screen and (max-width: 992px){.ccd-starter-libs .sk-sidenav{display:none}}
+
+.ccd-starter-libs .headerName-wrapper{display:flex;font-size:1rem;text-overflow:ellipsis;align-items:center}.ccd-starter-libs .headerName-wrapper .headerName-wrapper-icon{margin-right:1rem}.ccd-starter-libs .headerName-wrapper .headerName-wrapper-text{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+.ccd-starter-libs .containerSize, .ccd-starter-libs .horizontalContainer, .ccd-starter-libs .verticalContainer{width:100%;height:100%}.ccd-starter-libs .horizontalContainer{display:flex;flex-direction:row;align-items:center;position:relative;justify-content:center;padding:0.5rem 0rem;box-sizing:border-box}.ccd-starter-libs .verticalContainer{display:flex;flex-direction:column;justify-content:center;position:relative;align-items:center;padding:0rem 0.5rem;box-sizing:border-box}.ccd-starter-libs .horizontalContainer__left{position:absolute;left:1rem}.ccd-starter-libs .horizontalContainer__right{position:absolute;right:1rem}.ccd-starter-libs .verticalContainer__top{position:absolute;top:1rem}.ccd-starter-libs .verticalContainer__bottom{position:absolute;bottom:1rem}
+
+.ccd-starter-libs .Frame__section{display:flex;flex-direction:row}.ccd-starter-libs .Frame__VR{border-left:0.1rem solid #e9e3e3;height:auto}
+
+.ccd-starter-libs .ccdHeader{height:3rem}.ccd-starter-libs .ccdHeader__item{padding:0rem}
+
+.ccd-starter-libs .sk-header{background-color:var(--spectrum-global-color-gray-50);border-bottom:solid 0.125rem var(--spectrum-global-color-gray-200);height:3.5rem;user-select:none}.ccd-starter-libs .sk-header .headerName-wrapper-text{font-weight:bold}
+
+.ccd-starter-libs .sk-error-container{margin:auto;max-width:30rem}
+
+.ccd-starter-libs .sk-lib-card-active-process{display:flex}.ccd-starter-libs .sk-lib-card-active-process .sk-lib-card-active-process-wait{margin-right:0.25rem;margin-top:0.0625rem}.ccd-starter-libs .sk-lib-card-checkmarks{margin-right:0.375rem}
+
+.ccd-starter-libs .spectrum--light {
+  --spectrum-global-color-celery-400: rgb(68, 181, 86);
+  --spectrum-global-color-celery-500: rgb(61, 167, 78);
+  --spectrum-global-color-celery-600: rgb(55, 153, 71);
+  --spectrum-global-color-celery-700: rgb(49, 139, 64);
+  --spectrum-global-color-chartreuse-400: rgb(133, 208, 68);
+  --spectrum-global-color-chartreuse-500: rgb(124, 195, 63);
+  --spectrum-global-color-chartreuse-600: rgb(115, 181, 58);
+  --spectrum-global-color-chartreuse-700: rgb(106, 168, 52);
+  --spectrum-global-color-yellow-400: rgb(223, 191, 0);
+  --spectrum-global-color-yellow-500: rgb(210, 178, 0);
+  --spectrum-global-color-yellow-600: rgb(196, 166, 0);
+  --spectrum-global-color-yellow-700: rgb(183, 153, 0);
+  --spectrum-global-color-magenta-400: rgb(216, 55, 144);
+  --spectrum-global-color-magenta-500: rgb(206, 39, 131);
+  --spectrum-global-color-magenta-600: rgb(188, 28, 116);
+  --spectrum-global-color-magenta-700: rgb(174, 14, 102);
+  --spectrum-global-color-fuchsia-400: rgb(192, 56, 204);
+  --spectrum-global-color-fuchsia-500: rgb(177, 48, 189);
+  --spectrum-global-color-fuchsia-600: rgb(162, 40, 173);
+  --spectrum-global-color-fuchsia-700: rgb(147, 33, 158);
+  --spectrum-global-color-purple-400: rgb(146, 86, 217);
+  --spectrum-global-color-purple-500: rgb(134, 76, 204);
+  --spectrum-global-color-purple-600: rgb(122, 66, 191);
+  --spectrum-global-color-purple-700: rgb(111, 56, 177);
+  --spectrum-global-color-indigo-400: rgb(103, 103, 236);
+  --spectrum-global-color-indigo-500: rgb(92, 92, 224);
+  --spectrum-global-color-indigo-600: rgb(81, 81, 211);
+  --spectrum-global-color-indigo-700: rgb(70, 70, 198);
+  --spectrum-global-color-seafoam-400: rgb(27, 149, 154);
+  --spectrum-global-color-seafoam-500: rgb(22, 135, 140);
+  --spectrum-global-color-seafoam-600: rgb(15, 121, 125);
+  --spectrum-global-color-seafoam-700: rgb(9, 108, 111);
+  --spectrum-global-color-red-400: rgb(227, 72, 80);
+  --spectrum-global-color-red-500: rgb(215, 55, 63);
+  --spectrum-global-color-red-600: rgb(201, 37, 45);
+  --spectrum-global-color-red-700: rgb(187, 18, 26);
+  --spectrum-global-color-orange-400: rgb(230, 134, 25);
+  --spectrum-global-color-orange-500: rgb(218, 123, 17);
+  --spectrum-global-color-orange-600: rgb(203, 111, 16);
+  --spectrum-global-color-orange-700: rgb(189, 100, 13);
+  --spectrum-global-color-green-400: rgb(45, 157, 120);
+  --spectrum-global-color-green-500: rgb(38, 142, 108);
+  --spectrum-global-color-green-600: rgb(18, 128, 92);
+  --spectrum-global-color-green-700: rgb(16, 113, 84);
+  --spectrum-global-color-blue-400: rgb(38, 128, 235);
+  --spectrum-global-color-blue-500: rgb(20, 115, 230);
+  --spectrum-global-color-blue-600: rgb(13, 102, 208);
+  --spectrum-global-color-blue-700: rgb(9, 90, 186);
+  --spectrum-global-color-gray-50: rgb(255, 255, 255);
+  --spectrum-global-color-gray-75: rgb(250, 250, 250);
+  --spectrum-global-color-gray-100: rgb(245, 245, 245);
+  --spectrum-global-color-gray-200: rgb(234, 234, 234);
+  --spectrum-global-color-gray-300: rgb(225, 225, 225);
+  --spectrum-global-color-gray-400: rgb(202, 202, 202);
+  --spectrum-global-color-gray-500: rgb(179, 179, 179);
+  --spectrum-global-color-gray-600: rgb(142, 142, 142);
+  --spectrum-global-color-gray-700: rgb(110, 110, 110);
+  --spectrum-global-color-gray-800: rgb(75, 75, 75);
+  --spectrum-global-color-gray-900: rgb(44, 44, 44);
+  --spectrum-alias-background-color-modal-overlay: rgba(0,0,0,0.4);
+  --spectrum-alias-dropshadow-color: rgba(0,0,0,0.15);
+  --spectrum-alias-background-color-hover-overlay: rgba(44,44,44,0.04);
+  --spectrum-alias-highlight-hover: rgba(44,44,44,0.06);
+  --spectrum-alias-highlight-active: rgba(44,44,44,0.1);
+  --spectrum-alias-highlight-selected: rgba(20,115,230,0.1);
+  --spectrum-alias-highlight-selected-hover: rgba(20,115,230,0.2);
+  --spectrum-alias-text-highlight-color: rgba(20,115,230,0.2);
+  --spectrum-alias-background-color-quickactions: rgba(245,245,245,0.9);
+  --spectrum-alias-radial-reaction-color-default: rgba(75,75,75,0.6);
+  --spectrum-alias-pasteboard-background-color: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-appframe-border-color: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-appframe-separator-color: var(--spectrum-global-color-gray-300);
+  --spectrum-colorarea-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorarea-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorarea-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorarea-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-miller-column-item-background-color-selected: rgba(20,115,230,0.1);
+  --spectrum-miller-column-item-background-color-selected-hover: rgba(20,115,230,0.2);
+  --spectrum-tabs-compact-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-emphasized-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-well-background-color: rgba(75,75,75,0.02);
+  --spectrum-well-border-color: rgba(44,44,44,0.05);
+}
+
+.ccd-starter-libs .spectrum--dark {
+  --spectrum-global-color-celery-400: rgb(68, 181, 86);
+  --spectrum-global-color-celery-500: rgb(75, 195, 95);
+  --spectrum-global-color-celery-600: rgb(81, 210, 103);
+  --spectrum-global-color-celery-700: rgb(88, 224, 111);
+  --spectrum-global-color-chartreuse-400: rgb(133, 208, 68);
+  --spectrum-global-color-chartreuse-500: rgb(142, 222, 73);
+  --spectrum-global-color-chartreuse-600: rgb(155, 236, 84);
+  --spectrum-global-color-chartreuse-700: rgb(163, 248, 88);
+  --spectrum-global-color-yellow-400: rgb(223, 191, 0);
+  --spectrum-global-color-yellow-500: rgb(237, 204, 0);
+  --spectrum-global-color-yellow-600: rgb(250, 217, 0);
+  --spectrum-global-color-yellow-700: rgb(255, 226, 46);
+  --spectrum-global-color-magenta-400: rgb(216, 55, 144);
+  --spectrum-global-color-magenta-500: rgb(226, 73, 157);
+  --spectrum-global-color-magenta-600: rgb(236, 90, 170);
+  --spectrum-global-color-magenta-700: rgb(245, 107, 183);
+  --spectrum-global-color-fuchsia-400: rgb(192, 56, 204);
+  --spectrum-global-color-fuchsia-500: rgb(207, 62, 220);
+  --spectrum-global-color-fuchsia-600: rgb(217, 81, 229);
+  --spectrum-global-color-fuchsia-700: rgb(227, 102, 239);
+  --spectrum-global-color-purple-400: rgb(146, 86, 217);
+  --spectrum-global-color-purple-500: rgb(157, 100, 225);
+  --spectrum-global-color-purple-600: rgb(168, 115, 233);
+  --spectrum-global-color-purple-700: rgb(180, 131, 240);
+  --spectrum-global-color-indigo-400: rgb(103, 103, 236);
+  --spectrum-global-color-indigo-500: rgb(117, 117, 241);
+  --spectrum-global-color-indigo-600: rgb(130, 130, 246);
+  --spectrum-global-color-indigo-700: rgb(144, 144, 250);
+  --spectrum-global-color-seafoam-400: rgb(27, 149, 154);
+  --spectrum-global-color-seafoam-500: rgb(32, 163, 168);
+  --spectrum-global-color-seafoam-600: rgb(35, 178, 184);
+  --spectrum-global-color-seafoam-700: rgb(38, 192, 199);
+  --spectrum-global-color-red-400: rgb(227, 72, 80);
+  --spectrum-global-color-red-500: rgb(236, 91, 98);
+  --spectrum-global-color-red-600: rgb(247, 109, 116);
+  --spectrum-global-color-red-700: rgb(255, 123, 130);
+  --spectrum-global-color-orange-400: rgb(230, 134, 25);
+  --spectrum-global-color-orange-500: rgb(242, 148, 35);
+  --spectrum-global-color-orange-600: rgb(249, 164, 63);
+  --spectrum-global-color-orange-700: rgb(255, 181, 91);
+  --spectrum-global-color-green-400: rgb(45, 157, 120);
+  --spectrum-global-color-green-500: rgb(51, 171, 132);
+  --spectrum-global-color-green-600: rgb(57, 185, 144);
+  --spectrum-global-color-green-700: rgb(63, 200, 156);
+  --spectrum-global-color-blue-400: rgb(38, 128, 235);
+  --spectrum-global-color-blue-500: rgb(55, 142, 240);
+  --spectrum-global-color-blue-600: rgb(75, 156, 245);
+  --spectrum-global-color-blue-700: rgb(90, 169, 250);
+  --spectrum-global-color-gray-50: rgb(37, 37, 37);
+  --spectrum-global-color-gray-75: rgb(47, 47, 47);
+  --spectrum-global-color-gray-100: rgb(50, 50, 50);
+  --spectrum-global-color-gray-200: rgb(62, 62, 62);
+  --spectrum-global-color-gray-300: rgb(74, 74, 74);
+  --spectrum-global-color-gray-400: rgb(90, 90, 90);
+  --spectrum-global-color-gray-500: rgb(110, 110, 110);
+  --spectrum-global-color-gray-600: rgb(144, 144, 144);
+  --spectrum-global-color-gray-700: rgb(185, 185, 185);
+  --spectrum-global-color-gray-800: rgb(227, 227, 227);
+  --spectrum-global-color-gray-900: rgb(255, 255, 255);
+  --spectrum-alias-background-color-modal-overlay: rgba(0,0,0,0.5);
+  --spectrum-alias-dropshadow-color: rgba(0,0,0,0.5);
+  --spectrum-alias-background-color-hover-overlay: rgba(255,255,255,0.06);
+  --spectrum-alias-highlight-hover: rgba(255,255,255,0.07);
+  --spectrum-alias-highlight-active: rgba(255,255,255,0.1);
+  --spectrum-alias-highlight-selected: rgba(55,142,240,0.15);
+  --spectrum-alias-highlight-selected-hover: rgba(55,142,240,0.25);
+  --spectrum-alias-text-highlight-color: rgba(55,142,240,0.25);
+  --spectrum-alias-background-color-quickactions: rgba(50,50,50,0.9);
+  --spectrum-alias-radial-reaction-color-default: rgba(227,227,227,0.6);
+  --spectrum-alias-pasteboard-background-color: var(--spectrum-global-color-gray-50);
+  --spectrum-alias-appframe-border-color: var(--spectrum-global-color-gray-50);
+  --spectrum-alias-appframe-separator-color: var(--spectrum-global-color-gray-50);
+  --spectrum-colorarea-border-color: rgba(255,255,255,0.1);
+  --spectrum-colorarea-border-color-hover: rgba(255,255,255,0.1);
+  --spectrum-colorarea-border-color-down: rgba(255,255,255,0.1);
+  --spectrum-colorarea-border-color-key-focus: rgba(255,255,255,0.1);
+  --spectrum-colorslider-border-color: rgba(255,255,255,0.1);
+  --spectrum-colorslider-border-color-hover: rgba(255,255,255,0.1);
+  --spectrum-colorslider-border-color-down: rgba(255,255,255,0.1);
+  --spectrum-colorslider-border-color-key-focus: rgba(255,255,255,0.1);
+  --spectrum-colorslider-vertical-border-color: rgba(255,255,255,0.1);
+  --spectrum-colorslider-vertical-border-color-hover: rgba(255,255,255,0.1);
+  --spectrum-colorslider-vertical-border-color-down: rgba(255,255,255,0.1);
+  --spectrum-colorslider-vertical-border-color-key-focus: rgba(255,255,255,0.1);
+  --spectrum-colorwheel-border-color: rgba(255,255,255,0.1);
+  --spectrum-colorwheel-border-color-hover: rgba(255,255,255,0.1);
+  --spectrum-colorwheel-border-color-down: rgba(255,255,255,0.1);
+  --spectrum-colorwheel-border-color-key-focus: rgba(255,255,255,0.1);
+  --spectrum-miller-column-item-background-color-selected: rgba(55,142,240,0.1);
+  --spectrum-miller-column-item-background-color-selected-hover: rgba(55,142,240,0.2);
+  --spectrum-tabs-compact-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-emphasized-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-well-background-color: rgba(227,227,227,0.02);
+  --spectrum-well-border-color: rgba(255,255,255,0.05);
+}
+
+.ccd-starter-libs .spectrum--darkest {
+  --spectrum-global-color-celery-400: rgb(61, 167, 78);
+  --spectrum-global-color-celery-500: rgb(68, 181, 86);
+  --spectrum-global-color-celery-600: rgb(75, 195, 95);
+  --spectrum-global-color-celery-700: rgb(81, 210, 103);
+  --spectrum-global-color-chartreuse-400: rgb(124, 195, 63);
+  --spectrum-global-color-chartreuse-500: rgb(133, 208, 68);
+  --spectrum-global-color-chartreuse-600: rgb(142, 222, 73);
+  --spectrum-global-color-chartreuse-700: rgb(155, 236, 84);
+  --spectrum-global-color-yellow-400: rgb(210, 178, 0);
+  --spectrum-global-color-yellow-500: rgb(223, 191, 0);
+  --spectrum-global-color-yellow-600: rgb(237, 204, 0);
+  --spectrum-global-color-yellow-700: rgb(250, 217, 0);
+  --spectrum-global-color-magenta-400: rgb(202, 41, 150);
+  --spectrum-global-color-magenta-500: rgb(216, 55, 144);
+  --spectrum-global-color-magenta-600: rgb(226, 73, 157);
+  --spectrum-global-color-magenta-700: rgb(236, 90, 170);
+  --spectrum-global-color-fuchsia-400: rgb(177, 48, 189);
+  --spectrum-global-color-fuchsia-500: rgb(192, 56, 204);
+  --spectrum-global-color-fuchsia-600: rgb(207, 62, 220);
+  --spectrum-global-color-fuchsia-700: rgb(217, 81, 229);
+  --spectrum-global-color-purple-400: rgb(134, 76, 204);
+  --spectrum-global-color-purple-500: rgb(146, 86, 217);
+  --spectrum-global-color-purple-600: rgb(157, 100, 225);
+  --spectrum-global-color-purple-700: rgb(168, 115, 223);
+  --spectrum-global-color-indigo-400: rgb(92, 92, 224);
+  --spectrum-global-color-indigo-500: rgb(103, 103, 236);
+  --spectrum-global-color-indigo-600: rgb(117, 117, 241);
+  --spectrum-global-color-indigo-700: rgb(130, 130, 246);
+  --spectrum-global-color-seafoam-400: rgb(22, 135, 140);
+  --spectrum-global-color-seafoam-500: rgb(27, 149, 154);
+  --spectrum-global-color-seafoam-600: rgb(32, 163, 168);
+  --spectrum-global-color-seafoam-700: rgb(35, 178, 184);
+  --spectrum-global-color-red-400: rgb(215, 55, 63);
+  --spectrum-global-color-red-500: rgb(227, 72, 80);
+  --spectrum-global-color-red-600: rgb(236, 91, 98);
+  --spectrum-global-color-red-700: rgb(247, 109, 116);
+  --spectrum-global-color-orange-400: rgb(218, 123, 17);
+  --spectrum-global-color-orange-500: rgb(230, 134, 25);
+  --spectrum-global-color-orange-600: rgb(242, 148, 35);
+  --spectrum-global-color-orange-700: rgb(249, 164, 63);
+  --spectrum-global-color-green-400: rgb(38, 142, 108);
+  --spectrum-global-color-green-500: rgb(45, 157, 120);
+  --spectrum-global-color-green-600: rgb(51, 171, 132);
+  --spectrum-global-color-green-700: rgb(57, 185, 144);
+  --spectrum-global-color-blue-400: rgb(20, 115, 230);
+  --spectrum-global-color-blue-500: rgb(38, 128, 235);
+  --spectrum-global-color-blue-600: rgb(55, 142, 240);
+  --spectrum-global-color-blue-700: rgb(75, 156, 245);
+  --spectrum-global-color-gray-50: rgb(8, 8, 8);
+  --spectrum-global-color-gray-75: rgb(26, 26, 26);
+  --spectrum-global-color-gray-100: rgb(30, 30, 30);
+  --spectrum-global-color-gray-200: rgb(44, 44, 44);
+  --spectrum-global-color-gray-300: rgb(57, 57, 57);
+  --spectrum-global-color-gray-400: rgb(73, 73, 73);
+  --spectrum-global-color-gray-500: rgb(92, 92, 92);
+  --spectrum-global-color-gray-600: rgb(124, 124, 124);
+  --spectrum-global-color-gray-700: rgb(162, 162, 162);
+  --spectrum-global-color-gray-800: rgb(200, 200, 200);
+  --spectrum-global-color-gray-900: rgb(239, 239, 239);
+  --spectrum-alias-background-color-modal-overlay: rgba(0,0,0,0.6);
+  --spectrum-alias-dropshadow-color: rgba(0,0,0,0.8);
+  --spectrum-alias-background-color-hover-overlay: rgba(239,239,239,0.08);
+  --spectrum-alias-highlight-hover: rgba(239,239,239,0.08);
+  --spectrum-alias-highlight-active: rgba(239,239,239,0.15);
+  --spectrum-alias-highlight-selected: rgba(38,128,235,0.2);
+  --spectrum-alias-highlight-selected-hover: rgba(38,128,235,0.3);
+  --spectrum-alias-text-highlight-color: rgba(38,128,235,0.3);
+  --spectrum-alias-background-color-quickactions: rgba(30,30,30,0.9);
+  --spectrum-alias-radial-reaction-color-default: rgba(200,200,200,0.6);
+  --spectrum-alias-pasteboard-background-color: var(--spectrum-global-color-gray-50);
+  --spectrum-alias-appframe-border-color: var(--spectrum-global-color-gray-50);
+  --spectrum-alias-appframe-separator-color: var(--spectrum-global-color-gray-50);
+  --spectrum-colorarea-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorarea-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorarea-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorarea-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-miller-column-item-background-color-selected: rgba(38,128,235,0.1);
+  --spectrum-miller-column-item-background-color-selected-hover: rgba(38,128,235,0.2);
+  --spectrum-tabs-compact-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-emphasized-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-well-background-color: rgba(200,200,200,0.02);
+  --spectrum-well-border-color: rgba(239,239,239,0.05);
+}
+
+.ccd-starter-libs .f-row{display:flex;flex-direction:row}.ccd-starter-libs .f-col{display:flex;flex-direction:column}.ccd-starter-libs .f-row.ac, .ccd-starter-libs .f-col.ac{align-items:center}.ccd-starter-libs .f-row.sb, .ccd-starter-libs .f-col.sb{justify-content:space-between}.ccd-starter-libs .f-row.se, .ccd-starter-libs .f-col.se{justify-content:space-evenly}.ccd-starter-libs .f-row.jc, .ccd-starter-libs .f-col.jc{justify-content:center}.ccd-starter-libs .f-row.fe, .ccd-starter-libs .f-col.fe{justify-content:flex-end}.ccd-starter-libs .f-grow{flex-grow:1}.ccd-starter-libs .f-no-shrink{flex-shrink:0}.ccd-starter-libs .f-wrap{flex-wrap:wrap}.ccd-starter-libs .h-100{height:100%}.ccd-starter-libs .m-auto{margin:auto}.ccd-starter-libs .tc{text-align:center}.ccd-starter-libs .spectrum--light{--starterLib-custom-background-color-primary: var(
+        --spectrum-global-color-gray-50
+    );--starterLib-custom-background-color-secondary: var(
+        --spectrum-global-color-gray-100
+    )}.ccd-starter-libs .spectrum--dark{--starterLib-custom-background-color-primary: var(
+        --spectrum-global-color-gray-100
+    );--starterLib-custom-background-color-secondary: var(
+        --spectrum-global-color-gray-75
+    )}.ccd-starter-libs .spectrum--darkest{--starterLib-custom-background-color-primary: var(
+        --spectrum-global-color-gray-100
+    );--starterLib-custom-background-color-secondary: var(
+        --spectrum-global-color-gray-75
+    )}.ccd-starter-libs .sk-lib-card-wrapper{padding:0.75rem}.ccd-starter-libs .sk-lib-card-wrapper .sk-lib-card{background-color:var(--starterLib-custom-background-color-primary);cursor:pointer;height:100%;overflow:hidden;width:100%}.ccd-starter-libs .sk-lib-card-wrapper .sk-lib-card .spectrum-Card-coverPhoto{transform:scale(1);transition:transform 0.3s ease-out}.ccd-starter-libs .sk-lib-card-wrapper .sk-lib-card:hover .spectrum-Card-coverPhoto{transform:scale(1.05)}.ccd-starter-libs .sk-lib-card-wrapper .sk-card-desc{padding:0 1rem 1rem}.ccd-starter-libs .sk-lib-card-wrapper .spectrum-Card-title{color:var(--spectrum-global-color-gray-900);font-size:1rem;font-weight:bold}.ccd-starter-libs .sk-lib-card-wrapper .spectrum-Card-subtitle{font-size:0.75rem;letter-spacing:normal;text-transform:none}.ccd-starter-libs .sk-lib-card-wrapper .spectrum-Card-body{padding:1rem;padding-bottom:0.5rem}.ccd-starter-libs .sk-lib-card-wrapper .spectrum-Card-coverPhoto{border:none;height:15rem}.ccd-starter-libs .sk-lib-card-wrapper .spectrum-Card-footer{border-top:0.1rem solid var(--spectrum-global-color-gray-200);margin:0 1rem;padding:0.75rem 0}.ccd-starter-libs .sk-lib-card-wrapper .spectrum-Button+.spectrum-Button{margin-left:0.5rem}@media only screen and (max-width: 560px){.ccd-starter-libs .sk-lib-card-wrapper{width:100%}}@media only screen and (min-width: 590px){.ccd-starter-libs .sk-lib-card-wrapper{width:50%}}@media only screen and (min-width: 870px){.ccd-starter-libs .sk-lib-card-wrapper{width:33%}}@media only screen and (min-width: 1265px){.ccd-starter-libs .sk-lib-card-wrapper{width:25%}}@media only screen and (min-width: 640px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-sv_SE, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-es_ES, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-es_MX{width:50%}}@media only screen and (min-width: 950px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-sv_SE, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-es_ES, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-es_MX{width:33%}}@media only screen and (min-width: 640px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-nb_NO{width:50%}}@media only screen and (min-width: 1045px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-nb_NO{width:33%}}@media only screen and (min-width: 690px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-pt_BR, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-tr_TR, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-pl_PL, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-cs_CZ{width:50%}}@media only screen and (min-width: 1140px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-pt_BR, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-tr_TR, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-pl_PL, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-cs_CZ{width:33%}}@media only screen and (min-width: 768px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-fr_FR, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-fr_CA, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-it_IT{width:50%}}@media only screen and (min-width: 1145px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-fr_FR, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-fr_CA, .ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-it_IT{width:33%}}@media only screen and (min-width: 768px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-ru_RU{width:50%}}@media only screen and (min-width: 1230px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-ru_RU{width:33%}}@media only screen and (min-width: 818px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-de_DE{width:50%}}@media only screen and (min-width: 1280px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-de_DE{width:33%}}@media only screen and (min-width: 818px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-nl_NL{width:50%}}@media only screen and (min-width: 1330px){.ccd-starter-libs .sk-lib-card-wrapper.sk-lib-card-nl_NL{width:33%}}.ccd-starter-libs html[lang='ja'] .sk-lib-viewMore, .ccd-starter-libs html[lang='ja'] .sk-lib-followed, .ccd-starter-libs html[lang='pl'] .sk-lib-viewMore, .ccd-starter-libs html[lang='pl'] .sk-lib-followed{padding-left:0.5rem;padding-right:0.5rem}.ccd-starter-libs html[lang='cs'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='de'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fi'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fr'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='it'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ja'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='nl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='pl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ru'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='tr'] .no-sidenav .sk-lib-card-wrapper{padding:0.75rem}@media only screen and (max-width: 768px){.ccd-starter-libs html[lang='cs'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='de'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fi'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fr'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='it'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ja'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='nl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='pl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ru'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='tr'] .no-sidenav .sk-lib-card-wrapper{width:100%}}@media only screen and (min-width: 768px){.ccd-starter-libs html[lang='cs'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='de'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fi'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fr'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='it'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ja'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='nl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='pl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ru'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='tr'] .no-sidenav .sk-lib-card-wrapper{width:50%}}@media only screen and (min-width: 1080px){.ccd-starter-libs html[lang='cs'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='de'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fi'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fr'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='it'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ja'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='nl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='pl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ru'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='tr'] .no-sidenav .sk-lib-card-wrapper{width:33%}}@media only screen and (min-width: 1385px){.ccd-starter-libs html[lang='cs'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='de'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fi'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='fr'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='it'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ja'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='nl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='pl'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='ru'] .no-sidenav .sk-lib-card-wrapper, .ccd-starter-libs html[lang='tr'] .no-sidenav .sk-lib-card-wrapper{width:25%}}
+
+.ccd-starter-libs .sk-lib-grid-wrapper{background-color:var(--spectrum-global-color-gray-75);flex-grow:1;overflow-y:auto;user-select:none}.ccd-starter-libs .sk-lib-grid-wrapper .sk-lib-grid{margin:auto;max-width:84.75rem;padding:1.5rem}.ccd-starter-libs .sk-lib-grid-wrapper .sk-lib-grid .sk-lib-label{display:none}.ccd-starter-libs .sk-lib-grid-wrapper .coachmark-div{height:1.25rem;left:1.5rem;opacity:0;position:absolute;top:1.5rem;width:1.25rem}.ccd-starter-libs .no-header .sk-lib-grid-wrapper{flex-grow:0;margin-top:1.25rem;overflow-y:initial}.ccd-starter-libs .no-header .sk-lib-grid-wrapper .sk-lib-grid{margin:auto;max-width:84.75rem;padding:1.25rem}.ccd-starter-libs .no-header .sk-lib-grid-wrapper .sk-lib-grid .sk-lib-label{color:var(--spectrum-global-color-gray-900);display:none;font-size:1rem;font-weight:700;margin-top:2.25rem;padding-left:0.75rem;width:100%}
+
+.ccd-starter-libs .sk-banner-background{background:url([object Module]) 0 no-repeat;background-position:0 0;background-size:100% 87.5rem;height:auto;left:auto;margin-top:-3rem;padding:1rem 0 2.5rem;position:relative;right:auto;top:auto}.ccd-starter-libs .sk-banner-background .sk-banner-welcome-message{align-items:center;color:var(--spectrum-global-color-gray-50);margin:2rem auto 0;max-width:80rem;min-height:7.5rem;padding:1.5rem 0.75rem;position:relative;text-align:center;z-index:1}.ccd-starter-libs .sk-banner-background .sk-banner-welcome-message .sk-banner-heading{font-size:2.8125rem;font-style:normal;font-weight:700;letter-spacing:0;line-height:1.3;margin-bottom:0.5rem;margin-top:0.5rem}@media only screen and (max-width: 768px){.ccd-starter-libs .sk-banner-background .sk-banner-welcome-message .sk-banner-heading{font-size:1.875rem}}.ccd-starter-libs .sk-banner-background .sk-banner-welcome-message .sk-banner-desc{font-size:1.125rem;font-weight:400;line-height:1.375rem;margin-top:0.75rem;max-width:50rem}
+
+.ccd-starter-libs .sk-hero-banner-wrapper{flex-shrink:0;margin:2.5rem auto 0;max-width:101.1875rem;padding:0 2rem;width:100%}.ccd-starter-libs .sk-hero-banner-wrapper .react-spectrum-provider{background-color:transparent}
+
+.ccd-starter-libs .sk-info-section{margin:3rem auto 4.5rem;padding:0 3.25rem;width:82.5%}@media only screen and (max-width: 1385px){.ccd-starter-libs .sk-info-section{margin-left:0;margin-right:0;width:100%}}@media only screen and (max-width: 1080px){.ccd-starter-libs .sk-info-section{padding:0 1.5rem}}@media only screen and (max-width: 960px){.ccd-starter-libs .sk-info-section{margin-bottom:3rem;padding:0 1rem}}@media only screen and (max-width: 768px){.ccd-starter-libs .sk-info-section{margin-bottom:1.5rem;padding:0 0.5rem}}.ccd-starter-libs .sk-info-section .sk-info-header{padding-top:3rem;text-align:center}.ccd-starter-libs .sk-info-section .sk-info-header .sk-info-header-title{border:0;font-size:2.25rem;font-weight:700;line-height:1.3;margin:0;padding:0;vertical-align:baseline}.ccd-starter-libs .sk-info-section .sk-info-header .sk-info-header-title::after{background:url([object Module]) 0 0 no-repeat;background-size:100% 12.5rem;content:'';display:block;height:0.5rem;margin:1.5rem auto 3rem;max-width:25rem}.ccd-starter-libs .sk-info-section .sk-info-header .sk-info-header-desc{font-size:1.125rem;line-height:1.5rem;margin:0.75rem auto 2rem;max-width:40rem}.ccd-starter-libs .sk-info-section .sk-info-header .sk-info-header-desc .sk-info-learn-more{margin-left:0.25rem}.ccd-starter-libs .sk-info-section .sk-info-block-section{margin:2rem 0 4.5rem 0}.ccd-starter-libs .sk-info-section .sk-info-block-section .sk-info-block-section-ele{align-items:center;box-sizing:border-box;margin:0;min-width:12.5rem;padding:1rem 1rem 2rem}.ccd-starter-libs .sk-info-section .sk-info-block-section .sk-info-block-section-ele .sk-info-block-section-ele-title{font-size:1.125rem;font-weight:700;margin:0.5rem 0}.ccd-starter-libs .sk-info-section .sk-info-block-section .sk-info-block-section-ele .sk-info-block-section-ele-desc{color:var(--spectrum-global-color-gray-900);font-size:1.125rem;line-height:1.5rem;margin-top:1.5rem;max-width:17.5rem;text-align:center}
+
+.ccd-starter-libs .f-row{display:flex;flex-direction:row}.ccd-starter-libs .f-col{display:flex;flex-direction:column}.ccd-starter-libs .f-row.ac, .ccd-starter-libs .f-col.ac{align-items:center}.ccd-starter-libs .f-row.sb, .ccd-starter-libs .f-col.sb{justify-content:space-between}.ccd-starter-libs .f-row.se, .ccd-starter-libs .f-col.se{justify-content:space-evenly}.ccd-starter-libs .f-row.jc, .ccd-starter-libs .f-col.jc{justify-content:center}.ccd-starter-libs .f-row.fe, .ccd-starter-libs .f-col.fe{justify-content:flex-end}.ccd-starter-libs .f-grow{flex-grow:1}.ccd-starter-libs .f-no-shrink{flex-shrink:0}.ccd-starter-libs .f-wrap{flex-wrap:wrap}.ccd-starter-libs .h-100{height:100%}.ccd-starter-libs .m-auto{margin:auto}.ccd-starter-libs .tc{text-align:center}.ccd-starter-libs .spectrum--light{--starterLib-custom-background-color-primary: var(
+        --spectrum-global-color-gray-50
+    );--starterLib-custom-background-color-secondary: var(
+        --spectrum-global-color-gray-100
+    )}.ccd-starter-libs .spectrum--dark{--starterLib-custom-background-color-primary: var(
+        --spectrum-global-color-gray-100
+    );--starterLib-custom-background-color-secondary: var(
+        --spectrum-global-color-gray-75
+    )}.ccd-starter-libs .spectrum--darkest{--starterLib-custom-background-color-primary: var(
+        --spectrum-global-color-gray-100
+    );--starterLib-custom-background-color-secondary: var(
+        --spectrum-global-color-gray-75
+    )}.ccd-starter-libs .sk-lib-right-panel{background-color:var(--starterLib-custom-background-color-secondary);overflow-y:auto}
+
+.ccd-starter-libs .f-row{display:flex;flex-direction:row}.ccd-starter-libs .f-col{display:flex;flex-direction:column}.ccd-starter-libs .f-row.ac, .ccd-starter-libs .f-col.ac{align-items:center}.ccd-starter-libs .f-row.sb, .ccd-starter-libs .f-col.sb{justify-content:space-between}.ccd-starter-libs .f-row.se, .ccd-starter-libs .f-col.se{justify-content:space-evenly}.ccd-starter-libs .f-row.jc, .ccd-starter-libs .f-col.jc{justify-content:center}.ccd-starter-libs .f-row.fe, .ccd-starter-libs .f-col.fe{justify-content:flex-end}.ccd-starter-libs .f-grow{flex-grow:1}.ccd-starter-libs .f-no-shrink{flex-shrink:0}.ccd-starter-libs .f-wrap{flex-wrap:wrap}.ccd-starter-libs .h-100{height:100%}.ccd-starter-libs .m-auto{margin:auto}.ccd-starter-libs .tc{text-align:center}
+
