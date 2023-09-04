@@ -1,0 +1,10 @@
+{
+    "id": "CCDAssets",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": "./index.js",
+        "css": "./index.css"
+    },
+    "packageName": "Assets",
+    "packageDependencies": ["Apps", "CloudDocs", "CCLibs", "ShareSheet", "Spaces", "UAB"]
+}

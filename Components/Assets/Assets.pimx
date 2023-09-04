@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>2A82B773-9952-45E2-8E90-2FAFA5A036F7</packageid>
+	<name>Assets</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/Assets/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>Assets</name>
+			<assets_size>1740365</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>Y93sPtu5zvGhU13txQkkvT7EQucVwdDK6laCOZOAz3dxqvnjrS0+2fquSGUl6jHdnrs59mxJAC2/xQ0FaNMV1f5KLYZzI/5lEAevbSHN2wzIjura4aVou+6w8ZT2kwBZS2oMJhCO147Ly1zg9hhP4KlBvrUdXqSQEBEj1ZndmDtOxB6NKx9kbvWfFEkHwD4NeklXN84UL+sxRFYlzcJmA8dWxbudK/mbcb84GP1dQb3k2n32aHc0pt3k/4YuQ+L3n0aGCsNdXgJQosYslOBXNgJ3GEKb2hzM45ChF8Aq7XOjW5SdaPVogYV1ygayC7j2w+KklxJ1/GRizaOWtRfUwjwbQ1xfpKS11LiXK9ibcXk8t6M8d8E26E4LRdsnnOOAvj+VEKiCORy2ZW/1M1W0qyF2tTgi0GalsvUJzdQ2nmrS0md9EFFWUGgBNTHhkTCxU+FXjzhvbjqdKGWgOLXIOwpH9OsuqWM+x+9UbUuY7YR1LPwSqnZhlbonZs78+20t</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>
