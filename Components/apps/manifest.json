@@ -1,0 +1,11 @@
+{
+    "id": "CCDApps",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": [
+            "./appsWrapper.js"
+        ]
+    },
+    "packageName": "Apps",
+    "packageDependencies": ["HDBox", "DEBox", "UWABox", "ADBox"]
+}
