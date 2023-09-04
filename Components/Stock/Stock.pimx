@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>7FC9CCC0-B9B8-489F-A814-1EB539542806</packageid>
+	<name>Stock</name>
+	<version>2.6.0.17</version>
+	<target_location>/Components/Stock/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>Stock</name>
+			<assets_size>2260416</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>CenehwtB9UUa/GXSAjOdmn6CLuaqWt77dj19+gZuK/NqvunUrsS5vTl2FUAQqjvbaJwZWjWoFvQGzw6p+W0qKyWOK/hGMTWIcrAppmE+XU5PwNu0q7ow0Vke4TYE2XkOWHEBCuWIXqn7vBrDc+z1TKkugiviKfjK72cTCMfOzk+WbQBECJmNpxNcuOMlBGUBUTVWJFSGPkH7qhThG0LySSzhRCQZZV5nXfBC/0uZ4WHT3++5GAmJLgpUuSFVAodmSeLURTNaohgXy16rFpdqqXUL97OuNLzB4+dkZ/aRJ0I1Getpno6szasWmrYmpHChmI+P08CyiReF/2oh368W0wUh8aEmpwr5o3R2CypGZ/e9vwI+vHOkCYaSCaiIidLAfajqsO4rHPBIkV72HC7ov8otnN0mwOT1TWVaEFju27chYJ5m6JzWZol1YviT5Tmir3TRffd8xDOYX9rsUDd1LOwsFFq9XegchGVXnEEaEJLH/9QZ68NWxrgWhS63vQmk</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

@@ -1,0 +1,12 @@
+{
+    "id": "CCDStock",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": [
+            "./index.js"
+        ],
+        "css": "./index.css"
+    },
+    "packageName": "Stock",
+    "packageDependencies": []
+}
