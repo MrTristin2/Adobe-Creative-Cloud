@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>8A4D9021-C288-4277-BF2D-642F55F56377</packageid>
+	<name>Discover</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/Discover/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>Discover</name>
+			<assets_size>1394895</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>Fibu+zoCvvBG5iTvu6w9aAh29dinyHijNsXcxex4PEtSOA3R+sYDwSVDzrTw2EbXIsfDlOT+gx8oNazYzXC8eoMASP1pC2g2N6tl6AL9nfS/mxGE6p4deicuPBbPuNtUfBqEWqqQpjpVRV2cVf8x/v5euVl60bAmtjISrDv65+s9h6GIzJRfzAmXX13JCXRXReTBZYEjIaseWb7FXVMi/NNyQh2ty6Yz7Xms54OheEYV0FOaWzmjAob2a6ChwW3vQiWFJbY/mCcm2ut4aSnbjfHz8ww5vrNYkb8/Md2ynpLKWl4HB4W7ef9ntJzI8TT4nafkYOH7Wqm8Ct1ijrmH0B5uc+BeE1G1SjIgnAM2mPan7prxa/0nYbPOuf0nwlvwxhD4Z3MgM2WMRmGlWCD7bgIN35IpMpnbPQexTObrl3obeDCTNVGEhy5Vz2tPw99BJBkXr9xAUadh0h8iEk+GJNh+6Y69RsCnTttBn/umnz/ne39y6UTBqW64ujKIUPQM</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

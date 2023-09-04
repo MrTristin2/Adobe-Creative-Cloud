@@ -1,0 +1,13 @@
+{
+    "id": "CCDDiscover",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": [
+            "./discoverMain.js",
+            "./discoverLayouts.js"
+        ],
+        "css": "./discoverMain.css"
+    },
+    "packageName": "Discover",
+    "packageDependencies": ["Apps", "NVP"]
+}
