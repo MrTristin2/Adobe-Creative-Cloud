@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>15145B7A-5987-4BD0-9AE8-7738F6642549</packageid>
+	<name>CCDContainerJS</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/Container/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>CCDContainerJS</name>
+			<assets_size>7565368</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>GvWxNU2JYKXxXGYqQWKfK1GySGMUhuuS2gMIgRwRMsvnAzUEQEOe7bf6dfV1rY1YasHtBOrw98/hB0a1JRTZJ0PiqfzQSsbVYf5wmGZ3+Ew7qL/MZcAqX+TcXNbLtyQ2mVLxBeFVQx/4fkIwptiqVVZCGa3gqSaUEHjQ0G8mfUNb7Wfv7Z4U4rRdUbU6KdK7ND366ogpCHP9I970ud/wzbygBRe9jX//y8xSfDkoAiw5LDHClwkdlDVxHLB5XiPbOmj6zDfEnozhB9U6e5sEI0DUtQx2WU4MWACD3/OMO3rzpbwfTsrhOEcS5RBHSM9dbOuJ4Gf8RhfylEiEQ95+fDpvdIxrvh8LOfq5KpsaiGd4hnxvvc0VYG0tF8jdZczmIISeLeOcoaaZpxOyD5rcArf0T+oKO4AqatuBc/mAiywYgUTpclg8Khd3UQKdYIgOIgmTDbIF/gF0ZgSCHYwu8qYIotJL2OIniv2RYX3snGIBIwqVeRvRulVh4e6dJZVn</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>
