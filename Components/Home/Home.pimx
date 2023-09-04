@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>C848BBC1-C033-45FE-B60D-FB76CDC2F4BE</packageid>
+	<name>Home</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/Home/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>Home</name>
+			<assets_size>20736937</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>fG0U8yu3CzKs3jH6SR15qgSics9DVAo8OuUnXiIrmb9IF4NC0lyZOVIHPWeCNczVgJ2pqd76IabZUxA2a+9zu8FpOX/Qwbx4ion6ZS82aN28MmazNnhlLhslY78CLvMAZlC6pCsbZ+CDe53E/zYvxp0QmfPgUpUyj/HWvPOK5Hb7q+ybFINzizynYRO1wG+4ZOsfotNDMPODRWs966k5MvyxPyrQtMGdz+8wHtBJuxFsQ/UL2JsS+5vrukQV2LV45KpMCWzGTYNCwopeNcuOMqlQhOk38El4WnOzxKYXOuq6k/LhTQbTOBSo8dNbcXFVRpaMpZXkLaUS/ubfuZBJj2YNsIzFXZC77YYqDcTju/KFQbz5/tQHvStOkJCefme737dg8kQvajdy2ue4+wTpDsURthereEFCZfVeobU9M1q1+7Iq/QtpcDWXeJm/iXecv1OIoXkTOGORR5+ZdV7ayHql3yyCtCTprvrAShCgGxH3CYGndRgSgyWQihgq8rnc</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

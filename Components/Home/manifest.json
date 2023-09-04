@@ -1,0 +1,10 @@
+{
+    "id": "CCDHome",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": "./home.js",
+        "css": "./home.css"
+    },
+    "packageName": "Home",
+    "packageDependencies": ["Apps", "Assets"]
+}
