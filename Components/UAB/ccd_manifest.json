@@ -1,0 +1,12 @@
+{
+  "id": "UAB",
+  "loadFlags": [],
+  "packageDependencies": [],
+  "packageName": "UAB",
+  "resourcePath": "./dist",
+  "resources": {
+    "js": "./ccd.js",
+    "css": "./styles.css"
+  },
+  "version": "0.0.1"
+}

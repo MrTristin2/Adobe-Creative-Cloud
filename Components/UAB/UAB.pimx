@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>B3E55CA9-BF7E-4F5C-AB93-7CF1CD09917E</packageid>
+	<name>UAB</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/UAB/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>UAB</name>
+			<assets_size>13875099</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>FbEbxBjzZ9nyz+o2WAwXvsUYY4Cnl+lTtszW0qcWrj110Ivc82bpOAT7IHn+VlCoI2L5Pwi3cMWpAvIASoCII47cA2MsT2UaspK8Q10dZueWnA6QpeSaIQdeBhpzyusTEv0lC+uSAf2OyDPvb9YnKX2GYpo6iPa2kM7pBYbt+QjLsN1Bwm7XuGFfYLNJ4pyef43+GFu0JRqMt0tdQ4+MaAhGDwnyomBTxw2y+sat8IfOw/mgq08oVR3ZAEMe/c6qnEtIwmz7LEGzG9RY2iXyxfWTVHME9w2Qaic/yFh7jsjrPTIoo2kST699Ui5vy6Y0n1xKc0F+kyQeqT6YPmzGbfHk25G7NWfRzNFmbaNoK3cZiLOHEOB/oWH25dxCYPcsAKt3L98tQ9ENtFPawiatUIFch9/S4HjFWGOxitYUPfQ1QKVDEqLbuyzmtc11CZBhgLsaMAtJj0iCHOAinV+YKlbLhzmsBbC++qg1M2htyqg+mXmL4gN8c20QvAInXyBF</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>
