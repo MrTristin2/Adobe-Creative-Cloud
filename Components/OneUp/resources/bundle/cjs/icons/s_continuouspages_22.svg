@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="1115 10974 22 22">
+  <defs>
+    <style>
+      .cls-1 {
+        clip-path: url(#clip-S_ContinuousPages_22);
+      }
+
+      .cls-2 {
+        fill: #707070;
+      }
+    </style>
+    <clipPath id="clip-S_ContinuousPages_22">
+      <rect x="1115" y="10974" width="22" height="22"/>
+    </clipPath>
+  </defs>
+  <g id="S_ContinuousPages_22" class="cls-1">
+    <g id="Group_347" data-name="Group 347" transform="translate(1111 9681.994)">
+      <g id="Group_12" data-name="Group 12" transform="translate(8 1293)">
+        <path id="Path_35" data-name="Path 35" class="cls-2" d="M16,1313.5V1308H8.5a.5.5,0,0,0-.5.5V1319a.5.5,0,0,0,.5.5h13a.5.5,0,0,0,.5-.5v-5H16.5a.5.5,0,0,1-.5-.5Z" transform="translate(-8 -1300.5)"/>
+        <path id="Path_36" data-name="Path 36" class="cls-2" d="M8,1293v5.5a.5.5,0,0,0,.5.5h13a.5.5,0,0,0,.5-.5V1293Z" transform="translate(-8 -1293)"/>
+        <path id="Path_37" data-name="Path 37" class="cls-2" d="M27,1308h.043a.5.5,0,0,1,.354.146l3.957,3.957a.5.5,0,0,1,.146.354v.043H27Z" transform="translate(-17.5 -1300.5)"/>
+      </g>
+    </g>
+  </g>
+</svg>
