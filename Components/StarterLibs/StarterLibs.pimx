@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>3CE424C3-CFA3-47A7-94ED-BA7664CC9C86</packageid>
+	<name>StarterLibs</name>
+	<version>1.0.7.4</version>
+	<target_location>/Components/StarterLibs/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>StarterLibs</name>
+			<assets_size>738826</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>ixAHHfpvl44MltvIj6LjFXKDFAooUWrz2FvL6qq/GqTwPMZVwIKCIjHOJqDjtFfQxz0haN3etdg9J9gr4hJoT5jjsrbVO9bd6TB/RDwWWhE/Lw3JGcQvuwP50WTemsg8MdoH3A+7Lwb/F/kOzxy5X6smDF10K1quiSQkA1Qu8CP5QU6r2hiV80tDxtnj6VuvSX43sTUbaTywpLxmH2RZurRVKYSNFoRm51KJrv/6BxT4A0+EoCsJDZFd71GzIDbj6hwQSaO+TjyKJtjh6DXrRL8qGefLZQ5s1wo8Wquke01nvuByc+T8Gt5iZGN9o4RHiHiynABfFV222tEun2X32SBvjJz6g1thWNYoL603zXxwaWWDIet35OjazgzKrfl81yCFqqJhXfYp/xW2IEVKFkcgEmbh1PamY+0aFwCGpdgoY1VZ9qzj5U8oZTKXmfb4T/x16TVNKau2AF0QMw+mJSeUXv5v+sh7Kxzuxshzb7R2ZmaKFQmws494pXLmmrnr</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

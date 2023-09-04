@@ -1,0 +1,10 @@
+{
+  "id": "CCDStarterLibs",
+  "version": "1.0.7.4",
+  "resources": {
+    "js": "./web/index.js",
+    "css": "./web/index.css"
+  },
+  "packageName": "StarterLibs",
+  "packageDependencies": []
+}
