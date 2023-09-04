@@ -1,0 +1,77 @@
+/*************************************************************************
+ * ADOBE CONFIDENTIAL
+ * ___________________
+ *
+ *  Copyright 2019 Adobe
+ *  All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+
+:root {
+    --btn-hover-color: #f4f4f4;
+}
+
+button > span {
+    display: inline-block !important;
+}
+
+.sdk-SideMenu-sideMenuActionItem {
+    display: flex;
+    font-size: 14px;
+    height: 40px;
+    margin: 0 !important;
+    outline: none !important;
+    padding-left: 16px;
+    text-align: left;
+    width: 100%;
+}
+
+.sdk-SideMenu-sideMenuActionItem:hover {
+    background-color: var(--btn-hover-color) !important;
+}
+
+.sdk-SideMenu-menuDivider {
+    background-color: #cacaca;
+    border: none;
+    height: 1px;
+    margin: 0 15px !important;
+}
+
+.sdk-SideMenu-emailDisplay {
+    color: #707070;
+    cursor: pointer;
+    font-size: 12px;
+    line-height: 12px;
+    padding: 0 12px 12px 42px;
+}
+
+.sdk-SideMenu-emailDisplayToolTip {
+    text-align: center;
+}
+
+.sdk-SideMenu-emailDisplayToolTip .spectrum-Tooltip-label {
+    max-width: 170px !important;
+}
+
+.sdk-SideMenu-sideMenuActionItem .spectrum-ActionButton-label {
+    color: #6e6e6e;
+    padding-left: 10px !important;
+    text-align: left !important;
+}
+
+.sdk-SideMenu-sideMenuActionItem .spectrum-Icon {
+    color: #6e6e6e !important;
+}
+
+/* Forcing fill as we don't have dark theme yet */
+.sdk-SideMenu-sideMenuActionItem svg g {
+    fill: #6a6a6a !important;
+}
