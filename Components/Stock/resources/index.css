@@ -1,0 +1,1374 @@
+.stock-ccd .spectrum-Icon, .stock-ccd .spectrum-UIIcon {
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  pointer-events: none;
+}
+.stock-ccd .spectrum-Icon:not(:root), .stock-ccd .spectrum-UIIcon:not(:root) {
+    overflow: hidden;
+  }
+.stock-ccd .spectrum-Icon--sizeXXS, .stock-ccd .spectrum-Icon--sizeXXS img, .stock-ccd .spectrum-Icon--sizeXXS svg {
+    height: 9px;
+    width: 9px;
+  }
+.stock-ccd .spectrum-Icon--sizeXS, .stock-ccd .spectrum-Icon--sizeXS img, .stock-ccd .spectrum-Icon--sizeXS svg {
+    height: 12px;
+    width: 12px;
+  }
+.stock-ccd .spectrum-Icon--sizeS, .stock-ccd .spectrum-Icon--sizeS img, .stock-ccd .spectrum-Icon--sizeS svg {
+    height: 18px;
+    width: 18px;
+  }
+.stock-ccd .spectrum-Icon--sizeM, .stock-ccd .spectrum-Icon--sizeM img, .stock-ccd .spectrum-Icon--sizeM svg {
+    height: 24px;
+    width: 24px;
+  }
+.stock-ccd .spectrum-Icon--sizeL, .stock-ccd .spectrum-Icon--sizeL img, .stock-ccd .spectrum-Icon--sizeL svg {
+    height: 36px;
+    width: 36px;
+  }
+.stock-ccd .spectrum-Icon--sizeXL, .stock-ccd .spectrum-Icon--sizeXL img, .stock-ccd .spectrum-Icon--sizeXL svg {
+    height: 48px;
+    width: 48px;
+  }
+.stock-ccd .spectrum-Icon--sizeXXL, .stock-ccd .spectrum-Icon--sizeXXL img, .stock-ccd .spectrum-Icon--sizeXXL svg {
+    height: 72px;
+    width: 72px;
+  }
+.stock-ccd .spectrum--medium .spectrum-UIIcon--large {
+    display: none;
+  }
+.stock-ccd .spectrum--medium .spectrum-UIIcon--medium {
+    display: inline;
+  }
+.stock-ccd .spectrum--large .spectrum-UIIcon--medium {
+    display: none;
+  }
+.stock-ccd .spectrum--large .spectrum-UIIcon--large {
+    display: inline;
+  }
+.stock-ccd .spectrum--large {
+  --ui-icon-large-display: block;
+  --ui-icon-medium-display: none;
+}
+.stock-ccd .spectrum--medium {
+  --ui-icon-medium-display: block;
+  --ui-icon-large-display: none;
+}
+.stock-ccd .spectrum-UIIcon--large {
+  display: var(--ui-icon-large-display);
+}
+.stock-ccd .spectrum-UIIcon--medium {
+  display: var(--ui-icon-medium-display);
+}
+.stock-ccd .spectrum-UIIcon-AlertMedium {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-AlertSmall {
+  width: 14px;
+  height: 14px;
+}
+.stock-ccd .spectrum-UIIcon-ArrowDownSmall {
+  width: 8px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-ArrowLeftMedium {
+  width: 14px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-Asterisk {
+  width: 8px;
+  height: 8px;
+}
+.stock-ccd .spectrum-UIIcon-CheckmarkMedium {
+  width: 12px;
+  height: 12px;
+}
+.stock-ccd .spectrum-UIIcon-CheckmarkSmall {
+  width: 10px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronDownMedium {
+  width: 10px;
+  height: 6px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronDownSmall {
+  width: 8px;
+  height: 6px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronLeftLarge {
+  width: 12px;
+  height: 16px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronLeftMedium {
+  width: 6px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronRightLarge {
+  width: 12px;
+  height: 16px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronRightMedium {
+  width: 6px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronRightSmall {
+  width: 6px;
+  height: 8px;
+}
+.stock-ccd .spectrum-UIIcon-ChevronUpSmall {
+  width: 8px;
+  height: 6px;
+}
+.stock-ccd .spectrum-UIIcon-CornerTriangle {
+  width: 5px;
+  height: 5px;
+}
+.stock-ccd .spectrum-UIIcon-CrossLarge {
+  width: 12px;
+  height: 12px;
+}
+.stock-ccd .spectrum-UIIcon-CrossMedium {
+  width: 8px;
+  height: 8px;
+}
+.stock-ccd .spectrum-UIIcon-CrossSmall {
+  width: 8px;
+  height: 8px;
+}
+.stock-ccd .spectrum-UIIcon-DashSmall {
+  width: 10px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-DoubleGripper {
+  width: 16px;
+  height: 4px;
+}
+.stock-ccd .spectrum-UIIcon-FolderBreadcrumb {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-HelpMedium {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-HelpSmall {
+  width: 14px;
+  height: 14px;
+}
+.stock-ccd .spectrum-UIIcon-InfoMedium {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-InfoSmall {
+  width: 14px;
+  height: 14px;
+}
+.stock-ccd .spectrum-UIIcon-Magnifier {
+  width: 16px;
+  height: 16px;
+}
+.stock-ccd .spectrum-UIIcon-SkipLeft {
+  width: 9px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-SkipRight {
+  width: 9px;
+  height: 10px;
+}
+.stock-ccd .spectrum-UIIcon-Star {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-StarOutline {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-SuccessMedium {
+  width: 18px;
+  height: 18px;
+}
+.stock-ccd .spectrum-UIIcon-SuccessSmall {
+  width: 14px;
+  height: 14px;
+}
+.stock-ccd .spectrum-UIIcon-TripleGripper {
+  width: 10px;
+  height: 7px;
+}
+
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2019 Adobe
+* All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+/*
+ * ADOBE CONFIDENTIAL
+ *
+ * Copyright 2016 Adobe Systems Incorporated
+ * All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and may be covered by U.S. and Foreign Patents,
+ * patents in process, and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.stock-ccd .spectrum-Dialog.react-spectrum-Dialog {
+  visibility: visible;
+}
+
+.stock-ccd .react-spectrum-Dialog-buttons {
+  white-space: nowrap;
+}
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2019 Adobe
+* All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+.stock-ccd .spectrum-Popover.react-spectrum-Popover {
+  visibility: visible;
+}
+
+.stock-ccd .spectrum-Popover .spectrum-Dialog-content {
+  max-height: initial;
+}
+.stock-ccd .spectrum-Popover {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.stock-ccd .spectrum-Popover.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.stock-ccd .spectrum-Popover--bottom.is-open {
+  transform: translateY(6px);
+}
+.stock-ccd .spectrum-Popover--top.is-open {
+  transform: translateY(-6px);
+}
+.stock-ccd .spectrum-Popover--right.is-open {
+  transform: translateX(6px);
+}
+.stock-ccd .spectrum-Popover--left.is-open {
+  transform: translateX(-6px);
+}
+.stock-ccd .spectrum-Popover {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  box-sizing: border-box;
+
+  min-width: 32px;
+  min-height: 32px;
+
+  position: absolute;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+
+  outline: none;
+}
+.stock-ccd .spectrum-Popover-tip {
+  position: absolute;
+  overflow: hidden;
+  width: 21px;
+  height: 11px;
+}
+.stock-ccd .spectrum-Popover-tip::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -18px;
+    left: -1px;
+  }
+.stock-ccd .spectrum-Popover--dialog {
+  min-width: 270px;
+  padding: 30px 29px;
+}
+.stock-ccd .spectrum-Popover--left.spectrum-Popover--withTip {
+    margin-right: 13px;
+  }
+.stock-ccd .spectrum-Popover--left .spectrum-Popover-tip {
+    right: -16px;
+    transform: rotate(-90deg);
+  }
+.stock-ccd .spectrum-Popover--right.spectrum-Popover--withTip {
+    margin-left: 13px;
+  }
+.stock-ccd .spectrum-Popover--right .spectrum-Popover-tip {
+    left: -16px;
+    transform: rotate(90deg);
+  }
+.stock-ccd .spectrum-Popover--left .spectrum-Popover-tip, .stock-ccd .spectrum-Popover--right .spectrum-Popover-tip {
+    top: 50%;
+    margin-top: -6px;
+  }
+.stock-ccd .spectrum-Popover--bottom.spectrum-Popover--withTip {
+    margin-top: 13px;
+  }
+.stock-ccd .spectrum-Popover--bottom .spectrum-Popover-tip {
+    top: -11px;
+    transform: rotate(180deg);
+  }
+.stock-ccd .spectrum-Popover--top.spectrum-Popover--withTip {
+    margin-bottom: 13px;
+  }
+.stock-ccd .spectrum-Popover--top .spectrum-Popover-tip {
+    bottom: -11px;
+  }
+.stock-ccd .spectrum-Popover--bottom .spectrum-Popover-tip, .stock-ccd .spectrum-Popover--top .spectrum-Popover-tip {
+    left: 50%;
+    margin-left: -12px;
+  }
+
+.stock-ccd .spectrum--light .spectrum-Popover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(202, 202, 202);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.stock-ccd .spectrum--light .spectrum-Popover .spectrum-Dialog-header, .stock-ccd .spectrum--light .spectrum-Popover .spectrum-Dialog-footer, .stock-ccd .spectrum--light .spectrum-Popover .spectrum-Dialog-wrapper {
+    background-color: transparent;
+  }
+.stock-ccd .spectrum--light .spectrum-Popover .spectrum-Popover-tip::after {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(202, 202, 202);
+    box-shadow: -1px -1px 4px rgba(0,0,0,0.15);
+  }
+
+.stock-ccd .spectrum--darkest .spectrum-Popover {
+  background-color: rgb(8, 8, 8);
+  border-color: rgb(73, 73, 73);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.8);
+}
+.stock-ccd .spectrum--darkest .spectrum-Popover .spectrum-Dialog-header, .stock-ccd .spectrum--darkest .spectrum-Popover .spectrum-Dialog-footer, .stock-ccd .spectrum--darkest .spectrum-Popover .spectrum-Dialog-wrapper {
+    background-color: transparent;
+  }
+.stock-ccd .spectrum--darkest .spectrum-Popover .spectrum-Popover-tip::after {
+    background-color: rgb(8, 8, 8);
+    border-color: rgb(73, 73, 73);
+    box-shadow: -1px -1px 4px rgba(0,0,0,0.8);
+  }
+
+.stock-ccd .spectrum-Dialog {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.stock-ccd .spectrum-Dialog.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.stock-ccd .spectrum-Dialog {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) translateY(20px);
+  z-index: 2;
+  box-sizing: border-box;
+  max-width: 90vw;
+  max-height: 90vh;
+  width: -webkit-fit-content;
+  width: fit-content;
+  min-width: 288px;
+
+  padding: 40px;
+
+  border-radius: 4px;
+  outline: none;
+  transition: opacity 130ms cubic-bezier(.50, 0, 1, 1) 0ms,
+              visibility 0ms linear 130ms,
+              transform 0ms linear 130ms;
+}
+.stock-ccd .spectrum-Dialog.is-open {
+    transition: transform 250ms cubic-bezier(0, 0, 0.40, 1) 160ms,
+                opacity 250ms cubic-bezier(0, 0, 0.40, 1) 160ms;
+
+    transform: translate(-50%, calc(-50% + -2vh));
+  }
+.stock-ccd .spectrum-Dialog .spectrum-Dialog-closeButton {
+    display: none;
+  }
+.stock-ccd .spectrum-Dialog--small {
+  width: 400px;
+}
+.stock-ccd .spectrum-Dialog--medium {
+  width: 480px;
+}
+.stock-ccd .spectrum-Dialog--large {
+  width: 640px;
+}
+.stock-ccd .spectrum-Dialog-hero {
+  height: 128px;
+
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+  background-size: cover;
+  background-position: center center;
+}
+.stock-ccd .spectrum-Dialog-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+
+  border-radius: 4px 4px 0 0;
+  outline: none;
+
+  padding-bottom: 30px;
+}
+.stock-ccd .spectrum-Dialog-header::after {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    content: '';
+
+    height: 2px;
+  }
+.stock-ccd .spectrum-Dialog-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 2;
+  transition: visibility 0ms linear 130ms;
+}
+.stock-ccd .spectrum-Dialog-wrapper.is-open {
+    visibility: visible;
+  }
+.stock-ccd .spectrum-Dialog-wrapper .spectrum-Dialog:not(.spectrum-Dialog--fullscreen):not(.spectrum-Dialog--fullscreenTakeover) {
+    pointer-events: auto;
+
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: translateY(20px);
+    margin-top: -2vh;
+  }
+.stock-ccd .spectrum-Dialog-wrapper .spectrum-Dialog:not(.spectrum-Dialog--fullscreen):not(.spectrum-Dialog--fullscreenTakeover).is-open {
+      transform: translateY(0);
+    }
+@media
+only screen and (max-device-width: 400px), only screen and (max-device-height: 350px) {
+  .stock-ccd .spectrum-Dialog--responsive {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+  }
+    .stock-ccd .spectrum-Dialog-wrapper .spectrum-Dialog--responsive {
+      margin-top: 0;
+    }
+}
+.stock-ccd .spectrum-Dialog--noDivider .spectrum-Dialog-header::after {
+      display: none;
+    }
+.stock-ccd .spectrum-Dialog--dismissible .spectrum-Dialog-footer {
+    display: none;
+  }
+.stock-ccd .spectrum-Dialog--dismissible .spectrum-Dialog-closeButton {
+    display: initial;
+  }
+.stock-ccd .spectrum-Dialog-closeButton {
+  position: absolute;
+  top: -28px;
+  right: -28px;
+}
+.stock-ccd .spectrum-Dialog-typeIcon {
+  display: block;
+}
+.stock-ccd .spectrum-Dialog-content {
+  display: block;
+  box-sizing: border-box;
+
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  -ms-flex: 1 1 auto;
+
+      flex: 1 1 auto;
+
+  outline: none;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .stock-ccd .spectrum-Dialog-content {
+    max-height: 70vh;
+  }
+}
+.stock-ccd .spectrum-Dialog-footer {
+  border-radius: 0 0 4px 4px;
+  padding-top: 28px;
+
+  -ms-flex: 0 1 auto;
+
+      flex: 0 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+
+  outline: none;
+
+  margin: -8px;
+  margin-top: 0;
+}
+.stock-ccd .spectrum-Dialog-footer > *, .stock-ccd .spectrum-Dialog-footer > .spectrum-Button + .spectrum-Button {
+    margin: 8px;
+  }
+.stock-ccd .spectrum-Dialog-title {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  outline: none;
+}
+.stock-ccd .spectrum-Dialog--alert {
+  width: 480px;
+}
+.stock-ccd .spectrum-Dialog--fullscreen {
+  left: 32px;
+  top: 32px;
+  right: 32px;
+  bottom: 32px;
+
+  transform: translate(0, 20px);
+}
+.stock-ccd .spectrum-Dialog--fullscreen.is-open {
+    transform: translate(0, 0);
+  }
+.stock-ccd .spectrum-Dialog--fullscreen, .stock-ccd .spectrum-Dialog--fullscreenTakeover {
+  width: auto;
+  max-height: none;
+  max-width: none;
+
+  padding-top: 30px;
+}
+.stock-ccd .spectrum-Dialog--fullscreen .spectrum-Dialog-header, .stock-ccd .spectrum-Dialog--fullscreenTakeover .spectrum-Dialog-header {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+.stock-ccd .spectrum-Dialog--fullscreen .spectrum-Dialog-title, .stock-ccd .spectrum-Dialog--fullscreenTakeover .spectrum-Dialog-title {
+    font-size: 28px;
+    font-weight: 100;
+  }
+.stock-ccd .spectrum-Dialog--fullscreen .spectrum-Dialog-content, .stock-ccd .spectrum-Dialog--fullscreenTakeover .spectrum-Dialog-content {
+    max-height: none;
+  }
+.stock-ccd .spectrum-Dialog--fullscreenTakeover {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+}
+.stock-ccd .spectrum-Dialog--fullscreenTakeover, .stock-ccd .spectrum-Dialog--fullscreenTakeover.is-open {
+    transform: none;
+  }
+
+.stock-ccd .spectrum--light .spectrum-Dialog {
+  background: rgb(245, 245, 245);
+}
+.stock-ccd .spectrum--light .spectrum-Dialog-header {
+  background: rgb(245, 245, 245);
+}
+.stock-ccd .spectrum--light .spectrum-Dialog-header:after {
+    background: rgb(225, 225, 225);
+  }
+.stock-ccd .spectrum--light .spectrum-Dialog-title {
+  color: rgb(44, 44, 44);
+}
+.stock-ccd .spectrum--light .spectrum-Dialog-content {
+  color: rgb(75, 75, 75);
+}
+.stock-ccd .spectrum--light .spectrum-Dialog-typeIcon {
+  color: rgb(44, 44, 44);
+}
+.stock-ccd .spectrum--light .spectrum-Dialog-footer {
+  background: rgb(245, 245, 245);
+}
+.stock-ccd .spectrum--light .spectrum-Dialog--error .spectrum-Dialog-title {
+    color: rgb(201, 37, 45);
+  }
+.stock-ccd .spectrum--light .spectrum-Dialog--error .spectrum-Dialog-typeIcon {
+    color: rgb(201, 37, 45);
+  }
+
+.stock-ccd .spectrum--darkest .spectrum-Dialog {
+  background: rgb(30, 30, 30);
+}
+.stock-ccd .spectrum--darkest .spectrum-Dialog-header {
+  background: rgb(30, 30, 30);
+}
+.stock-ccd .spectrum--darkest .spectrum-Dialog-header:after {
+    background: rgb(57, 57, 57);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Dialog-title {
+  color: rgb(239, 239, 239);
+}
+.stock-ccd .spectrum--darkest .spectrum-Dialog-content {
+  color: rgb(200, 200, 200);
+}
+.stock-ccd .spectrum--darkest .spectrum-Dialog-typeIcon {
+  color: rgb(239, 239, 239);
+}
+.stock-ccd .spectrum--darkest .spectrum-Dialog-footer {
+  background: rgb(30, 30, 30);
+}
+.stock-ccd .spectrum--darkest .spectrum-Dialog--error .spectrum-Dialog-title {
+    color: rgb(236, 91, 98);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Dialog--error .spectrum-Dialog-typeIcon {
+    color: rgb(236, 91, 98);
+  }
+
+.stock-ccd .spectrum-Underlay {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.stock-ccd .spectrum-Underlay.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.stock-ccd .spectrum-Underlay {
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  overflow: hidden;
+  transition: opacity 190ms cubic-bezier(0.5, 0, 1, 1) 160ms,
+              visibility 0ms linear 350ms;
+}
+.stock-ccd .spectrum-Underlay.is-open {
+  transition: opacity 300ms cubic-bezier(0, 0, 0.40, 1) 0ms;
+}
+
+.stock-ccd .spectrum--light .spectrum-Underlay {
+  background: rgba(0,0,0,0.4);
+}
+
+.stock-ccd .spectrum--darkest .spectrum-Underlay {
+  background: rgba(0,0,0,0.6);
+}
+
+.stock-ccd .spectrum-Tooltip {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.stock-ccd .spectrum-Tooltip.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.stock-ccd .spectrum-Tooltip--bottom.is-open {
+  transform: translateY(6px);
+}
+.stock-ccd .spectrum-Tooltip--top.is-open {
+  transform: translateY(-6px);
+}
+.stock-ccd .spectrum-Tooltip--right.is-open {
+  transform: translateX(6px);
+}
+.stock-ccd .spectrum-Tooltip--left.is-open {
+  transform: translateX(-6px);
+}
+.stock-ccd .spectrum-Tooltip {
+
+  position: relative;
+  left: 0px;
+  top: 0px;
+
+  display: -ms-inline-flexbox;
+
+  display: inline-flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  box-sizing: border-box;
+
+  vertical-align: top;
+
+  width: auto;
+  padding: 4px 10px;
+  border-radius: 4px;
+  min-height: 24px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+.stock-ccd .spectrum-Tooltip {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.stock-ccd .spectrum-Tooltip p {
+    margin: 0;
+  }
+.stock-ccd .spectrum-Tooltip-tip {
+  position: absolute;
+
+  height: 0;
+  width: 0;
+
+  border-width: 4px;
+  border-style: solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+.stock-ccd .spectrum-Tooltip--right .spectrum-Tooltip-tip, .stock-ccd .spectrum-Tooltip--left .spectrum-Tooltip-tip {
+    top: 50%;
+    margin-top: -4px;
+  }
+.stock-ccd .spectrum-Tooltip--right {
+  margin-left: 3px;
+}
+.stock-ccd .spectrum-Tooltip--right .spectrum-Tooltip-tip {
+    right: 100%;
+    transform: rotate(90deg);
+  }
+.stock-ccd .spectrum-Tooltip--left {
+  margin-right: 3px;
+}
+.stock-ccd .spectrum-Tooltip--left .spectrum-Tooltip-tip {
+    left: 100%;
+    transform: rotate(-90deg);
+  }
+.stock-ccd .spectrum-Tooltip--top {
+  margin-bottom: 3px;
+}
+.stock-ccd .spectrum-Tooltip--top .spectrum-Tooltip-tip {
+    top: 100%;
+  }
+.stock-ccd .spectrum-Tooltip--bottom {
+  margin-top: 3px;
+}
+.stock-ccd .spectrum-Tooltip--bottom .spectrum-Tooltip-tip {
+    bottom: 100%;
+    transform: rotate(-180deg);
+  }
+.stock-ccd .spectrum-Tooltip--bottom .spectrum-Tooltip-tip, .stock-ccd .spectrum-Tooltip--top .spectrum-Tooltip-tip {
+    left: 50%;
+    margin-left: -4px;
+  }
+.stock-ccd .spectrum-Tooltip-typeIcon {
+  margin-left: -2px;
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 1px;
+}
+.stock-ccd .spectrum-Tooltip-label {
+  max-width: 101px;
+  line-height: 16px;
+}
+.stock-ccd .u-tooltip-showOnHover {
+  display: inline-block;
+  position: relative;
+}
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip {
+    position: absolute;
+    white-space: nowrap;
+    visibility: visible !important;
+    transition: transform 130ms ease-in-out;
+    top: -100%;
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip-label {
+    max-width: none;
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--right, .stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--left {
+    top: 50%;
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--right .spectrum-Tooltip-tip, .stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--left .spectrum-Tooltip-tip {
+      top: 50%;
+    }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--right {
+    left: 100%;
+    transform: translate(0, -50%);
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--left {
+    transform: translate(-100%, -50%);
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--bottom, .stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--top {
+    left: 50%;
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--bottom .spectrum-Tooltip-tip, .stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--top .spectrum-Tooltip-tip {
+      left: 50%;
+    }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--bottom {
+    top: 100%;
+    transform: translate(-50%, -4px);
+  }
+.stock-ccd .u-tooltip-showOnHover .spectrum-Tooltip--top {
+    transform: translate(-50%, 4px);
+  }
+.stock-ccd .u-tooltip-showOnHover:hover .spectrum-Tooltip, .stock-ccd .u-tooltip-showOnHover:focus .spectrum-Tooltip, .stock-ccd .u-tooltip-showOnHover.is-focused .spectrum-Tooltip, .stock-ccd .u-tooltip-showOnHover *:focus .spectrum-Tooltip {
+    opacity: 1;
+  }
+.stock-ccd .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--bottom, .stock-ccd .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--bottom, .stock-ccd .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--bottom, .stock-ccd .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--bottom {
+    transform: translate(-50%, 0);
+  }
+.stock-ccd .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--top, .stock-ccd .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--top, .stock-ccd .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--top, .stock-ccd .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--top {
+    transform: translate(-50%, -4px);
+  }
+.stock-ccd .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--left, .stock-ccd .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--left, .stock-ccd .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--left, .stock-ccd .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--left {
+    transform: translate(calc(-100% - 4px), -50%);
+  }
+.stock-ccd .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--right, .stock-ccd .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--right, .stock-ccd .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--right, .stock-ccd .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--right {
+    transform: translate(4px, -50%);
+  }
+
+.stock-ccd .spectrum--light .spectrum-Tooltip {
+  background-color: rgb(116, 116, 116);
+
+  color: rgb(255, 255, 255);
+}
+.stock-ccd .spectrum--light .spectrum-Tooltip-tip {
+  border-top-color: rgb(116, 116, 116);
+}
+.stock-ccd .spectrum--light .spectrum-Tooltip--negative, .stock-ccd .spectrum--light .spectrum-Tooltip--error {
+  background-color: rgb(201, 37, 45);
+}
+.stock-ccd .spectrum--light .spectrum-Tooltip--negative .spectrum-Tooltip-tip, .stock-ccd .spectrum--light .spectrum-Tooltip--error .spectrum-Tooltip-tip {
+    border-top-color: rgb(201, 37, 45);
+  }
+.stock-ccd .spectrum--light .spectrum-Tooltip--info, .stock-ccd .spectrum--light .spectrum-Tooltip--help {
+  background-color: rgb(13, 102, 208);
+}
+.stock-ccd .spectrum--light .spectrum-Tooltip--info .spectrum-Tooltip-tip, .stock-ccd .spectrum--light .spectrum-Tooltip--help .spectrum-Tooltip-tip {
+    border-top-color: rgb(13, 102, 208);
+  }
+.stock-ccd .spectrum--light .spectrum-Tooltip--positive, .stock-ccd .spectrum--light .spectrum-Tooltip--success {
+  background-color: rgb(18, 128, 92);
+}
+.stock-ccd .spectrum--light .spectrum-Tooltip--positive .spectrum-Tooltip-tip, .stock-ccd .spectrum--light .spectrum-Tooltip--success .spectrum-Tooltip-tip {
+    border-top-color: rgb(18, 128, 92);
+  }
+
+.stock-ccd .spectrum--darkest .spectrum-Tooltip {
+  background-color: rgb(116, 116, 116);
+
+  color: rgb(255, 255, 255);
+}
+.stock-ccd .spectrum--darkest .spectrum-Tooltip-tip {
+  border-top-color: rgb(116, 116, 116);
+}
+.stock-ccd .spectrum--darkest .spectrum-Tooltip--negative, .stock-ccd .spectrum--darkest .spectrum-Tooltip--error {
+  background-color: rgb(201, 37, 45);
+}
+.stock-ccd .spectrum--darkest .spectrum-Tooltip--negative .spectrum-Tooltip-tip, .stock-ccd .spectrum--darkest .spectrum-Tooltip--error .spectrum-Tooltip-tip {
+    border-top-color: rgb(201, 37, 45);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tooltip--info, .stock-ccd .spectrum--darkest .spectrum-Tooltip--help {
+  background-color: rgb(13, 102, 208);
+}
+.stock-ccd .spectrum--darkest .spectrum-Tooltip--info .spectrum-Tooltip-tip, .stock-ccd .spectrum--darkest .spectrum-Tooltip--help .spectrum-Tooltip-tip {
+    border-top-color: rgb(13, 102, 208);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tooltip--positive, .stock-ccd .spectrum--darkest .spectrum-Tooltip--success {
+  background-color: rgb(18, 128, 92);
+}
+.stock-ccd .spectrum--darkest .spectrum-Tooltip--positive .spectrum-Tooltip-tip, .stock-ccd .spectrum--darkest .spectrum-Tooltip--success .spectrum-Tooltip-tip {
+    border-top-color: rgb(18, 128, 92);
+  }
+
+.stock-ccd .spectrum-Avatar {
+  width: 16px;
+  height: 16px;
+
+  border-radius: 50%;
+  border-style: none;
+
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.stock-ccd .spectrum--light .spectrum-Avatar {
+  opacity: 1;
+}
+.stock-ccd .spectrum--light .spectrum-Avatar.is-disabled {
+    opacity: 0.3;
+  }
+
+.stock-ccd .spectrum--darkest .spectrum-Avatar {
+  opacity: 1;
+}
+.stock-ccd .spectrum--darkest .spectrum-Avatar.is-disabled {
+    opacity: 0.3;
+  }
+
+.stock-ccd .spectrum-Tags {
+  display: inline-block;
+
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.stock-ccd .spectrum-Tags-item {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-align: center;
+      align-items: center;
+  box-sizing: border-box;
+
+  margin: 4px 4px;
+  padding: 0 9px;
+  height: 24px;
+  max-width: 100%;
+
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 4px;
+  outline: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+
+  transition: border-color 130ms ease-in-out,
+    color 130ms ease-in-out,
+    box-shadow 130ms ease-in-out,
+    background-color 130ms ease-in-out;
+}
+.stock-ccd .spectrum-Tags-item.is-disabled {
+    pointer-events: none;
+  }
+.stock-ccd .spectrum-Tags-item > .spectrum-Icon, .stock-ccd .spectrum-Tags-item > .spectrum-Avatar {
+    margin-right: 8px;
+    margin-left: -2px;
+  }
+.stock-ccd .spectrum-Tags-item > .spectrum-Icon ~ .spectrum-Tags-itemLabel, .stock-ccd .spectrum-Tags-item > .spectrum-Avatar ~ .spectrum-Tags-itemLabel {
+      margin-right: -2px;
+    }
+.stock-ccd .spectrum-Tags-item .spectrum-ClearButton {
+    margin-right: -10px;
+  }
+.stock-ccd .spectrum-Tags-itemLabel {
+  height: 100%;
+  line-height: 22px;
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+  font-size: 12px;
+  cursor: default;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.stock-ccd .spectrum--light .spectrum-Tags-item {
+  color: rgb(110, 110, 110);
+  background-color: rgb(250, 250, 250);
+  border-color: rgb(142, 142, 142);
+}
+.stock-ccd .spectrum--light .spectrum-Tags-item .spectrum-ClearButton {
+    color: rgb(142, 142, 142);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item:hover {
+    background-color: rgb(250, 250, 250);
+    color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item:hover .spectrum-ClearButton {
+      color: rgb(44, 44, 44);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item.focus-ring {
+    background-color: rgb(250, 250, 250);
+    color: rgb(44, 44, 44);
+    border-color: rgb(38, 128, 235);
+    box-shadow: 0 0 0 1px rgb(38, 128, 235);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item.focus-ring .spectrum-ClearButton {
+      color: rgb(44, 44, 44);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-invalid {
+    color: rgb(110, 110, 110);
+    border-color: rgb(215, 55, 63);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-invalid .spectrum-ClearButton {
+      color: rgb(215, 55, 63);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-invalid:hover {
+      color: rgb(44, 44, 44);
+      border-color: rgb(201, 37, 45);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-invalid:hover .spectrum-ClearButton {
+        color: rgb(201, 37, 45);
+      }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-invalid.focus-ring {
+      color: rgb(44, 44, 44);
+      border-color: rgb(38, 128, 235);
+      box-shadow: 0 0 0 1px rgb(38, 128, 235);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-invalid.focus-ring .spectrum-ClearButton {
+        color: rgb(201, 37, 45);
+      }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-disabled {
+    color: rgb(179, 179, 179);
+    background-color: rgb(234, 234, 234);
+    border-color: rgb(234, 234, 234);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-disabled .spectrum-Avatar {
+      opacity: 0.3;
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable:hover {
+    color: rgb(110, 110, 110);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable:hover .spectrum-ClearButton {
+      color: rgb(44, 44, 44);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable:active {
+    color: rgb(110, 110, 110);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable:active .spectrum-ClearButton {
+      color: rgb(44, 44, 44);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.is-invalid:hover {
+      border-color: rgb(201, 37, 45);
+      color: rgb(110, 110, 110);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.is-invalid:hover .spectrum-ClearButton {
+        color: rgb(201, 37, 45);
+      }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.is-invalid:active {
+      border-color: rgb(187, 18, 26);
+      color: rgb(110, 110, 110);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.is-invalid:active .spectrum-ClearButton {
+        color: rgb(187, 18, 26);
+      }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.focus-ring {
+    color: rgb(110, 110, 110);
+  }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.focus-ring .spectrum-ClearButton {
+      color: rgb(44, 44, 44);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item--deletable.focus-ring.is-invalid {
+      color: rgb(110, 110, 110);
+    }
+.stock-ccd .spectrum--light .spectrum-Tags-item.is-disabled .spectrum-ClearButton .spectrum-Icon {
+    color: rgb(179, 179, 179);
+  }
+
+.stock-ccd .spectrum--darkest .spectrum-Tags-item {
+  color: rgb(162, 162, 162);
+  background-color: rgb(26, 26, 26);
+  border-color: rgb(124, 124, 124);
+}
+.stock-ccd .spectrum--darkest .spectrum-Tags-item .spectrum-ClearButton {
+    color: rgb(124, 124, 124);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item:hover {
+    background-color: rgb(26, 26, 26);
+    color: rgb(239, 239, 239);
+    border-color: rgb(239, 239, 239);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item:hover .spectrum-ClearButton {
+      color: rgb(239, 239, 239);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.focus-ring {
+    background-color: rgb(26, 26, 26);
+    color: rgb(239, 239, 239);
+    border-color: rgb(20, 115, 230);
+    box-shadow: 0 0 0 1px rgb(20, 115, 230);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.focus-ring .spectrum-ClearButton {
+      color: rgb(239, 239, 239);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-invalid {
+    color: rgb(162, 162, 162);
+    border-color: rgb(227, 72, 80);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-invalid .spectrum-ClearButton {
+      color: rgb(227, 72, 80);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-invalid:hover {
+      color: rgb(239, 239, 239);
+      border-color: rgb(236, 91, 98);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-invalid:hover .spectrum-ClearButton {
+        color: rgb(236, 91, 98);
+      }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-invalid.focus-ring {
+      color: rgb(239, 239, 239);
+      border-color: rgb(20, 115, 230);
+      box-shadow: 0 0 0 1px rgb(20, 115, 230);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-invalid.focus-ring .spectrum-ClearButton {
+        color: rgb(236, 91, 98);
+      }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-disabled {
+    color: rgb(92, 92, 92);
+    background-color: rgb(44, 44, 44);
+    border-color: rgb(44, 44, 44);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-disabled .spectrum-Avatar {
+      opacity: 0.3;
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable:hover {
+    color: rgb(162, 162, 162);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable:hover .spectrum-ClearButton {
+      color: rgb(239, 239, 239);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable:active {
+    color: rgb(162, 162, 162);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable:active .spectrum-ClearButton {
+      color: rgb(239, 239, 239);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.is-invalid:hover {
+      border-color: rgb(236, 91, 98);
+      color: rgb(162, 162, 162);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.is-invalid:hover .spectrum-ClearButton {
+        color: rgb(236, 91, 98);
+      }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.is-invalid:active {
+      border-color: rgb(247, 109, 116);
+      color: rgb(162, 162, 162);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.is-invalid:active .spectrum-ClearButton {
+        color: rgb(247, 109, 116);
+      }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.focus-ring {
+    color: rgb(162, 162, 162);
+  }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.focus-ring .spectrum-ClearButton {
+      color: rgb(239, 239, 239);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item--deletable.focus-ring.is-invalid {
+      color: rgb(162, 162, 162);
+    }
+.stock-ccd .spectrum--darkest .spectrum-Tags-item.is-disabled .spectrum-ClearButton .spectrum-Icon {
+    color: rgb(92, 92, 92);
+  }
+
+.stock-ccd .spectrum-Label {
+  display: inline-block;
+  position: relative;
+
+  width: auto;
+
+  padding: 4px 10px;
+
+  border-radius: 4px;
+
+  font-size: 12px;
+  line-height: 1.5;
+
+  cursor: default;
+
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  font-smoothing: subpixel-antialiased;
+}
+.stock-ccd .spectrum-Label--large {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+.stock-ccd .spectrum-Label--small {
+  font-size: 11px;
+  padding: 3px 7px;
+}
+
+.stock-ccd .spectrum--light .spectrum-Label {
+  color: rgb(255, 255, 255);
+}
+.stock-ccd .spectrum--light .spectrum-Label--inactive, .stock-ccd .spectrum--light .spectrum-Label--grey {
+  background-color: rgb(116, 116, 116);
+}
+.stock-ccd .spectrum--light .spectrum-Label--red {
+  background-color: rgb(215, 55, 63);
+}
+.stock-ccd .spectrum--light .spectrum-Label--orange, .stock-ccd .spectrum--light .spectrum-Label--or {
+  background-color: rgb(218, 123, 17);
+}
+.stock-ccd .spectrum--light .spectrum-Label--yellow {
+  background-color: rgb(223, 191, 0);
+}
+.stock-ccd .spectrum--light .spectrum-Label--seafoam  {
+  background-color: rgb(27, 149, 154);
+}
+.stock-ccd .spectrum--light .spectrum-Label--green {
+  background-color: rgb(38, 142, 108);
+}
+.stock-ccd .spectrum--light .spectrum-Label--blue, .stock-ccd .spectrum--light .spectrum-Label--active, .stock-ccd .spectrum--light .spectrum-Label--and  {
+  background-color: rgb(20, 115, 230);
+}
+.stock-ccd .spectrum--light .spectrum-Label--fuchsia  {
+  background-color: rgb(192, 56, 204);
+}
+
+.stock-ccd .spectrum--darkest .spectrum-Label {
+  color: rgb(255, 255, 255);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--inactive, .stock-ccd .spectrum--darkest .spectrum-Label--grey {
+  background-color: rgb(116, 116, 116);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--red {
+  background-color: rgb(215, 55, 63);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--orange, .stock-ccd .spectrum--darkest .spectrum-Label--or {
+  background-color: rgb(218, 123, 17);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--yellow {
+  background-color: rgb(210, 178, 0);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--seafoam  {
+  background-color: rgb(22, 135, 140);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--green {
+  background-color: rgb(38, 142, 108);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--blue, .stock-ccd .spectrum--darkest .spectrum-Label--active, .stock-ccd .spectrum--darkest .spectrum-Label--and  {
+  background-color: rgb(20, 115, 230);
+}
+.stock-ccd .spectrum--darkest .spectrum-Label--fuchsia  {
+  background-color: rgb(177, 48, 189);
+}
+
