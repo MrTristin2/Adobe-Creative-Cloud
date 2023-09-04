@@ -1,0 +1,343 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2019 Adobe
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+.sdk-HeaderFileInfoView-header {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.sdk-HeaderFileInfoView-headerNoBranding {
+    display: inline-flex;
+    flex-direction: row;
+    margin: 0 auto;
+}
+
+.sdk-HeaderFileInfoView-displayNone {
+    display: none !important;
+}
+
+.sdk-HeaderFileInfoView-readOnly {
+    margin-top: -2px;
+}
+
+.sdk-HeaderFileInfoView-fileStatus {
+    margin: 5px 0 0 0 !important;
+}
+
+.sdk-HeaderFileInfoView-fileStatus span {
+    margin-right: 10px;
+}
+
+.sdk-HeaderFileInfoView-header > span:nth-child(2) {
+    margin-left: -12px;
+}
+
+.sdk-HeaderFileInfoView-save {
+    margin-top: -7px;
+}
+
+.sdk-HeaderFileInfoView-breadcrumbs .focus-ring {
+    text-decoration: underline;
+}
+
+.sdk-HeaderFileInfoView-fileBreadCrumbWhite {
+    /* color: #fff !important; */
+    color: #4b4b4b !important;
+}
+
+.sdk-HeaderFileInfoView-fileBreadCrumbNormal {
+    color: #4b4b4b !important;
+}
+
+.sdk-HeaderFileInfoView-fileBreadCrumb {
+    display: block;
+    font-size: 14px;
+    font-weight: normal !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.sdk-HeaderFileInfoView-linkBreadCrumb {
+    color: #4b4b4b !important;
+    font-size: 14px;
+    font-weight: normal !important;
+}
+
+.sdk-HeaderFileInfoView-homeLink {
+    color: #fff !important;
+}
+
+.sdk-HeaderFileInfoView-saveToast {
+    margin-left: 20px;
+    padding-top: 5px;
+    position: fixed;
+    top: 50px;
+}
+
+.sdk-HeaderFileInfoView-saveToast .spectrum-UIIcon-CrossMedium {
+    margin: 4px;
+}
+
+.sdk-HeaderFileInfoView-saveToast > .spectrum-Icon {
+    display: none;
+}
+
+.sdk-HeaderFileInfoView-saveToast > .spectrum-Toast-buttons {
+    border: none;
+}
+
+.sdk-HeaderFileInfoView-saveToast .spectrum-Toast-content {
+    font-size: 13px;
+    padding-right: 0;
+    width: 190px;
+    word-wrap: break-word;
+}
+
+.sdk-HeaderFileInfoView-statusBlock {
+    display: flex;
+    flex-direction: row;
+    height: 18px;
+    margin-left: 0;
+    margin-top: 8px;
+    min-width: 60px;
+}
+
+.sdk-HeaderFileInfoView-statusBlockBorder {
+    border-left: 1px solid #d6d6d6;
+    padding-left: 10px;
+}
+
+.sdk-HeaderFileInfoView-details {
+    color: #707070;
+    font-size: 11px;
+    letter-spacing: 0.666px;
+    margin-left: 10px;
+    padding-top: 3px;
+    text-transform: uppercase;
+}
+
+.sdk-HeaderFileInfoView-seperatorLine {
+    display: none;
+}
+
+.sdk-HeaderFileInfoView-readOnlyTooltip {
+    background: none;
+    border: none;
+    font-weight: inherit;
+    margin-top: -6px;
+    padding: 0;
+}
+
+.sdk-HeaderFileInfoView-readOnlyTooltip:hover {
+    background: none !important;
+}
+
+.spectrum-Breadcrumbs-itemLink:last-child {
+    display: inline-flex;
+    text-decoration: none !important;
+}
+
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+    .sdk-HeaderFileInfoView-saveToast {
+        margin-left: -35px !important;
+    }
+}
+
+@media (max-width: 400px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 70px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 70px;
+    }
+
+    .sdk-HeaderFileInfoView-fileStatus {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-statusBlockBorder {
+        border: none !important;
+        padding-left: 0 !important;
+    }
+
+    .spectrum-Breadcrumbs-item:nth-last-child(2) {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-header {
+        margin: 0 0 0 42px !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-header > span:nth-child(2) {
+        margin-left: -5px;
+    }
+
+    .sdk-HeaderFileInfoView-headerNoBranding {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+}
+
+@media (min-width: 400px) and (max-width: 550px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 80px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 80px;
+    }
+
+    .sdk-HeaderFileInfoView-fileStatus {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-statusBlockBorder {
+        border: none !important;
+        padding-left: 0 !important;
+    }
+
+    .spectrum-Breadcrumbs-item:nth-last-child(2) {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-header {
+        margin: 0 0 0 42px !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-header > span:nth-child(2) {
+        margin-left: -5px;
+    }
+
+    .sdk-HeaderFileInfoView-headerNoBranding {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+}
+
+@media (min-width: 550px) and (max-width: 768px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 120px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 80px;
+    }
+
+    .spectrum-Breadcrumbs-item:nth-last-child(2) {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-header {
+        margin: 0 0 0 48px !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-headerNoBranding {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-seperatorLine {
+        border-left: 1px solid #d6d6d6;
+        display: block;
+        margin: 4px 24px 4px -12px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 190px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 80px;
+    }
+
+    .spectrum-Breadcrumbs-item:nth-last-child(2) {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-header {
+        margin: 0 0 0 48px !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-headerNoBranding {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-seperatorLine {
+        border-left: 1px solid #d6d6d6;
+        display: block;
+        margin: 4px 24px 4px -12px;
+    }
+}
+
+@media (min-width: 1023px) and (max-width: 1280px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 190px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 190px;
+    }
+
+    .spectrum-Breadcrumbs-item:nth-last-child(2) {
+        display: none;
+    }
+
+    .sdk-HeaderFileInfoView-header {
+        margin: 0 0 0 48px !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-headerNoBranding {
+        margin: 0 !important;
+        text-align: left !important;
+    }
+
+    .sdk-HeaderFileInfoView-seperatorLine {
+        border-left: 1px solid #d6d6d6;
+        display: block;
+        margin: 4px 24px 4px -12px;
+    }
+}
+
+@media (min-width: 1280px) and (max-width: 1366px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 300px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 130px;
+    }
+}
+
+@media (min-width: 1366px) {
+    .sdk-HeaderFileInfoView-fileBreadCrumb {
+        max-width: 300px;
+    }
+
+    .sdk-HeaderFileInfoView-fileBreadCrumbINT {
+        max-width: 216px;
+    }
+}
