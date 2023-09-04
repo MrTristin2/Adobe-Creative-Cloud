@@ -1,0 +1,10 @@
+{
+  "componentfonts.button.fonts": "Písma",
+  "componentfonts.button.tooltip": "Adobe Fonts",
+  "componentfonts.header.tab.Add.fonts.Creative.Cloud": "Přidat písma do služby Creative Cloud",
+  "componentfonts.byof.panel.done": "Hotovo",
+  "componentfonts.signout.warning": "všechna přidaná a nainstalovaná písma Adobe Fonts.",
+  "componentfonts.header.tab.Custom.fonts": "Vlastní písma",
+  "componentfonts.error.boundary.fullView.heading": "Stránka je nedostupná",
+  "componentfonts.error.boundary.text": "Tento obsah nelze načíst. Zkuste to znovu později."
+}
