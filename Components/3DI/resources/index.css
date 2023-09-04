@@ -1,0 +1,4340 @@
+.cyww .spectrum-Icon, .cyww .spectrum-UIIcon {
+  display: inline-block;
+  color: inherit;
+  fill: currentColor;
+  pointer-events: none;
+}
+.cyww .spectrum-Icon:not(:root), .cyww .spectrum-UIIcon:not(:root) {
+    overflow: hidden;
+  }
+.cyww .spectrum-Icon--sizeXXS, .cyww .spectrum-Icon--sizeXXS img, .cyww .spectrum-Icon--sizeXXS svg {
+    height: 9px;
+    width: 9px;
+  }
+.cyww .spectrum-Icon--sizeXS, .cyww .spectrum-Icon--sizeXS img, .cyww .spectrum-Icon--sizeXS svg {
+    height: 12px;
+    width: 12px;
+  }
+.cyww .spectrum-Icon--sizeS, .cyww .spectrum-Icon--sizeS img, .cyww .spectrum-Icon--sizeS svg {
+    height: 18px;
+    width: 18px;
+  }
+.cyww .spectrum-Icon--sizeM, .cyww .spectrum-Icon--sizeM img, .cyww .spectrum-Icon--sizeM svg {
+    height: 24px;
+    width: 24px;
+  }
+.cyww .spectrum-Icon--sizeL, .cyww .spectrum-Icon--sizeL img, .cyww .spectrum-Icon--sizeL svg {
+    height: 36px;
+    width: 36px;
+  }
+.cyww .spectrum-Icon--sizeXL, .cyww .spectrum-Icon--sizeXL img, .cyww .spectrum-Icon--sizeXL svg {
+    height: 48px;
+    width: 48px;
+  }
+.cyww .spectrum-Icon--sizeXXL, .cyww .spectrum-Icon--sizeXXL img, .cyww .spectrum-Icon--sizeXXL svg {
+    height: 72px;
+    width: 72px;
+  }
+.cyww .spectrum--medium .spectrum-UIIcon--large {
+    display: none;
+  }
+.cyww .spectrum--medium .spectrum-UIIcon--medium {
+    display: inline;
+  }
+.cyww .spectrum--large .spectrum-UIIcon--medium {
+    display: none;
+  }
+.cyww .spectrum--large .spectrum-UIIcon--large {
+    display: inline;
+  }
+.cyww .spectrum--large {
+  --ui-icon-large-display: block;
+  --ui-icon-medium-display: none;
+}
+.cyww .spectrum--medium {
+  --ui-icon-medium-display: block;
+  --ui-icon-large-display: none;
+}
+.cyww .spectrum-UIIcon--large {
+  display: var(--ui-icon-large-display);
+}
+.cyww .spectrum-UIIcon--medium {
+  display: var(--ui-icon-medium-display);
+}
+.cyww .spectrum-UIIcon-AlertMedium {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-AlertSmall {
+  width: 14px;
+  height: 14px;
+}
+.cyww .spectrum-UIIcon-ArrowDownSmall {
+  width: 8px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-ArrowLeftMedium {
+  width: 14px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-Asterisk {
+  width: 8px;
+  height: 8px;
+}
+.cyww .spectrum-UIIcon-CheckmarkMedium {
+  width: 12px;
+  height: 12px;
+}
+.cyww .spectrum-UIIcon-CheckmarkSmall {
+  width: 10px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-ChevronDownMedium {
+  width: 10px;
+  height: 6px;
+}
+.cyww .spectrum-UIIcon-ChevronDownSmall {
+  width: 8px;
+  height: 6px;
+}
+.cyww .spectrum-UIIcon-ChevronLeftLarge {
+  width: 12px;
+  height: 16px;
+}
+.cyww .spectrum-UIIcon-ChevronLeftMedium {
+  width: 6px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-ChevronRightLarge {
+  width: 12px;
+  height: 16px;
+}
+.cyww .spectrum-UIIcon-ChevronRightMedium {
+  width: 6px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-ChevronRightSmall {
+  width: 6px;
+  height: 8px;
+}
+.cyww .spectrum-UIIcon-ChevronUpSmall {
+  width: 8px;
+  height: 6px;
+}
+.cyww .spectrum-UIIcon-CornerTriangle {
+  width: 5px;
+  height: 5px;
+}
+.cyww .spectrum-UIIcon-CrossLarge {
+  width: 12px;
+  height: 12px;
+}
+.cyww .spectrum-UIIcon-CrossMedium {
+  width: 8px;
+  height: 8px;
+}
+.cyww .spectrum-UIIcon-CrossSmall {
+  width: 8px;
+  height: 8px;
+}
+.cyww .spectrum-UIIcon-DashSmall {
+  width: 10px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-DoubleGripper {
+  width: 16px;
+  height: 4px;
+}
+.cyww .spectrum-UIIcon-FolderBreadcrumb {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-HelpMedium {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-HelpSmall {
+  width: 14px;
+  height: 14px;
+}
+.cyww .spectrum-UIIcon-InfoMedium {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-InfoSmall {
+  width: 14px;
+  height: 14px;
+}
+.cyww .spectrum-UIIcon-Magnifier {
+  width: 16px;
+  height: 16px;
+}
+.cyww .spectrum-UIIcon-SkipLeft {
+  width: 9px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-SkipRight {
+  width: 9px;
+  height: 10px;
+}
+.cyww .spectrum-UIIcon-Star {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-StarOutline {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-SuccessMedium {
+  width: 18px;
+  height: 18px;
+}
+.cyww .spectrum-UIIcon-SuccessSmall {
+  width: 14px;
+  height: 14px;
+}
+.cyww .spectrum-UIIcon-TripleGripper {
+  width: 10px;
+  height: 7px;
+}
+
+@keyframes simplified-wait-spinner {
+  100% {
+    transform: rotate(360deg); } }
+
+.cyww .spectrum--darkest .simplified-wait {
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzYgMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2IDM2OyIgd2lkdGg9IjM2cHgiIGhlaWdodD0iMzZweCI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGwtb3BhY2l0eTowO3N0cm9rZTojMzkzOTM5O3N0cm9rZS13aWR0aDozO3N0cm9rZS1vcGFjaXR5OjE7fS5zdDF7ZmlsbC1vcGFjaXR5OjA7c3Ryb2tlOiMyNjgwZWI7c3Ryb2tlLXdpZHRoOjM7fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTE4LDMuNWM4LDAsMTQuNSw2LjUsMTQuNSwxNC41UzI2LDMyLjUsMTgsMzIuNVMzLjUsMjYsMy41LDE4UzEwLDMuNSwxOCwzLjV6Ii8+PHBhdGggY2xhc3M9InN0MSIgZD0iTTE4LDMuNUwxOCwzLjVjOCwwLDE0LjUsNi41LDE0LjUsMTQuNSIvPjwvc3ZnPg==); }
+  .cyww .spectrum--darkest .simplified-wait.simplified-wait--large {
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNjhweCIgaGVpZ2h0PSI2OHB4IiB2aWV3Qm94PSIwIDAgNjggNjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY4IDY4OyI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGwtb3BhY2l0eTowO3N0cm9rZTojMzkzOTM5O3N0cm9rZS13aWR0aDo0O3N0cm9rZS1vcGFjaXR5OjE7fS5zdDF7ZmlsbC1vcGFjaXR5OjA7c3Ryb2tlOiMyNjgwZWI7c3Ryb2tlLXdpZHRoOjQ7fTwvc3R5bGU+PHBhdGggY2xhc3M9InN0MCIgZD0iTTM0LDRjMTYuNiwwLDMwLDEzLjQsMzAsMzBTNTAuNiw2NCwzNCw2NFM0LDUwLjYsNCwzNFMxNy40LDQsMzQsNHoiLz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNMzQsNEwzNCw0YzE2LjYsMCwzMCwxMy40LDMwLDMwIi8+PC9zdmc+); }
+
+.cyww .simplified-wait {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  transition-property: all;
+  transition-duration: 1.5s;
+  transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
+  animation-name: simplified-wait-spinner;
+  animation-timing-function: steps(30);
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMzYgMzYiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDM2IDM2OyIgd2lkdGg9IjM2cHgiIGhlaWdodD0iMzZweCI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGwtb3BhY2l0eTowO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDozO3N0cm9rZS1vcGFjaXR5OjAuMTt9LnN0MXtmaWxsLW9wYWNpdHk6MDtzdHJva2U6IzE0NzNFNjtzdHJva2Utd2lkdGg6Mzt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMTgsMy41YzgsMCwxNC41LDYuNSwxNC41LDE0LjVTMjYsMzIuNSwxOCwzMi41UzMuNSwyNiwzLjUsMThTMTAsMy41LDE4LDMuNXoiLz48cGF0aCBjbGFzcz0ic3QxIiBkPSJNMTgsMy41TDE4LDMuNWM4LDAsMTQuNSw2LjUsMTQuNSwxNC41Ii8+PC9zdmc+); }
+  .cyww .simplified-wait.simplified-wait--small {
+    width: 1rem;
+    height: 1rem; }
+  .cyww .simplified-wait.simplified-wait--large {
+    width: 4rem;
+    height: 4rem;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB3aWR0aD0iNjhweCIgaGVpZ2h0PSI2OHB4IiB2aWV3Qm94PSIwIDAgNjggNjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDY4IDY4OyI+PHN0eWxlIHR5cGU9InRleHQvY3NzIj4uc3Qwe2ZpbGwtb3BhY2l0eTowO3N0cm9rZTojMDAwMDAwO3N0cm9rZS13aWR0aDo0O3N0cm9rZS1vcGFjaXR5OjAuMTt9LnN0MXtmaWxsLW9wYWNpdHk6MDtzdHJva2U6IzE0NzNFNjtzdHJva2Utd2lkdGg6NDt9PC9zdHlsZT48cGF0aCBjbGFzcz0ic3QwIiBkPSJNMzQsNGMxNi42LDAsMzAsMTMuNCwzMCwzMFM1MC42LDY0LDM0LDY0UzQsNTAuNiw0LDM0UzE3LjQsNCwzNCw0eiIvPjxwYXRoIGNsYXNzPSJzdDEiIGQ9Ik0zNCw0TDM0LDRjMTYuNiwwLDMwLDEzLjQsMzAsMzAiLz48L3N2Zz4=); }
+  .cyww .simplified-wait.hidden {
+    display: none; }
+
+.cyww .spectrum-Underlay {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.cyww .spectrum-Underlay.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.cyww .spectrum-Underlay {
+
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+
+  overflow: hidden;
+  transition: opacity 190ms cubic-bezier(0.5, 0, 1, 1) 160ms,
+              visibility 0ms linear 350ms;
+}
+.cyww .spectrum-Underlay.is-open {
+  transition: opacity 300ms cubic-bezier(0, 0, 0.40, 1) 0ms;
+}
+
+.cyww .spectrum--light .spectrum-Underlay {
+  background: rgba(0,0,0,0.4);
+}
+
+.cyww .spectrum--darkest .spectrum-Underlay {
+  background: rgba(0,0,0,0.6);
+}
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .hidden {
+  display: none; }
+
+.cyww .assets-transition-hide {
+  width: 0rem;
+  border: 0rem;
+  padding: 0rem;
+  margin: 0rem;
+  opacity: 0;
+  transition: all .3s ease-in-out;
+  visibility: hidden; }
+
+.cyww .spectrum-Menu {
+  max-width: 18.75rem !important; }
+  .cyww .spectrum-Menu .spectrum-Menu-item .link-icon {
+    position: relative;
+    top: 0.25rem;
+    margin-left: 0.5rem; }
+  .cyww .spectrum-Menu .spectrum-Menu-item .spectrum-Menu-itemLabel {
+    display: flex;
+    min-width: 10rem;
+    margin-right: 0.5rem; }
+
+.cyww .spectrum-Textfield {
+  box-sizing: border-box;
+  border: 1px solid;
+  border-radius: 4px;
+  padding: 3px 12px 5px 12px;
+  text-indent: 0;
+
+  min-width: 48px;
+  height: 32px;
+  width: 192px;
+
+  vertical-align: top;
+  margin: 0;
+  overflow: visible;
+  font-family: adobe-clean, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  text-overflow: ellipsis;
+
+  transition: border-color 130ms ease-in-out, box-shadow 130ms ease-in-out;
+
+  outline: none;
+
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+}
+.cyww .spectrum-Textfield::placeholder {
+    font-weight: 400;
+    font-style: italic;
+    transition: color 130ms ease-in-out;
+    opacity: 1;
+  }
+.cyww .spectrum-Textfield::-ms-input-placeholder {
+    font-weight: 400;
+    font-style: italic;
+    transition: color 130ms ease-in-out;
+    opacity: 1;
+  }
+.cyww .spectrum-Textfield:lang(ja)::placeholder, .cyww .spectrum-Textfield:lang(zh)::placeholder, .cyww .spectrum-Textfield:lang(ko)::placeholder {
+       font-style: normal;
+    }
+.cyww .spectrum-Textfield:lang(ja)::-ms-input-placeholder, .cyww .spectrum-Textfield:lang(zh)::-ms-input-placeholder, .cyww .spectrum-Textfield:lang(ko)::-ms-input-placeholder {
+       font-style: normal;
+    }
+.cyww .spectrum-Textfield:hover::placeholder {
+      font-weight: 400;
+    }
+.cyww .spectrum-Textfield:disabled {
+    opacity: 1;
+  }
+.cyww .spectrum-Textfield:disabled::placeholder {
+      font-weight: 400;
+    }
+.cyww .spectrum-Textfield::-ms-clear {
+    width: 0;
+    height: 0;
+  }
+.cyww .spectrum-Textfield::-webkit-inner-spin-button, .cyww .spectrum-Textfield::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+.cyww .spectrum-Textfield:-moz-ui-invalid {
+    box-shadow: none;
+  }
+.cyww .spectrum-Textfield.is-invalid, .cyww .spectrum-Textfield:invalid, .cyww .spectrum-Textfield.is-valid {
+    background-repeat: no-repeat;
+  }
+.cyww .spectrum-Textfield.is-invalid, .cyww .spectrum-Textfield:invalid {
+    background-size: 18px 18px;
+    background-position: calc(100% - 12px) 50%;
+    padding-right: 42px;
+  }
+.cyww .spectrum-Textfield.is-valid {
+    background-size: 12px 12px;
+    background-position: calc(100% - 12px) 50%;
+    padding-right: 36px;
+  }
+.cyww .spectrum-Textfield--multiline {
+  height: auto;
+  min-height: 56px;
+  padding: 3px 12px 5px 12px;
+  overflow: auto;
+}
+.cyww .spectrum-Textfield--multiline.is-invalid, .cyww .spectrum-Textfield--multiline:invalid, .cyww .spectrum-Textfield--multiline.is-valid {
+    background-position: calc(100% - 9px) calc(100% - 9px);
+  }
+.cyww .spectrum-Textfield--quiet {
+  border-radius: 0;
+  border-width: 0 0 1px 0;
+  padding-left: 0;
+  padding-right: 0;
+  resize: none;
+  overflow-y: hidden;
+}
+.cyww .spectrum-Textfield--quiet.is-invalid, .cyww .spectrum-Textfield--quiet:invalid, .cyww .spectrum-Textfield--quiet.is-valid {
+    background-position: 100% 50%;
+  }
+
+.cyww .spectrum--light .spectrum-Textfield {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(225, 225, 225);
+  color: rgb(75, 75, 75);
+}
+.cyww .spectrum--light .spectrum-Textfield::placeholder {
+    color: rgb(142, 142, 142);
+  }
+.cyww .spectrum--light .spectrum-Textfield:hover {
+    border-color: rgb(202, 202, 202);
+    box-shadow: none;
+  }
+.cyww .spectrum--light .spectrum-Textfield:hover::placeholder {
+      color: rgb(44, 44, 44);
+    }
+.cyww .spectrum--light .spectrum-Textfield:focus {
+    border-color: rgb(20, 115, 230);
+  }
+.cyww .spectrum--light .spectrum-Textfield.focus-ring:not(:active) {
+      border-color: rgb(38, 128, 235);
+      box-shadow: 0 0 0 1px rgb(38, 128, 235);
+    }
+.cyww .spectrum--light .spectrum-Textfield[disabled] {
+    background-color: rgb(234, 234, 234);
+    border-color: transparent;
+    color: rgb(179, 179, 179);
+    -webkit-text-fill-color: rgb(179, 179, 179);
+  }
+.cyww .spectrum--light .spectrum-Textfield[disabled]::placeholder {
+      color: rgb(179, 179, 179);
+    }
+.cyww .spectrum--light .spectrum-Textfield.is-invalid, .cyww .spectrum--light .spectrum-Textfield:invalid {
+    border-color: rgb(215, 55, 63);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18' viewBox='0 0 18 18' width='18'%3E%3Cpath style='fill:rgb%28227%2C 72%2C 80%29' d='M8.564 1.289L.2 16.256A.5.5 0 0 0 .636 17h16.728a.5.5 0 0 0 .5-.5.494.494 0 0 0-.064-.244L9.436 1.289a.5.5 0 0 0-.872 0zM10 14.75a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25zm0-3a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-6a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25z'/%3E%3C/svg%3E");
+  }
+.cyww .spectrum--light .spectrum-Textfield.is-invalid.focus-ring:not(:active), .cyww .spectrum--light .spectrum-Textfield:invalid.focus-ring:not(:active) {
+        border-color: rgb(215, 55, 63);
+        box-shadow: 0 0 0 1px rgb(215, 55, 63);
+      }
+.cyww .spectrum--light .spectrum-Textfield.is-valid {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='12' viewBox='0 0 12 12' width='12'%3E%3Cpath style='fill:rgb%2818%2C 128%2C 92%29' d='M4.5 10a1.023 1.023 0 0 1-.8-.384l-2.488-3a1 1 0 0 1 1.577-1.233L4.5 7.376l4.712-5.991a1 1 0 1 1 1.576 1.23l-5.511 7A.977.977 0 0 1 4.5 10z'/%3E%3C/svg%3E");
+  }
+.cyww .spectrum--light .spectrum-Textfield--quiet {
+  background-color: transparent;
+  border-color: rgb(225, 225, 225);
+}
+.cyww .spectrum--light .spectrum-Textfield--quiet:hover {
+    border-color: rgb(202, 202, 202);
+  }
+.cyww .spectrum--light .spectrum-Textfield--quiet:active {
+    border-color: rgb(20, 115, 230);
+  }
+.cyww .spectrum--light .spectrum-Textfield--quiet:focus {
+    border-color: rgb(38, 128, 235);
+    box-shadow: 0 1px 0 rgb(38, 128, 235);
+  }
+.cyww .spectrum--light .spectrum-Textfield--quiet.focus-ring:not(:active) {
+      border-color: rgb(38, 128, 235);
+      box-shadow: 0 1px 0 rgb(38, 128, 235);
+    }
+.cyww .spectrum--light .spectrum-Textfield--quiet:disabled {
+    background-color: transparent;
+    border-color:  rgb(225, 225, 225);
+  }
+.cyww .spectrum--light .spectrum-Textfield--quiet.is-invalid, .cyww .spectrum--light .spectrum-Textfield--quiet:invalid {
+    border-color: rgb(215, 55, 63);
+  }
+.cyww .spectrum--light .spectrum-Textfield--quiet.is-invalid:focus, .cyww .spectrum--light .spectrum-Textfield--quiet:invalid:focus {
+      box-shadow: 0 1px 0 rgb(215, 55, 63);
+    }
+.cyww .spectrum--light .spectrum-Textfield--quiet.is-invalid.focus-ring:not(:active), .cyww .spectrum--light .spectrum-Textfield--quiet:invalid.focus-ring:not(:active) {
+        border-color: rgb(215, 55, 63);
+        box-shadow: 0 1px 0 rgb(215, 55, 63);
+      }
+
+.cyww .spectrum--darkest .spectrum-Textfield {
+  background-color: rgb(8, 8, 8);
+  border-color: rgb(57, 57, 57);
+  color: rgb(200, 200, 200);
+}
+.cyww .spectrum--darkest .spectrum-Textfield::placeholder {
+    color: rgb(124, 124, 124);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield:hover {
+    border-color: rgb(73, 73, 73);
+    box-shadow: none;
+  }
+.cyww .spectrum--darkest .spectrum-Textfield:hover::placeholder {
+      color: rgb(239, 239, 239);
+    }
+.cyww .spectrum--darkest .spectrum-Textfield:focus {
+    border-color: rgb(38, 128, 235);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield.focus-ring:not(:active) {
+      border-color: rgb(20, 115, 230);
+      box-shadow: 0 0 0 1px rgb(20, 115, 230);
+    }
+.cyww .spectrum--darkest .spectrum-Textfield[disabled] {
+    background-color: rgb(44, 44, 44);
+    border-color: transparent;
+    color: rgb(92, 92, 92);
+    -webkit-text-fill-color: rgb(92, 92, 92);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield[disabled]::placeholder {
+      color: rgb(92, 92, 92);
+    }
+.cyww .spectrum--darkest .spectrum-Textfield.is-invalid, .cyww .spectrum--darkest .spectrum-Textfield:invalid {
+    border-color: rgb(227, 72, 80);
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='18' viewBox='0 0 18 18' width='18'%3E%3Cpath style='fill:rgb%28215%2C 55%2C 63%29' d='M8.564 1.289L.2 16.256A.5.5 0 0 0 .636 17h16.728a.5.5 0 0 0 .5-.5.494.494 0 0 0-.064-.244L9.436 1.289a.5.5 0 0 0-.872 0zM10 14.75a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-1.5a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25zm0-3a.25.25 0 0 1-.25.25h-1.5a.25.25 0 0 1-.25-.25v-6a.25.25 0 0 1 .25-.25h1.5a.25.25 0 0 1 .25.25z'/%3E%3C/svg%3E");
+  }
+.cyww .spectrum--darkest .spectrum-Textfield.is-invalid.focus-ring:not(:active), .cyww .spectrum--darkest .spectrum-Textfield:invalid.focus-ring:not(:active) {
+        border-color: rgb(227, 72, 80);
+        box-shadow: 0 0 0 1px rgb(227, 72, 80);
+      }
+.cyww .spectrum--darkest .spectrum-Textfield.is-valid {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg xmlns='http://www.w3.org/2000/svg' height='12' viewBox='0 0 12 12' width='12'%3E%3Cpath style='fill:rgb%2851%2C 171%2C 132%29' d='M4.5 10a1.023 1.023 0 0 1-.8-.384l-2.488-3a1 1 0 0 1 1.577-1.233L4.5 7.376l4.712-5.991a1 1 0 1 1 1.576 1.23l-5.511 7A.977.977 0 0 1 4.5 10z'/%3E%3C/svg%3E");
+  }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet {
+  background-color: transparent;
+  border-color: rgb(57, 57, 57);
+}
+.cyww .spectrum--darkest .spectrum-Textfield--quiet:hover {
+    border-color: rgb(73, 73, 73);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet:active {
+    border-color: rgb(38, 128, 235);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet:focus {
+    border-color: rgb(20, 115, 230);
+    box-shadow: 0 1px 0 rgb(20, 115, 230);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet.focus-ring:not(:active) {
+      border-color: rgb(20, 115, 230);
+      box-shadow: 0 1px 0 rgb(20, 115, 230);
+    }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet:disabled {
+    background-color: transparent;
+    border-color:  rgb(57, 57, 57);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet.is-invalid, .cyww .spectrum--darkest .spectrum-Textfield--quiet:invalid {
+    border-color: rgb(227, 72, 80);
+  }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet.is-invalid:focus, .cyww .spectrum--darkest .spectrum-Textfield--quiet:invalid:focus {
+      box-shadow: 0 1px 0 rgb(227, 72, 80);
+    }
+.cyww .spectrum--darkest .spectrum-Textfield--quiet.is-invalid.focus-ring:not(:active), .cyww .spectrum--darkest .spectrum-Textfield--quiet:invalid.focus-ring:not(:active) {
+        border-color: rgb(227, 72, 80);
+        box-shadow: 0 1px 0 rgb(227, 72, 80);
+      }
+
+.cyww .spectrum--light {
+  --spectrum-global-color-celery-400: rgb(68, 181, 86);
+  --spectrum-global-color-celery-500: rgb(61, 167, 78);
+  --spectrum-global-color-celery-600: rgb(55, 153, 71);
+  --spectrum-global-color-celery-700: rgb(49, 139, 64);
+  --spectrum-global-color-chartreuse-400: rgb(133, 208, 68);
+  --spectrum-global-color-chartreuse-500: rgb(124, 195, 63);
+  --spectrum-global-color-chartreuse-600: rgb(115, 181, 58);
+  --spectrum-global-color-chartreuse-700: rgb(106, 168, 52);
+  --spectrum-global-color-yellow-400: rgb(223, 191, 0);
+  --spectrum-global-color-yellow-500: rgb(210, 178, 0);
+  --spectrum-global-color-yellow-600: rgb(196, 166, 0);
+  --spectrum-global-color-yellow-700: rgb(183, 153, 0);
+  --spectrum-global-color-magenta-400: rgb(216, 55, 144);
+  --spectrum-global-color-magenta-500: rgb(206, 39, 131);
+  --spectrum-global-color-magenta-600: rgb(188, 28, 116);
+  --spectrum-global-color-magenta-700: rgb(174, 14, 102);
+  --spectrum-global-color-fuchsia-400: rgb(192, 56, 204);
+  --spectrum-global-color-fuchsia-500: rgb(177, 48, 189);
+  --spectrum-global-color-fuchsia-600: rgb(162, 40, 173);
+  --spectrum-global-color-fuchsia-700: rgb(147, 33, 158);
+  --spectrum-global-color-purple-400: rgb(146, 86, 217);
+  --spectrum-global-color-purple-500: rgb(134, 76, 204);
+  --spectrum-global-color-purple-600: rgb(122, 66, 191);
+  --spectrum-global-color-purple-700: rgb(111, 56, 177);
+  --spectrum-global-color-indigo-400: rgb(103, 103, 236);
+  --spectrum-global-color-indigo-500: rgb(92, 92, 224);
+  --spectrum-global-color-indigo-600: rgb(81, 81, 211);
+  --spectrum-global-color-indigo-700: rgb(70, 70, 198);
+  --spectrum-global-color-seafoam-400: rgb(27, 149, 154);
+  --spectrum-global-color-seafoam-500: rgb(22, 135, 140);
+  --spectrum-global-color-seafoam-600: rgb(15, 121, 125);
+  --spectrum-global-color-seafoam-700: rgb(9, 108, 111);
+  --spectrum-global-color-red-400: rgb(227, 72, 80);
+  --spectrum-global-color-red-500: rgb(215, 55, 63);
+  --spectrum-global-color-red-600: rgb(201, 37, 45);
+  --spectrum-global-color-red-700: rgb(187, 18, 26);
+  --spectrum-global-color-orange-400: rgb(230, 134, 25);
+  --spectrum-global-color-orange-500: rgb(218, 123, 17);
+  --spectrum-global-color-orange-600: rgb(203, 111, 16);
+  --spectrum-global-color-orange-700: rgb(189, 100, 13);
+  --spectrum-global-color-green-400: rgb(45, 157, 120);
+  --spectrum-global-color-green-500: rgb(38, 142, 108);
+  --spectrum-global-color-green-600: rgb(18, 128, 92);
+  --spectrum-global-color-green-700: rgb(16, 113, 84);
+  --spectrum-global-color-blue-400: rgb(38, 128, 235);
+  --spectrum-global-color-blue-500: rgb(20, 115, 230);
+  --spectrum-global-color-blue-600: rgb(13, 102, 208);
+  --spectrum-global-color-blue-700: rgb(9, 90, 186);
+  --spectrum-global-color-gray-50: rgb(255, 255, 255);
+  --spectrum-global-color-gray-75: rgb(250, 250, 250);
+  --spectrum-global-color-gray-100: rgb(245, 245, 245);
+  --spectrum-global-color-gray-200: rgb(234, 234, 234);
+  --spectrum-global-color-gray-300: rgb(225, 225, 225);
+  --spectrum-global-color-gray-400: rgb(202, 202, 202);
+  --spectrum-global-color-gray-500: rgb(179, 179, 179);
+  --spectrum-global-color-gray-600: rgb(142, 142, 142);
+  --spectrum-global-color-gray-700: rgb(110, 110, 110);
+  --spectrum-global-color-gray-800: rgb(75, 75, 75);
+  --spectrum-global-color-gray-900: rgb(44, 44, 44);
+  --spectrum-alias-background-color-modal-overlay: rgba(0,0,0,0.4);
+  --spectrum-alias-dropshadow-color: rgba(0,0,0,0.15);
+  --spectrum-alias-background-color-hover-overlay: rgba(44,44,44,0.04);
+  --spectrum-alias-highlight-hover: rgba(44,44,44,0.06);
+  --spectrum-alias-highlight-active: rgba(44,44,44,0.1);
+  --spectrum-alias-highlight-selected: rgba(20,115,230,0.1);
+  --spectrum-alias-highlight-selected-hover: rgba(20,115,230,0.2);
+  --spectrum-alias-text-highlight-color: rgba(20,115,230,0.2);
+  --spectrum-alias-background-color-quickactions: rgba(245,245,245,0.9);
+  --spectrum-alias-radial-reaction-color-default: rgba(75,75,75,0.6);
+  --spectrum-alias-pasteboard-background-color: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-appframe-border-color: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-appframe-separator-color: var(--spectrum-global-color-gray-300);
+  --spectrum-colorarea-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorarea-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorarea-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorarea-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorslider-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorslider-vertical-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color-hover: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color-down: rgba(44,44,44,0.1);
+  --spectrum-colorwheel-border-color-key-focus: rgba(44,44,44,0.1);
+  --spectrum-miller-column-item-background-color-selected: rgba(20,115,230,0.1);
+  --spectrum-miller-column-item-background-color-selected-hover: rgba(20,115,230,0.2);
+  --spectrum-tabs-compact-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-emphasized-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-well-background-color: rgba(75,75,75,0.02);
+  --spectrum-well-border-color: rgba(44,44,44,0.05);
+}
+
+.cyww .spectrum--darkest {
+  --spectrum-global-color-celery-400: rgb(61, 167, 78);
+  --spectrum-global-color-celery-500: rgb(68, 181, 86);
+  --spectrum-global-color-celery-600: rgb(75, 195, 95);
+  --spectrum-global-color-celery-700: rgb(81, 210, 103);
+  --spectrum-global-color-chartreuse-400: rgb(124, 195, 63);
+  --spectrum-global-color-chartreuse-500: rgb(133, 208, 68);
+  --spectrum-global-color-chartreuse-600: rgb(142, 222, 73);
+  --spectrum-global-color-chartreuse-700: rgb(155, 236, 84);
+  --spectrum-global-color-yellow-400: rgb(210, 178, 0);
+  --spectrum-global-color-yellow-500: rgb(223, 191, 0);
+  --spectrum-global-color-yellow-600: rgb(237, 204, 0);
+  --spectrum-global-color-yellow-700: rgb(250, 217, 0);
+  --spectrum-global-color-magenta-400: rgb(202, 41, 150);
+  --spectrum-global-color-magenta-500: rgb(216, 55, 144);
+  --spectrum-global-color-magenta-600: rgb(226, 73, 157);
+  --spectrum-global-color-magenta-700: rgb(236, 90, 170);
+  --spectrum-global-color-fuchsia-400: rgb(177, 48, 189);
+  --spectrum-global-color-fuchsia-500: rgb(192, 56, 204);
+  --spectrum-global-color-fuchsia-600: rgb(207, 62, 220);
+  --spectrum-global-color-fuchsia-700: rgb(217, 81, 229);
+  --spectrum-global-color-purple-400: rgb(134, 76, 204);
+  --spectrum-global-color-purple-500: rgb(146, 86, 217);
+  --spectrum-global-color-purple-600: rgb(157, 100, 225);
+  --spectrum-global-color-purple-700: rgb(168, 115, 223);
+  --spectrum-global-color-indigo-400: rgb(92, 92, 224);
+  --spectrum-global-color-indigo-500: rgb(103, 103, 236);
+  --spectrum-global-color-indigo-600: rgb(117, 117, 241);
+  --spectrum-global-color-indigo-700: rgb(130, 130, 246);
+  --spectrum-global-color-seafoam-400: rgb(22, 135, 140);
+  --spectrum-global-color-seafoam-500: rgb(27, 149, 154);
+  --spectrum-global-color-seafoam-600: rgb(32, 163, 168);
+  --spectrum-global-color-seafoam-700: rgb(35, 178, 184);
+  --spectrum-global-color-red-400: rgb(215, 55, 63);
+  --spectrum-global-color-red-500: rgb(227, 72, 80);
+  --spectrum-global-color-red-600: rgb(236, 91, 98);
+  --spectrum-global-color-red-700: rgb(247, 109, 116);
+  --spectrum-global-color-orange-400: rgb(218, 123, 17);
+  --spectrum-global-color-orange-500: rgb(230, 134, 25);
+  --spectrum-global-color-orange-600: rgb(242, 148, 35);
+  --spectrum-global-color-orange-700: rgb(249, 164, 63);
+  --spectrum-global-color-green-400: rgb(38, 142, 108);
+  --spectrum-global-color-green-500: rgb(45, 157, 120);
+  --spectrum-global-color-green-600: rgb(51, 171, 132);
+  --spectrum-global-color-green-700: rgb(57, 185, 144);
+  --spectrum-global-color-blue-400: rgb(20, 115, 230);
+  --spectrum-global-color-blue-500: rgb(38, 128, 235);
+  --spectrum-global-color-blue-600: rgb(55, 142, 240);
+  --spectrum-global-color-blue-700: rgb(75, 156, 245);
+  --spectrum-global-color-gray-50: rgb(8, 8, 8);
+  --spectrum-global-color-gray-75: rgb(26, 26, 26);
+  --spectrum-global-color-gray-100: rgb(30, 30, 30);
+  --spectrum-global-color-gray-200: rgb(44, 44, 44);
+  --spectrum-global-color-gray-300: rgb(57, 57, 57);
+  --spectrum-global-color-gray-400: rgb(73, 73, 73);
+  --spectrum-global-color-gray-500: rgb(92, 92, 92);
+  --spectrum-global-color-gray-600: rgb(124, 124, 124);
+  --spectrum-global-color-gray-700: rgb(162, 162, 162);
+  --spectrum-global-color-gray-800: rgb(200, 200, 200);
+  --spectrum-global-color-gray-900: rgb(239, 239, 239);
+  --spectrum-alias-background-color-modal-overlay: rgba(0,0,0,0.6);
+  --spectrum-alias-dropshadow-color: rgba(0,0,0,0.8);
+  --spectrum-alias-background-color-hover-overlay: rgba(239,239,239,0.08);
+  --spectrum-alias-highlight-hover: rgba(239,239,239,0.08);
+  --spectrum-alias-highlight-active: rgba(239,239,239,0.15);
+  --spectrum-alias-highlight-selected: rgba(38,128,235,0.2);
+  --spectrum-alias-highlight-selected-hover: rgba(38,128,235,0.3);
+  --spectrum-alias-text-highlight-color: rgba(38,128,235,0.3);
+  --spectrum-alias-background-color-quickactions: rgba(30,30,30,0.9);
+  --spectrum-alias-radial-reaction-color-default: rgba(200,200,200,0.6);
+  --spectrum-alias-pasteboard-background-color: var(--spectrum-global-color-gray-50);
+  --spectrum-alias-appframe-border-color: var(--spectrum-global-color-gray-50);
+  --spectrum-alias-appframe-separator-color: var(--spectrum-global-color-gray-50);
+  --spectrum-colorarea-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorarea-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorarea-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorarea-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorslider-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorslider-vertical-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color-hover: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color-down: rgba(239,239,239,0.1);
+  --spectrum-colorwheel-border-color-key-focus: rgba(239,239,239,0.1);
+  --spectrum-miller-column-item-background-color-selected: rgba(38,128,235,0.1);
+  --spectrum-miller-column-item-background-color-selected-hover: rgba(38,128,235,0.2);
+  --spectrum-tabs-compact-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-compact-vertical-emphasized-rule-color: var(--spectrum-global-color-gray-200);
+  --spectrum-tabs-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-compact-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-tabs-quiet-vertical-emphasized-selection-indicator-color: var(--spectrum-global-color-blue-500);
+  --spectrum-well-background-color: rgba(200,200,200,0.02);
+  --spectrum-well-border-color: rgba(239,239,239,0.05);
+}
+
+.cyww .spectrum {  /* spectrum-animationGlobals.css */
+  --spectrum-global-animation-duration-0: 0ms;
+  --spectrum-global-animation-duration-100: 130ms;
+  --spectrum-global-animation-duration-200: 160ms;
+  --spectrum-global-animation-duration-300: 190ms;
+  --spectrum-global-animation-duration-400: 220ms;
+  --spectrum-global-animation-duration-500: 250ms;
+  --spectrum-global-animation-duration-600: 300ms;
+  --spectrum-global-animation-duration-700: 350ms;
+  --spectrum-global-animation-duration-800: 400ms;
+  --spectrum-global-animation-duration-900: 450ms;
+  --spectrum-global-animation-duration-1000: 500ms;
+  --spectrum-global-animation-duration-2000: 1000ms;
+  --spectrum-global-animation-duration-4000: 2000ms;
+  --spectrum-global-animation-ease-in-out: cubic-bezier(.45, 0, .40, 1);
+  --spectrum-global-animation-ease-in: cubic-bezier(.50, 0, 1, 1);
+  --spectrum-global-animation-ease-out: cubic-bezier(0, 0, 0.40, 1);
+  --spectrum-global-animation-linear: cubic-bezier(0, 0, 1, 1);
+
+
+  /* spectrum-colorGlobals.css */
+  --spectrum-global-color-static-black: rgb(0, 0, 0);
+  --spectrum-global-color-static-white: rgb(255, 255, 255);
+  --spectrum-global-color-static-blue: rgb(20, 115, 230);
+  --spectrum-global-color-static-gray-50: rgb(255, 255, 255);
+  --spectrum-global-color-static-gray-75: rgb(255, 255, 255);
+  --spectrum-global-color-static-gray-100: rgb(255, 255, 255);
+  --spectrum-global-color-static-gray-200: rgb(244, 244, 244);
+  --spectrum-global-color-static-gray-300: rgb(234, 234, 234);
+  --spectrum-global-color-static-gray-400: rgb(211, 211, 211);
+  --spectrum-global-color-static-gray-500: rgb(188, 188, 188);
+  --spectrum-global-color-static-gray-600: rgb(149, 149, 149);
+  --spectrum-global-color-static-gray-700: rgb(116, 116, 116);
+  --spectrum-global-color-static-gray-800: rgb(80, 80, 80);
+  --spectrum-global-color-static-gray-900: rgb(50, 50, 50);
+  --spectrum-global-color-static-blue-400: rgb(55, 142, 240);
+  --spectrum-global-color-static-blue-500: rgb(38, 128, 235);
+  --spectrum-global-color-static-blue-600: rgb(20, 115, 230);
+  --spectrum-global-color-static-blue-700: rgb(13, 102, 208);
+  --spectrum-global-color-static-red-400: rgb(236, 91, 98);
+  --spectrum-global-color-static-red-500: rgb(227, 72, 80);
+  --spectrum-global-color-static-red-600: rgb(215, 55, 63);
+  --spectrum-global-color-static-red-700: rgb(201, 37, 45);
+  --spectrum-global-color-static-orange-400: rgb(242, 148, 35);
+  --spectrum-global-color-static-orange-500: rgb(230, 134, 25);
+  --spectrum-global-color-static-orange-600: rgb(218, 123, 17);
+  --spectrum-global-color-static-orange-700: rgb(203, 111, 16);
+  --spectrum-global-color-static-green-400: rgb(51, 171, 132);
+  --spectrum-global-color-static-green-500: rgb(45, 157, 120);
+  --spectrum-global-color-static-green-600: rgb(38, 142, 108);
+  --spectrum-global-color-static-green-700: rgb(18, 128, 92);
+  --spectrum-global-color-static-celery-400: rgb(75, 195, 95);
+  --spectrum-global-color-static-celery-500: rgb(68, 181, 86);
+  --spectrum-global-color-static-celery-600: rgb(61, 167, 78);
+  --spectrum-global-color-static-celery-700: rgb(55, 153, 71);
+  --spectrum-global-color-static-chartreuse-400: rgb(142, 222, 73);
+  --spectrum-global-color-static-chartreuse-500: rgb(133, 208, 68);
+  --spectrum-global-color-static-chartreuse-600: rgb(124, 195, 63);
+  --spectrum-global-color-static-chartreuse-700: rgb(115, 181, 58);
+  --spectrum-global-color-static-yellow-400: rgb(237, 204, 0);
+  --spectrum-global-color-static-yellow-500: rgb(223, 191, 0);
+  --spectrum-global-color-static-yellow-600: rgb(210, 178, 0);
+  --spectrum-global-color-static-yellow-700: rgb(196, 166, 0);
+  --spectrum-global-color-static-magenta-400: rgb(226, 73, 157);
+  --spectrum-global-color-static-magenta-500: rgb(216, 55, 144);
+  --spectrum-global-color-static-magenta-600: rgb(202, 41, 130);
+  --spectrum-global-color-static-magenta-700: rgb(188, 28, 116);
+  --spectrum-global-color-static-fuchsia-400: rgb(207, 62, 220);
+  --spectrum-global-color-static-fuchsia-500: rgb(192, 56, 204);
+  --spectrum-global-color-static-fuchsia-600: rgb(177, 48, 189);
+  --spectrum-global-color-static-fuchsia-700: rgb(162, 40, 173);
+  --spectrum-global-color-static-purple-400: rgb(157, 100, 225);
+  --spectrum-global-color-static-purple-500: rgb(146, 86, 217);
+  --spectrum-global-color-static-purple-600: rgb(134, 76, 204);
+  --spectrum-global-color-static-purple-700: rgb(122, 66, 191);
+  --spectrum-global-color-static-indigo-400: rgb(117, 117, 241);
+  --spectrum-global-color-static-indigo-500: rgb(103, 103, 236);
+  --spectrum-global-color-static-indigo-600: rgb(92, 92, 224);
+  --spectrum-global-color-static-indigo-700: rgb(81, 81, 211);
+  --spectrum-global-color-static-seafoam-400: rgb(32, 163, 168);
+  --spectrum-global-color-static-seafoam-500: rgb(27, 149, 154);
+  --spectrum-global-color-static-seafoam-600: rgb(22, 135, 140);
+  --spectrum-global-color-static-seafoam-700: rgb(15, 121, 125);
+  --spectrum-global-color-opacity-100: 1;
+  --spectrum-global-color-opacity-90: 0.9;
+  --spectrum-global-color-opacity-80: 0.8;
+  --spectrum-global-color-opacity-60: 0.6;
+  --spectrum-global-color-opacity-50: 0.5;
+  --spectrum-global-color-opacity-40: 0.4;
+  --spectrum-global-color-opacity-30: 0.3;
+  --spectrum-global-color-opacity-25: 0.25;
+  --spectrum-global-color-opacity-20: 0.2;
+  --spectrum-global-color-opacity-15: 0.15;
+  --spectrum-global-color-opacity-10: 0.1;
+  --spectrum-global-color-opacity-8: 0.08;
+  --spectrum-global-color-opacity-7: 0.07;
+  --spectrum-global-color-opacity-6: 0.06;
+  --spectrum-global-color-opacity-5: 0.05;
+  --spectrum-global-color-opacity-4: 0.04;
+
+
+  /* spectrum-colorSemantics.css */
+  --spectrum-semantic-negative-color-background: var(--spectrum-global-color-static-red-700);
+  --spectrum-semantic-negative-color-default: var(--spectrum-global-color-red-500);
+  --spectrum-semantic-negative-color-dark: var(--spectrum-global-color-red-600);
+  --spectrum-semantic-negative-color-border: var(--spectrum-global-color-red-400);
+  --spectrum-semantic-negative-color-icon: var(--spectrum-global-color-red-600);
+  --spectrum-semantic-negative-color-status: var(--spectrum-global-color-red-400);
+  --spectrum-semantic-negative-color-text-large: var(--spectrum-global-color-red-500);
+  --spectrum-semantic-negative-color-text-small: var(--spectrum-global-color-red-600);
+  --spectrum-semantic-negative-color-state-down: var(--spectrum-global-color-red-700);
+  --spectrum-semantic-negative-color-state-focus: var(--spectrum-global-color-red-400);
+  --spectrum-semantic-notice-color-background: var(--spectrum-global-color-static-orange-700);
+  --spectrum-semantic-notice-color-default: var(--spectrum-global-color-orange-500);
+  --spectrum-semantic-notice-color-dark: var(--spectrum-global-color-orange-600);
+  --spectrum-semantic-notice-color-border: var(--spectrum-global-color-orange-400);
+  --spectrum-semantic-notice-color-icon: var(--spectrum-global-color-orange-600);
+  --spectrum-semantic-notice-color-status: var(--spectrum-global-color-orange-400);
+  --spectrum-semantic-notice-color-text-large: var(--spectrum-global-color-orange-500);
+  --spectrum-semantic-notice-color-text-small: var(--spectrum-global-color-orange-600);
+  --spectrum-semantic-notice-color-state-down: var(--spectrum-global-color-orange-700);
+  --spectrum-semantic-notice-color-state-focus: var(--spectrum-global-color-orange-400);
+  --spectrum-semantic-positive-color-background: var(--spectrum-global-color-static-green-700);
+  --spectrum-semantic-positive-color-default: var(--spectrum-global-color-green-500);
+  --spectrum-semantic-positive-color-dark: var(--spectrum-global-color-green-600);
+  --spectrum-semantic-positive-color-border: var(--spectrum-global-color-green-400);
+  --spectrum-semantic-positive-color-icon: var(--spectrum-global-color-green-600);
+  --spectrum-semantic-positive-color-status: var(--spectrum-global-color-green-400);
+  --spectrum-semantic-positive-color-text-large: var(--spectrum-global-color-green-500);
+  --spectrum-semantic-positive-color-text-small: var(--spectrum-global-color-green-600);
+  --spectrum-semantic-positive-color-state-down: var(--spectrum-global-color-green-700);
+  --spectrum-semantic-positive-color-state-focus: var(--spectrum-global-color-green-400);
+  --spectrum-semantic-informative-color-background: var(--spectrum-global-color-static-blue-700);
+  --spectrum-semantic-informative-color-default: var(--spectrum-global-color-blue-500);
+  --spectrum-semantic-informative-color-dark: var(--spectrum-global-color-blue-600);
+  --spectrum-semantic-informative-color-border: var(--spectrum-global-color-blue-400);
+  --spectrum-semantic-informative-color-icon: var(--spectrum-global-color-blue-600);
+  --spectrum-semantic-informative-color-status: var(--spectrum-global-color-blue-400);
+  --spectrum-semantic-informative-color-text-large: var(--spectrum-global-color-blue-500);
+  --spectrum-semantic-informative-color-text-small: var(--spectrum-global-color-blue-600);
+  --spectrum-semantic-informative-color-state-down: var(--spectrum-global-color-blue-700);
+  --spectrum-semantic-informative-color-state-focus: var(--spectrum-global-color-blue-400);
+  --spectrum-semantic-cta-color-background-default: var(--spectrum-global-color-static-blue-600);
+  --spectrum-semantic-cta-color-background-hover: var(--spectrum-global-color-static-blue-700);
+  --spectrum-semantic-cta-color-background-down: var(--spectrum-global-color-static-blue-700);
+  --spectrum-semantic-cta-color-background-key-focus: var(--spectrum-global-color-static-blue-600);
+  --spectrum-semantic-background-color-key-focus: var(--spectrum-global-color-static-blue-600);
+  --spectrum-semantic-neutral-color-background: var(--spectrum-global-color-static-gray-700);
+  --spectrum-semantic-presence-color-1: var(--spectrum-global-color-static-red-500);
+  --spectrum-semantic-presence-color-2: var(--spectrum-global-color-static-orange-400);
+  --spectrum-semantic-presence-color-3: var(--spectrum-global-color-static-yellow-400);
+  --spectrum-semantic-presence-color-4: rgb(75, 204, 162);
+  --spectrum-semantic-presence-color-5: rgb(0, 199, 255);
+  --spectrum-semantic-presence-color-6: rgb(0, 140, 184);
+  --spectrum-semantic-presence-color-7: rgb(126, 75, 243);
+  --spectrum-semantic-presence-color-8: var(--spectrum-global-color-static-fuchsia-600);
+
+
+  /* spectrum-dimensionGlobals.css */
+  --spectrum-global-dimension-static-size-0: 0px;
+  --spectrum-global-dimension-static-size-10: 1px;
+  --spectrum-global-dimension-static-size-25: 2px;
+  --spectrum-global-dimension-static-size-50: 4px;
+  --spectrum-global-dimension-static-size-40: 3px;
+  --spectrum-global-dimension-static-size-65: 5px;
+  --spectrum-global-dimension-static-size-100: 8px;
+  --spectrum-global-dimension-static-size-115: 9px;
+  --spectrum-global-dimension-static-size-125: 10px;
+  --spectrum-global-dimension-static-size-150: 12px;
+  --spectrum-global-dimension-static-size-175: 14px;
+  --spectrum-global-dimension-static-size-200: 16px;
+  --spectrum-global-dimension-static-size-225: 18px;
+  --spectrum-global-dimension-static-size-250: 20px;
+  --spectrum-global-dimension-static-size-300: 24px;
+  --spectrum-global-dimension-static-size-400: 32px;
+  --spectrum-global-dimension-static-size-450: 36px;
+  --spectrum-global-dimension-static-size-500: 40px;
+  --spectrum-global-dimension-static-size-550: 44px;
+  --spectrum-global-dimension-static-size-600: 48px;
+  --spectrum-global-dimension-static-size-700: 56px;
+  --spectrum-global-dimension-static-size-800: 64px;
+  --spectrum-global-dimension-static-size-900: 72px;
+  --spectrum-global-dimension-static-size-1000: 80px;
+  --spectrum-global-dimension-static-size-1200: 96px;
+  --spectrum-global-dimension-static-size-1700: 136px;
+  --spectrum-global-dimension-static-size-2400: 192px;
+  --spectrum-global-dimension-static-size-2600: 208px;
+  --spectrum-global-dimension-static-size-3400: 272px;
+  --spectrum-global-dimension-static-size-3600: 288px;
+  --spectrum-global-dimension-static-size-4600: 368px;
+  --spectrum-global-dimension-static-size-5000: 400px;
+  --spectrum-global-dimension-static-size-6000: 480px;
+  --spectrum-global-dimension-static-font-size-50: 11px;
+  --spectrum-global-dimension-static-font-size-75: 12px;
+  --spectrum-global-dimension-static-font-size-100: 14px;
+  --spectrum-global-dimension-static-font-size-150: 15px;
+  --spectrum-global-dimension-static-font-size-200: 16px;
+  --spectrum-global-dimension-static-font-size-300: 18px;
+  --spectrum-global-dimension-static-font-size-400: 20px;
+  --spectrum-global-dimension-static-font-size-500: 22px;
+  --spectrum-global-dimension-static-font-size-600: 25px;
+  --spectrum-global-dimension-static-font-size-700: 28px;
+  --spectrum-global-dimension-static-font-size-800: 32px;
+  --spectrum-global-dimension-static-font-size-900: 36px;
+  --spectrum-global-dimension-static-font-size-1000: 40px;
+  --spectrum-global-dimension-static-percent-50: 50%;
+  --spectrum-global-dimension-static-percent-100: 100%;
+  --spectrum-global-dimension-static-breakpoint-xsmall: 304px;
+  --spectrum-global-dimension-static-breakpoint-small: 768px;
+  --spectrum-global-dimension-static-breakpoint-medium: 1280px;
+  --spectrum-global-dimension-static-breakpoint-large: 1768px;
+  --spectrum-global-dimension-static-breakpoint-xlarge: 2160px;
+  --spectrum-global-dimension-static-grid-columns: 12;
+  --spectrum-global-dimension-static-grid-fluid-width: 100%;
+  --spectrum-global-dimension-static-grid-fixed-max-width: 1280px;
+
+
+  /* spectrum-fontGlobals.css */
+  --spectrum-global-font-family-base: adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-global-font-family-serif: adobe-clean-serif, 'Source Serif Pro', Georgia, serif;
+  --spectrum-global-font-family-code: 'Source Code Pro', Monaco, monospace;
+  --spectrum-global-font-weight-thin: 100;
+  --spectrum-global-font-weight-ultra-light: 200;
+  --spectrum-global-font-weight-light: 300;
+  --spectrum-global-font-weight-regular: 400;
+  --spectrum-global-font-weight-medium: 500;
+  --spectrum-global-font-weight-semi-bold: 600;
+  --spectrum-global-font-weight-bold: 700;
+  --spectrum-global-font-weight-extra-bold: 800;
+  --spectrum-global-font-weight-black: 900;
+  --spectrum-global-font-style-regular: normal;
+  --spectrum-global-font-style-italic: italic;
+  --spectrum-global-font-letter-spacing-none: 0;
+  --spectrum-global-font-letter-spacing-small: 0.0125em;
+  --spectrum-global-font-letter-spacing-han: 0.05em;
+  --spectrum-global-font-letter-spacing-medium: 0.06em;
+  --spectrum-global-font-line-height-large: 1.7;
+  --spectrum-global-font-line-height-medium: 1.5;
+  --spectrum-global-font-line-height-small: 1.3;
+  --spectrum-global-font-multiplier-25: 0.25em;
+  --spectrum-global-font-multiplier-75: 0.75em;
+
+
+  /* spectrum-staticAliases.css */
+  --spectrum-alias-border-size-thin: var(--spectrum-global-dimension-static-size-10);
+  --spectrum-alias-border-size-thick: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-alias-border-size-thicker: var(--spectrum-global-dimension-static-size-50);
+  --spectrum-alias-border-size-thickest: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-alias-border-offset-thin: var(--spectrum-global-dimension-static-size-25);
+  --spectrum-alias-border-offset-thick: var(--spectrum-global-dimension-static-size-50);
+  --spectrum-alias-border-offset-thicker: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-alias-border-offset-thickest: var(--spectrum-global-dimension-static-size-200);
+  --spectrum-alias-grid-baseline: var(--spectrum-global-dimension-static-size-100);
+  --spectrum-alias-grid-gutter-xsmall: var(--spectrum-global-dimension-static-size-200);
+  --spectrum-alias-grid-gutter-small: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-alias-grid-gutter-medium: var(--spectrum-global-dimension-static-size-400);
+  --spectrum-alias-grid-gutter-large: var(--spectrum-global-dimension-static-size-500);
+  --spectrum-alias-grid-gutter-xlarge: var(--spectrum-global-dimension-static-size-600);
+  --spectrum-alias-grid-margin-xsmall: var(--spectrum-global-dimension-static-size-200);
+  --spectrum-alias-grid-margin-small: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-alias-grid-margin-medium: var(--spectrum-global-dimension-static-size-400);
+  --spectrum-alias-grid-margin-large: var(--spectrum-global-dimension-static-size-500);
+  --spectrum-alias-grid-margin-xlarge: var(--spectrum-global-dimension-static-size-600);
+  --spectrum-alias-grid-layout-region-margin-bottom-xsmall: var(--spectrum-global-dimension-static-size-200);
+  --spectrum-alias-grid-layout-region-margin-bottom-small: var(--spectrum-global-dimension-static-size-300);
+  --spectrum-alias-grid-layout-region-margin-bottom-medium: var(--spectrum-global-dimension-static-size-400);
+  --spectrum-alias-grid-layout-region-margin-bottom-large: var(--spectrum-global-dimension-static-size-500);
+  --spectrum-alias-grid-layout-region-margin-bottom-xlarge: var(--spectrum-global-dimension-static-size-600);
+  --spectrum-alias-radial-reaction-size-default: var(--spectrum-global-dimension-static-size-550);
+  --spectrum-alias-font-family-ar: myriad-arabic, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-alias-font-family-he: myriad-hebrew, adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-alias-font-family-zh: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light','sans-serif';
+  --spectrum-alias-font-family-zhhans: adobe-clean-han-simplified-c, source-han-simplified-c, 'SimSun', 'Heiti SC Light', 'sans-serif';
+  --spectrum-alias-font-family-ko: adobe-clean-han-korean, source-han-korean, 'Malgun Gothic', 'Apple Gothic', 'sans-serif';
+  --spectrum-alias-font-family-ja: adobe-clean-han-japanese, source-han-japanese, 'Yu Gothic', '\30E1 \30A4 \30EA \30AA', '\30D2 \30E9 \30AE \30CE \89D2 \30B4  Pro W3', 'Hiragino Kaku Gothic Pro W3', 'Osaka', '\FF2D \FF33 \FF30 \30B4 \30B7 \30C3 \30AF', 'MS PGothic', 'sans-serif';
+  --spectrum-alias-font-family-condensed: adobe-clean-han-traditional, source-han-traditional, 'MingLiu', 'Heiti TC Light', adobe-clean, 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Ubuntu, 'Trebuchet MS', 'Lucida Grande', sans-serif;
+  --spectrum-alias-line-height-body: var(--spectrum-global-font-line-height-medium);
+  --spectrum-alias-line-height-title: var(--spectrum-global-font-line-height-small);
+  --spectrum-alias-body-han-text-line-height: var(--spectrum-global-font-line-height-large);
+  --spectrum-alias-body-text-font-family: var(--spectrum-global-font-family-base);
+  --spectrum-alias-body-text-line-height: var(--spectrum-global-font-line-height-medium);
+  --spectrum-alias-body-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-body-text-font-weight-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-button-text-line-height: var(--spectrum-global-font-line-height-small);
+  --spectrum-alias-heading-han-text-line-height: var(--spectrum-global-font-line-height-medium);
+  --spectrum-alias-heading-text-line-height: var(--spectrum-global-font-line-height-small);
+  --spectrum-alias-heading-text-font-weight-regular: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-heading-text-font-weight-regular-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-heading-text-font-weight-quiet: var(--spectrum-global-font-weight-light);
+  --spectrum-alias-heading-text-font-weight-quiet-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-heading-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-heading-text-font-weight-strong-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-subheading-text-font-weight: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-subheading-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-detail-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-detail-text-font-weight-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-serif-text-font-family: var(--spectrum-global-font-family-serif);
+  --spectrum-alias-article-text-font-family: var(--spectrum-global-font-family-serif);
+  --spectrum-alias-article-body-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-article-body-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-article-heading-text-font-weight: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-article-heading-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-article-heading-text-font-weight-quiet: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-article-heading-text-font-weight-quiet-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-article-subheading-text-font-weight: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-article-subheading-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-article-detail-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-article-detail-text-font-weight-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-code-text-font-family: var(--spectrum-global-font-family-code);
+  --spectrum-alias-han-heading-text-font-weight-regular: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-han-heading-text-font-weight-regular-emphasis: var(--spectrum-global-font-weight-extra-bold);
+  --spectrum-alias-han-heading-text-font-weight-regular-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-heading-text-font-weight-quiet: var(--spectrum-global-font-weight-light);
+  --spectrum-alias-han-heading-text-font-weight-quiet-emphasis: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-han-heading-text-font-weight-quiet-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-han-heading-text-font-weight-light: var(--spectrum-global-font-weight-light);
+  --spectrum-alias-han-heading-text-font-weight-light-emphasis: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-han-heading-text-font-weight-light-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-han-heading-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-heading-text-font-weight-strong-emphasis: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-heading-text-font-weight-strong-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-heading-text-font-weight-heavy: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-heading-text-font-weight-heavy-emphasis: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-heading-text-font-weight-heavy-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-body-text-font-weight-regular: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-han-body-text-font-weight-emphasis: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-han-body-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-subheading-text-font-weight-regular: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-han-subheading-text-font-weight-emphasis: var(--spectrum-global-font-weight-extra-bold);
+  --spectrum-alias-han-subheading-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-han-detail-text-font-weight: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-han-detail-text-font-weight-emphasis: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-han-detail-text-font-weight-strong: var(--spectrum-global-font-weight-black);
+  --spectrum-alias-code-text-font-weight-regular: var(--spectrum-global-font-weight-regular);
+  --spectrum-alias-code-text-font-weight-strong: var(--spectrum-global-font-weight-bold);
+  --spectrum-alias-code-text-line-height: var(--spectrum-global-font-line-height-medium);
+  --spectrum-alias-heading-margin-bottom: var(--spectrum-global-font-multiplier-25);
+  --spectrum-alias-body-margin-bottom: var(--spectrum-global-font-multiplier-75);
+
+}
+
+.cyww .spectrum--medium, .cyww .spectrum--large {
+  /* spectrum-dimensionAliases.css */
+  --spectrum-alias-dropshadow-blur: var(--spectrum-global-dimension-size-50);
+  --spectrum-alias-dropshadow-offset-y: var(--spectrum-global-dimension-size-10);
+  --spectrum-alias-font-size-default: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-line-height-small: var(--spectrum-global-dimension-size-200);
+  --spectrum-alias-line-height-medium: var(--spectrum-global-dimension-size-250);
+  --spectrum-alias-line-height-large: var(--spectrum-global-dimension-size-300);
+  --spectrum-alias-line-height-xlarge: var(--spectrum-global-dimension-size-400);
+  --spectrum-alias-line-height-xxlarge: var(--spectrum-global-dimension-size-600);
+  --spectrum-alias-layout-label-gap-size: var(--spectrum-global-dimension-size-100);
+  --spectrum-alias-pill-button-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-pill-button-text-baseline: var(--spectrum-global-dimension-static-size-150);
+  --spectrum-alias-border-radius-xsmall: var(--spectrum-global-dimension-size-10);
+  --spectrum-alias-border-radius-small: var(--spectrum-global-dimension-size-25);
+  --spectrum-alias-border-radius-regular: var(--spectrum-global-dimension-size-50);
+  --spectrum-alias-border-radius-medium: var(--spectrum-global-dimension-size-100);
+  --spectrum-alias-border-radius-large: var(--spectrum-global-dimension-size-200);
+  --spectrum-alias-single-line-height: var(--spectrum-global-dimension-size-400);
+  --spectrum-alias-single-line-width: var(--spectrum-global-dimension-size-2400);
+  --spectrum-alias-workflow-icon-size: var(--spectrum-global-dimension-size-225);
+  --spectrum-alias-heading-han-display1-text-size: var(--spectrum-global-dimension-font-size-1000);
+  --spectrum-alias-heading-han-xxxl-text-size: var(--spectrum-global-dimension-font-size-1000);
+  --spectrum-alias-heading-han-display1-margin-top: var(--spectrum-global-dimension-font-size-900);
+  --spectrum-alias-heading-han-xxxl-margin-top: var(--spectrum-global-dimension-font-size-900);
+  --spectrum-alias-heading-han-display2-text-size: var(--spectrum-global-dimension-font-size-900);
+  --spectrum-alias-heading-han-xxl-text-size: var(--spectrum-global-dimension-font-size-900);
+  --spectrum-alias-heading-han-display2-margin-top: var(--spectrum-global-dimension-font-size-800);
+  --spectrum-alias-heading-han-xxl-margin-top: var(--spectrum-global-dimension-font-size-800);
+  --spectrum-alias-heading1-han-text-size: var(--spectrum-global-dimension-font-size-800);
+  --spectrum-alias-heading-han-xl-text-size: var(--spectrum-global-dimension-font-size-800);
+  --spectrum-alias-heading1-han-margin-top: var(--spectrum-global-dimension-font-size-700);
+  --spectrum-alias-heading-han-xl-margin-top: var(--spectrum-global-dimension-font-size-700);
+  --spectrum-alias-heading2-han-text-size: var(--spectrum-global-dimension-font-size-600);
+  --spectrum-alias-heading-han-l-text-size: var(--spectrum-global-dimension-font-size-600);
+  --spectrum-alias-heading2-han-margin-top: var(--spectrum-global-dimension-font-size-500);
+  --spectrum-alias-heading-han-l-margin-top: var(--spectrum-global-dimension-font-size-500);
+  --spectrum-alias-heading3-han-text-size: var(--spectrum-global-dimension-font-size-400);
+  --spectrum-alias-heading-han-m-text-size: var(--spectrum-global-dimension-font-size-400);
+  --spectrum-alias-heading3-han-margin-top: var(--spectrum-global-dimension-font-size-300);
+  --spectrum-alias-heading-han-m-margin-top: var(--spectrum-global-dimension-font-size-300);
+  --spectrum-alias-heading4-text-size: var(--spectrum-global-dimension-font-size-300);
+  --spectrum-alias-heading-s-text-size: var(--spectrum-global-dimension-font-size-300);
+  --spectrum-alias-heading4-margin-top: var(--spectrum-global-dimension-font-size-200);
+  --spectrum-alias-heading-s-margin-top: var(--spectrum-global-dimension-font-size-200);
+  --spectrum-alias-heading5-text-size: var(--spectrum-global-dimension-font-size-200);
+  --spectrum-alias-heading-xs-text-size: var(--spectrum-global-dimension-font-size-200);
+  --spectrum-alias-heading5-margin-top: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-heading-xs-margin-top: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-heading6-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-heading-xxs-text-size: var(--spectrum-global-dimension-font-size-100);
+  --spectrum-alias-heading6-margin-top: var(--spectrum-global-dimension-font-size-75);
+  --spectrum-alias-heading-xxs-margin-top: var(--spectrum-global-dimension-font-size-75);
+}
+
+.cyww .spectrum--darkest, .cyww .spectrum--dark, .cyww .spectrum--light, .cyww .spectrum--lightest {
+  /* spectrum-colorAliases.css */
+  --spectrum-alias-background-color-default: var(--spectrum-global-color-gray-100);
+  --spectrum-alias-background-color-transparent: transparent;
+  --spectrum-alias-background-color-label-gray: rgb(112, 112, 112);
+  --spectrum-alias-background-color-quickactions-overlay: rgba(0,0,0,0.2);
+  --spectrum-alias-placeholder-text-color: var(--spectrum-global-color-gray-600);
+  --spectrum-alias-placeholder-text-color-hover: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-placeholder-text-color-down: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-placeholder-text-color-selected: var(--spectrum-global-color-gray-800);
+  --spectrum-alias-label-text-color: var(--spectrum-global-color-gray-700);
+  --spectrum-alias-text-color: var(--spectrum-global-color-gray-800);
+  --spectrum-alias-text-color-hover: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-text-color-down: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-text-color-key-focus: var(--spectrum-global-color-blue-600);
+  --spectrum-alias-text-color-mouse-focus: var(--spectrum-global-color-blue-600);
+  --spectrum-alias-text-color-disabled: var(--spectrum-global-color-gray-500);
+  --spectrum-alias-text-color-invalid: var(--spectrum-global-color-red-500);
+  --spectrum-alias-text-color-selected: var(--spectrum-global-color-blue-600);
+  --spectrum-alias-text-color-selected-neutral: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-title-text-color: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-heading-text-color: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-border-color: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-border-color-hover: var(--spectrum-global-color-gray-400);
+  --spectrum-alias-border-color-focus: var(--spectrum-global-color-blue-400);
+  --spectrum-alias-border-color-down: var(--spectrum-global-color-blue-500);
+  --spectrum-alias-border-color-extralight: var(--spectrum-global-color-gray-100);
+  --spectrum-alias-border-color-light: var(--spectrum-global-color-gray-200);
+  --spectrum-alias-border-color-mid: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-border-color-dark: var(--spectrum-global-color-gray-400);
+  --spectrum-alias-border-color-transparent: transparent;
+  --spectrum-alias-border-color-translucent-dark: rgba(0,0,0,0.05);
+  --spectrum-alias-border-color-translucent-darker: rgba(0,0,0,0.1);
+  --spectrum-alias-focus-color: var(--spectrum-global-color-blue-400);
+  --spectrum-alias-track-color-default: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-track-color-disabled: var(--spectrum-global-color-gray-300);
+  --spectrum-alias-track-color-over-background: rgba(255,255,255,0.2);
+  --spectrum-alias-icon-color: var(--spectrum-global-color-gray-700);
+  --spectrum-alias-icon-color-over-background: var(--spectrum-global-color-static-white);
+  --spectrum-alias-icon-color-hover: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-icon-color-down: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-icon-color-focus: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-icon-color-disabled: var(--spectrum-global-color-gray-400);
+  --spectrum-alias-icon-color-selected-neutral: var(--spectrum-global-color-gray-900);
+  --spectrum-alias-icon-color-selected: var(--spectrum-global-color-blue-500);
+  --spectrum-alias-icon-color-selected-hover: var(--spectrum-global-color-blue-600);
+  --spectrum-alias-icon-color-selected-down: var(--spectrum-global-color-blue-700);
+  --spectrum-alias-icon-color-selected-focus: var(--spectrum-global-color-blue-600);
+  --spectrum-alias-icon-color-error: var(--spectrum-global-color-red-400);
+  --spectrum-alias-toolbar-background-color: var(--spectrum-global-color-gray-100);
+}
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .input-dialog {
+  width: 30rem; }
+  .cyww .input-dialog .textfield {
+    width: 100%; }
+  .cyww .input-dialog .error-string {
+    width: 100%;
+    margin-block-start: 0.5rem;
+    font-size: 0.875rem;
+    font-style: italic;
+    color: var(--spectrum-global-color-red-500); }
+
+.cyww .confirm-dialog {
+  max-width: 30rem !important;
+  max-height: 30rem !important; }
+
+.cyww .remove-dialog-padding .spectrum-Dialog {
+  padding: 0rem; }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .context-menu {
+  position: fixed;
+  z-index: 10000;
+  visibility: hidden; }
+  .cyww .context-menu.hidden {
+    visibility: hidden; }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .assets-header {
+  height: 3.5rem;
+  padding: 0.75rem;
+  background-color: var(--background-color-primary);
+  border-bottom: 0.125rem solid var(--spectrum-global-color-gray-200); }
+  .cyww .assets-header .Frame__section {
+    align-items: center; }
+  .cyww .assets-header .left-view .title-wrapper {
+    border-left: 0.125rem solid var(--spectrum-global-color-gray-200);
+    padding-left: 0.5rem;
+    padding-right: 0.2rem;
+    padding-top: 0.2rem;
+    margin-left: 0.5rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 20rem; }
+    .cyww .assets-header .left-view .title-wrapper .title .editableHeaderName__item {
+      margin: 0rem; }
+      .cyww .assets-header .left-view .title-wrapper .title .editableHeaderName__item .spectrum-Heading--pageTitle {
+        margin: 0; }
+    .cyww .assets-header .left-view .title-wrapper .title * {
+      font-size: 1.125rem;
+      font-weight: bold;
+      color: var(--spectrum-global-color-gray-800); }
+    .cyww .assets-header .left-view .title-wrapper .subTitle {
+      font-size: 0.6875rem;
+      font-style: normal;
+      color: var(--spectrum-global-color-gray-800); }
+      .cyww .assets-header .left-view .title-wrapper .subTitle .org-name::before {
+        content: "\2022";
+        padding-left: 0.25rem;
+        padding-right: 0.25rem;
+        display: inline-block; }
+  .cyww .assets-header .left-view .spectrum-Heading--pageTitles {
+    margin: 0;
+    margin-top: 0.125rem; }
+  .cyww .assets-header .right-view .link {
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+    display: inline-block;
+    font-size: 0.875rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-700); }
+  .cyww .assets-header .right-view .Frame__VR {
+    margin-left: 0.25rem;
+    margin-right: 0.25rem;
+    border-color: var(--spectrum-global-color-gray-200); }
+  .cyww .assets-header .header-font-style {
+    font-size: 0.875rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .assets-header .center {
+    margin: auto; }
+
+.cyww .assets-header.highlight {
+  border-bottom: 0.5rem solid var(--spectrum-global-color-blue-500); }
+
+.cyww .assets-header > div {
+  height: 100%; }
+
+.cyww .left-position-override {
+  left: 0rem !important; }
+
+.cyww .right-position-override {
+  right: 0rem !important; }
+
+.cyww .popover-remove-arrow {
+  overflow: hidden;
+  margin: 0rem !important;
+  max-width: 16.5rem; }
+
+.cyww .viewAllAssetsWebLinkDiv .viewAllAssetsWebLink {
+  color: var(--spectrum-global-color-gray-700); }
+
+.cyww .viewAllAssetsWebLinkDiv .viewAllAssetsWebLink .viewAllAssetsWebLinkOutLightIcon {
+  width: 12px;
+  height: 12px;
+  margin-bottom: -3px;
+  margin-left: 5px; }
+
+.cyww .viewAllAssetsWebLinkDiv .viewAllAssetsWebLink:hover {
+  color: var(--spectrum-global-color-gray-800);
+  cursor: pointer; }
+
+.cyww .spectrum-Tooltip {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.cyww .spectrum-Tooltip.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.cyww .spectrum-Tooltip--bottom.is-open {
+  transform: translateY(6px);
+}
+.cyww .spectrum-Tooltip--top.is-open {
+  transform: translateY(-6px);
+}
+.cyww .spectrum-Tooltip--right.is-open {
+  transform: translateX(6px);
+}
+.cyww .spectrum-Tooltip--left.is-open {
+  transform: translateX(-6px);
+}
+.cyww .spectrum-Tooltip {
+
+  position: relative;
+  left: 0px;
+  top: 0px;
+
+  display: -ms-inline-flexbox;
+
+  display: inline-flex;
+  -ms-flex-direction: row;
+      flex-direction: row;
+  -ms-flex-align: center;
+      align-items: center;
+  box-sizing: border-box;
+
+  vertical-align: top;
+
+  width: auto;
+  padding: 4px 10px;
+  border-radius: 4px;
+  min-height: 24px;
+
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 16px;
+  word-break: break-word;
+  -webkit-font-smoothing: antialiased;
+}
+.cyww .spectrum-Tooltip {
+    cursor: default;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+.cyww .spectrum-Tooltip p {
+    margin: 0;
+  }
+.cyww .spectrum-Tooltip-tip {
+  position: absolute;
+
+  height: 0;
+  width: 0;
+
+  border-width: 4px;
+  border-style: solid;
+  border-left-color: transparent;
+  border-right-color: transparent;
+  border-bottom-color: transparent;
+}
+.cyww .spectrum-Tooltip--right .spectrum-Tooltip-tip, .cyww .spectrum-Tooltip--left .spectrum-Tooltip-tip {
+    top: 50%;
+    margin-top: -4px;
+  }
+.cyww .spectrum-Tooltip--right {
+  margin-left: 3px;
+}
+.cyww .spectrum-Tooltip--right .spectrum-Tooltip-tip {
+    right: 100%;
+    transform: rotate(90deg);
+  }
+.cyww .spectrum-Tooltip--left {
+  margin-right: 3px;
+}
+.cyww .spectrum-Tooltip--left .spectrum-Tooltip-tip {
+    left: 100%;
+    transform: rotate(-90deg);
+  }
+.cyww .spectrum-Tooltip--top {
+  margin-bottom: 3px;
+}
+.cyww .spectrum-Tooltip--top .spectrum-Tooltip-tip {
+    top: 100%;
+  }
+.cyww .spectrum-Tooltip--bottom {
+  margin-top: 3px;
+}
+.cyww .spectrum-Tooltip--bottom .spectrum-Tooltip-tip {
+    bottom: 100%;
+    transform: rotate(-180deg);
+  }
+.cyww .spectrum-Tooltip--bottom .spectrum-Tooltip-tip, .cyww .spectrum-Tooltip--top .spectrum-Tooltip-tip {
+    left: 50%;
+    margin-left: -4px;
+  }
+.cyww .spectrum-Tooltip-typeIcon {
+  margin-left: -2px;
+  margin-right: 8px;
+  width: 14px;
+  height: 14px;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  margin-top: 1px;
+}
+.cyww .spectrum-Tooltip-label {
+  max-width: 101px;
+  line-height: 16px;
+}
+.cyww .u-tooltip-showOnHover {
+  display: inline-block;
+  position: relative;
+}
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip {
+    position: absolute;
+    white-space: nowrap;
+    visibility: visible !important;
+    transition: transform 130ms ease-in-out;
+    top: -100%;
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip-label {
+    max-width: none;
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--right, .cyww .u-tooltip-showOnHover .spectrum-Tooltip--left {
+    top: 50%;
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--right .spectrum-Tooltip-tip, .cyww .u-tooltip-showOnHover .spectrum-Tooltip--left .spectrum-Tooltip-tip {
+      top: 50%;
+    }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--right {
+    left: 100%;
+    transform: translate(0, -50%);
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--left {
+    transform: translate(-100%, -50%);
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--bottom, .cyww .u-tooltip-showOnHover .spectrum-Tooltip--top {
+    left: 50%;
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--bottom .spectrum-Tooltip-tip, .cyww .u-tooltip-showOnHover .spectrum-Tooltip--top .spectrum-Tooltip-tip {
+      left: 50%;
+    }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--bottom {
+    top: 100%;
+    transform: translate(-50%, -4px);
+  }
+.cyww .u-tooltip-showOnHover .spectrum-Tooltip--top {
+    transform: translate(-50%, 4px);
+  }
+.cyww .u-tooltip-showOnHover:hover .spectrum-Tooltip, .cyww .u-tooltip-showOnHover:focus .spectrum-Tooltip, .cyww .u-tooltip-showOnHover.is-focused .spectrum-Tooltip, .cyww .u-tooltip-showOnHover *:focus .spectrum-Tooltip {
+    opacity: 1;
+  }
+.cyww .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--bottom, .cyww .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--bottom, .cyww .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--bottom, .cyww .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--bottom {
+    transform: translate(-50%, 0);
+  }
+.cyww .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--top, .cyww .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--top, .cyww .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--top, .cyww .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--top {
+    transform: translate(-50%, -4px);
+  }
+.cyww .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--left, .cyww .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--left, .cyww .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--left, .cyww .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--left {
+    transform: translate(calc(-100% - 4px), -50%);
+  }
+.cyww .u-tooltip-showOnHover:hover .spectrum-Tooltip.spectrum-Tooltip--right, .cyww .u-tooltip-showOnHover:focus .spectrum-Tooltip.spectrum-Tooltip--right, .cyww .u-tooltip-showOnHover.is-focused .spectrum-Tooltip.spectrum-Tooltip--right, .cyww .u-tooltip-showOnHover *:focus .spectrum-Tooltip.spectrum-Tooltip--right {
+    transform: translate(4px, -50%);
+  }
+
+.cyww .spectrum--light .spectrum-Tooltip {
+  background-color: rgb(116, 116, 116);
+
+  color: rgb(255, 255, 255);
+}
+.cyww .spectrum--light .spectrum-Tooltip-tip {
+  border-top-color: rgb(116, 116, 116);
+}
+.cyww .spectrum--light .spectrum-Tooltip--negative, .cyww .spectrum--light .spectrum-Tooltip--error {
+  background-color: rgb(201, 37, 45);
+}
+.cyww .spectrum--light .spectrum-Tooltip--negative .spectrum-Tooltip-tip, .cyww .spectrum--light .spectrum-Tooltip--error .spectrum-Tooltip-tip {
+    border-top-color: rgb(201, 37, 45);
+  }
+.cyww .spectrum--light .spectrum-Tooltip--info, .cyww .spectrum--light .spectrum-Tooltip--help {
+  background-color: rgb(13, 102, 208);
+}
+.cyww .spectrum--light .spectrum-Tooltip--info .spectrum-Tooltip-tip, .cyww .spectrum--light .spectrum-Tooltip--help .spectrum-Tooltip-tip {
+    border-top-color: rgb(13, 102, 208);
+  }
+.cyww .spectrum--light .spectrum-Tooltip--positive, .cyww .spectrum--light .spectrum-Tooltip--success {
+  background-color: rgb(18, 128, 92);
+}
+.cyww .spectrum--light .spectrum-Tooltip--positive .spectrum-Tooltip-tip, .cyww .spectrum--light .spectrum-Tooltip--success .spectrum-Tooltip-tip {
+    border-top-color: rgb(18, 128, 92);
+  }
+
+.cyww .spectrum--darkest .spectrum-Tooltip {
+  background-color: rgb(116, 116, 116);
+
+  color: rgb(255, 255, 255);
+}
+.cyww .spectrum--darkest .spectrum-Tooltip-tip {
+  border-top-color: rgb(116, 116, 116);
+}
+.cyww .spectrum--darkest .spectrum-Tooltip--negative, .cyww .spectrum--darkest .spectrum-Tooltip--error {
+  background-color: rgb(201, 37, 45);
+}
+.cyww .spectrum--darkest .spectrum-Tooltip--negative .spectrum-Tooltip-tip, .cyww .spectrum--darkest .spectrum-Tooltip--error .spectrum-Tooltip-tip {
+    border-top-color: rgb(201, 37, 45);
+  }
+.cyww .spectrum--darkest .spectrum-Tooltip--info, .cyww .spectrum--darkest .spectrum-Tooltip--help {
+  background-color: rgb(13, 102, 208);
+}
+.cyww .spectrum--darkest .spectrum-Tooltip--info .spectrum-Tooltip-tip, .cyww .spectrum--darkest .spectrum-Tooltip--help .spectrum-Tooltip-tip {
+    border-top-color: rgb(13, 102, 208);
+  }
+.cyww .spectrum--darkest .spectrum-Tooltip--positive, .cyww .spectrum--darkest .spectrum-Tooltip--success {
+  background-color: rgb(18, 128, 92);
+}
+.cyww .spectrum--darkest .spectrum-Tooltip--positive .spectrum-Tooltip-tip, .cyww .spectrum--darkest .spectrum-Tooltip--success .spectrum-Tooltip-tip {
+    border-top-color: rgb(18, 128, 92);
+  }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2020 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .item-highlight {
+  background-color: var(--spectrum-global-color-blue-400) !important;
+  color: var(--spectrum-global-color-gray-50) !important;
+  border-radius: 0.3125rem; }
+  .cyww .item-highlight .spectrum-Menu-itemLabel {
+    color: var(--spectrum-global-color-gray-50) !important; }
+  .cyww .item-highlight .heading_wrapper * {
+    color: var(--spectrum-global-color-gray-50) !important; }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .editableHeaderName {
+  display: flex;
+  flex-direction: column;
+  border-color: var(--spectrum-global-color-gray-200);
+  background-color: var(--background-color-primary);
+  justify-content: space-around;
+  align-items: stretch; }
+
+.cyww .editableHeaderName__item {
+  display: inline-flex;
+  flex-direction: row;
+  border-color: var(--spectrum-global-color-gray-200);
+  background-color: var(--background-color-primary);
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0.125rem;
+  cursor: default; }
+  .cyww .editableHeaderName__item:focus {
+    outline: none; }
+  .cyww .editableHeaderName__item.focus-ring {
+    box-shadow: 0 0 0 0.125rem var(--spectrum-global-color-blue-400);
+    border-color: var(--spectrum-global-color-blue-400);
+    border-radius: 0.25rem; }
+
+.cyww .editableHeaderName__item--editing {
+  text-decoration-color: red;
+  padding-bottom: 0.125rem; }
+
+.cyww .textField_parent {
+  display: inline-grid;
+  vertical-align: top;
+  align-items: center;
+  position: relative;
+  width: 100%; }
+  .cyww .textField_parent input, .cyww .textField_parent::after {
+    grid-area: 1 / 1;
+    width: auto;
+    min-width: 1rem; }
+  .cyww .textField_parent::after {
+    content: attr(data-input-text-value);
+    visibility: hidden; }
+
+.cyww .editableHeaderName__item--hover:hover .spectrum-Heading {
+  border-bottom: 0.125rem solid var(--spectrum-global-color-gray-300);
+  padding-top: 0.375rem;
+  padding-bottom: calc(.375rem - 0.125rem) !important; }
+
+.cyww .heading_wrapper .spectrum-Heading {
+  pointer-events: none; }
+
+.cyww .editableHeaderName__textField {
+  font-size: 1.75rem;
+  margin-top: 0.625rem;
+  margin-bottom: 0.625rem;
+  padding: 0rem; }
+
+.cyww .editableHeaderName__item--text {
+  padding-left: 0.125rem;
+  padding-right: 0.125rem; }
+
+.cyww .editableHeaderName__item--circle {
+  padding-left: 0.1875rem;
+  padding-right: 0.1875rem; }
+
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2019 Adobe
+* All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+/*
+ * ADOBE CONFIDENTIAL
+ *
+ * Copyright 2016 Adobe Systems Incorporated
+ * All Rights Reserved.
+ *
+ * NOTICE:  All information contained herein is, and remains
+ * the property of Adobe Systems Incorporated and its suppliers,
+ * if any.  The intellectual and technical concepts contained
+ * herein are proprietary to Adobe Systems Incorporated and its
+ * suppliers and may be covered by U.S. and Foreign Patents,
+ * patents in process, and are protected by trade secret or copyright law.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe Systems Incorporated.
+ */
+
+.cyww .spectrum-Dialog.react-spectrum-Dialog {
+  visibility: visible;
+}
+
+.cyww .react-spectrum-Dialog-buttons {
+  white-space: nowrap;
+}
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2019 Adobe
+* All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+.cyww .spectrum-Popover.react-spectrum-Popover {
+  visibility: visible;
+}
+
+.cyww .spectrum-Popover .spectrum-Dialog-content {
+  max-height: initial;
+}
+.cyww .spectrum-Popover {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.cyww .spectrum-Popover.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.cyww .spectrum-Popover--bottom.is-open {
+  transform: translateY(6px);
+}
+.cyww .spectrum-Popover--top.is-open {
+  transform: translateY(-6px);
+}
+.cyww .spectrum-Popover--right.is-open {
+  transform: translateX(6px);
+}
+.cyww .spectrum-Popover--left.is-open {
+  transform: translateX(-6px);
+}
+.cyww .spectrum-Popover {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  box-sizing: border-box;
+
+  min-width: 32px;
+  min-height: 32px;
+
+  position: absolute;
+
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 4px;
+
+  outline: none;
+}
+.cyww .spectrum-Popover-tip {
+  position: absolute;
+  overflow: hidden;
+  width: 21px;
+  height: 11px;
+}
+.cyww .spectrum-Popover-tip::after {
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-width: 1px;
+    border-style: solid;
+    position: absolute;
+    transform: rotate(45deg);
+    top: -18px;
+    left: -1px;
+  }
+.cyww .spectrum-Popover--dialog {
+  min-width: 270px;
+  padding: 30px 29px;
+}
+.cyww .spectrum-Popover--left.spectrum-Popover--withTip {
+    margin-right: 13px;
+  }
+.cyww .spectrum-Popover--left .spectrum-Popover-tip {
+    right: -16px;
+    transform: rotate(-90deg);
+  }
+.cyww .spectrum-Popover--right.spectrum-Popover--withTip {
+    margin-left: 13px;
+  }
+.cyww .spectrum-Popover--right .spectrum-Popover-tip {
+    left: -16px;
+    transform: rotate(90deg);
+  }
+.cyww .spectrum-Popover--left .spectrum-Popover-tip, .cyww .spectrum-Popover--right .spectrum-Popover-tip {
+    top: 50%;
+    margin-top: -6px;
+  }
+.cyww .spectrum-Popover--bottom.spectrum-Popover--withTip {
+    margin-top: 13px;
+  }
+.cyww .spectrum-Popover--bottom .spectrum-Popover-tip {
+    top: -11px;
+    transform: rotate(180deg);
+  }
+.cyww .spectrum-Popover--top.spectrum-Popover--withTip {
+    margin-bottom: 13px;
+  }
+.cyww .spectrum-Popover--top .spectrum-Popover-tip {
+    bottom: -11px;
+  }
+.cyww .spectrum-Popover--bottom .spectrum-Popover-tip, .cyww .spectrum-Popover--top .spectrum-Popover-tip {
+    left: 50%;
+    margin-left: -12px;
+  }
+
+.cyww .spectrum--light .spectrum-Popover {
+  background-color: rgb(255, 255, 255);
+  border-color: rgb(202, 202, 202);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.15);
+}
+.cyww .spectrum--light .spectrum-Popover .spectrum-Dialog-header, .cyww .spectrum--light .spectrum-Popover .spectrum-Dialog-footer, .cyww .spectrum--light .spectrum-Popover .spectrum-Dialog-wrapper {
+    background-color: transparent;
+  }
+.cyww .spectrum--light .spectrum-Popover .spectrum-Popover-tip::after {
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(202, 202, 202);
+    box-shadow: -1px -1px 4px rgba(0,0,0,0.15);
+  }
+
+.cyww .spectrum--darkest .spectrum-Popover {
+  background-color: rgb(8, 8, 8);
+  border-color: rgb(73, 73, 73);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.8);
+}
+.cyww .spectrum--darkest .spectrum-Popover .spectrum-Dialog-header, .cyww .spectrum--darkest .spectrum-Popover .spectrum-Dialog-footer, .cyww .spectrum--darkest .spectrum-Popover .spectrum-Dialog-wrapper {
+    background-color: transparent;
+  }
+.cyww .spectrum--darkest .spectrum-Popover .spectrum-Popover-tip::after {
+    background-color: rgb(8, 8, 8);
+    border-color: rgb(73, 73, 73);
+    box-shadow: -1px -1px 4px rgba(0,0,0,0.8);
+  }
+
+.cyww .spectrum-Dialog {
+  visibility: hidden;
+
+  opacity: 0;
+
+  transition: transform 130ms ease-in-out,
+              opacity 130ms ease-in-out,
+              visibility 0ms linear 130ms;
+
+  pointer-events: none;
+}
+.cyww .spectrum-Dialog.is-open {
+  visibility: visible;
+
+  opacity: 1;
+
+  transition-delay: 0ms;
+
+  pointer-events: auto;
+}
+.cyww .spectrum-Dialog {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translateX(-50%) translateY(-50%) translateY(20px);
+  z-index: 2;
+  box-sizing: border-box;
+  max-width: 90vw;
+  max-height: 90vh;
+  width: -webkit-fit-content;
+  width: fit-content;
+  min-width: 288px;
+
+  padding: 40px;
+
+  border-radius: 4px;
+  outline: none;
+  transition: opacity 130ms cubic-bezier(.50, 0, 1, 1) 0ms,
+              visibility 0ms linear 130ms,
+              transform 0ms linear 130ms;
+}
+.cyww .spectrum-Dialog.is-open {
+    transition: transform 250ms cubic-bezier(0, 0, 0.40, 1) 160ms,
+                opacity 250ms cubic-bezier(0, 0, 0.40, 1) 160ms;
+
+    transform: translate(-50%, calc(-50% + -2vh));
+  }
+.cyww .spectrum-Dialog .spectrum-Dialog-closeButton {
+    display: none;
+  }
+.cyww .spectrum-Dialog--small {
+  width: 400px;
+}
+.cyww .spectrum-Dialog--medium {
+  width: 480px;
+}
+.cyww .spectrum-Dialog--large {
+  width: 640px;
+}
+.cyww .spectrum-Dialog-hero {
+  height: 128px;
+
+  margin-left: -40px;
+  margin-right: -40px;
+  margin-top: -40px;
+  margin-bottom: 40px;
+
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+
+  background-size: cover;
+  background-position: center center;
+}
+.cyww .spectrum-Dialog-header {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+
+  position: relative;
+  box-sizing: border-box;
+  width: 100%;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+
+  border-radius: 4px 4px 0 0;
+  outline: none;
+
+  padding-bottom: 30px;
+}
+.cyww .spectrum-Dialog-header::after {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    right: 0;
+    content: '';
+
+    height: 2px;
+  }
+.cyww .spectrum-Dialog-wrapper {
+  position: fixed;
+  left: 0;
+  top: 0;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-align: center;
+      align-items: center;
+  -ms-flex-pack: center;
+      justify-content: center;
+
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+
+  visibility: hidden;
+  pointer-events: none;
+  z-index: 2;
+  transition: visibility 0ms linear 130ms;
+}
+.cyww .spectrum-Dialog-wrapper.is-open {
+    visibility: visible;
+  }
+.cyww .spectrum-Dialog-wrapper .spectrum-Dialog:not(.spectrum-Dialog--fullscreen):not(.spectrum-Dialog--fullscreenTakeover) {
+    pointer-events: auto;
+
+    position: relative;
+    left: auto;
+    top: auto;
+    transform: translateY(20px);
+    margin-top: -2vh;
+  }
+.cyww .spectrum-Dialog-wrapper .spectrum-Dialog:not(.spectrum-Dialog--fullscreen):not(.spectrum-Dialog--fullscreenTakeover).is-open {
+      transform: translateY(0);
+    }
+@media
+only screen and (max-device-width: 400px), only screen and (max-device-height: 350px) {
+  .cyww .spectrum-Dialog--responsive {
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 0;
+  }
+    .cyww .spectrum-Dialog-wrapper .spectrum-Dialog--responsive {
+      margin-top: 0;
+    }
+}
+.cyww .spectrum-Dialog--noDivider .spectrum-Dialog-header::after {
+      display: none;
+    }
+.cyww .spectrum-Dialog--dismissible .spectrum-Dialog-footer {
+    display: none;
+  }
+.cyww .spectrum-Dialog--dismissible .spectrum-Dialog-closeButton {
+    display: initial;
+  }
+.cyww .spectrum-Dialog-closeButton {
+  position: absolute;
+  top: -28px;
+  right: -28px;
+}
+.cyww .spectrum-Dialog-typeIcon {
+  display: block;
+}
+.cyww .spectrum-Dialog-content {
+  display: block;
+  box-sizing: border-box;
+
+  overflow-y: auto;
+  -webkit-overflow-scrolling: touch;
+
+  -ms-flex: 1 1 auto;
+
+      flex: 1 1 auto;
+
+  outline: none;
+
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+}
+@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none) {
+  .cyww .spectrum-Dialog-content {
+    max-height: 70vh;
+  }
+}
+.cyww .spectrum-Dialog-footer {
+  border-radius: 0 0 4px 4px;
+  padding-top: 28px;
+
+  -ms-flex: 0 1 auto;
+
+      flex: 0 1 auto;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+  display: -ms-flexbox;
+
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+
+  outline: none;
+
+  margin: -8px;
+  margin-top: 0;
+}
+.cyww .spectrum-Dialog-footer > *, .cyww .spectrum-Dialog-footer > .spectrum-Button + .spectrum-Button {
+    margin: 8px;
+  }
+.cyww .spectrum-Dialog-title {
+  -ms-flex: 1 1 auto;
+      flex: 1 1 auto;
+
+  margin: 0;
+
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.3;
+
+  outline: none;
+}
+.cyww .spectrum-Dialog--alert {
+  width: 480px;
+}
+.cyww .spectrum-Dialog--fullscreen {
+  left: 32px;
+  top: 32px;
+  right: 32px;
+  bottom: 32px;
+
+  transform: translate(0, 20px);
+}
+.cyww .spectrum-Dialog--fullscreen.is-open {
+    transform: translate(0, 0);
+  }
+.cyww .spectrum-Dialog--fullscreen, .cyww .spectrum-Dialog--fullscreenTakeover {
+  width: auto;
+  max-height: none;
+  max-width: none;
+
+  padding-top: 30px;
+}
+.cyww .spectrum-Dialog--fullscreen .spectrum-Dialog-header, .cyww .spectrum-Dialog--fullscreenTakeover .spectrum-Dialog-header {
+    -ms-flex-negative: 0;
+        flex-shrink: 0;
+  }
+.cyww .spectrum-Dialog--fullscreen .spectrum-Dialog-title, .cyww .spectrum-Dialog--fullscreenTakeover .spectrum-Dialog-title {
+    font-size: 28px;
+    font-weight: 100;
+  }
+.cyww .spectrum-Dialog--fullscreen .spectrum-Dialog-content, .cyww .spectrum-Dialog--fullscreenTakeover .spectrum-Dialog-content {
+    max-height: none;
+  }
+.cyww .spectrum-Dialog--fullscreenTakeover {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+
+  box-sizing: border-box;
+  border: none;
+  border-radius: 0;
+}
+.cyww .spectrum-Dialog--fullscreenTakeover, .cyww .spectrum-Dialog--fullscreenTakeover.is-open {
+    transform: none;
+  }
+
+.cyww .spectrum--light .spectrum-Dialog {
+  background: rgb(245, 245, 245);
+}
+.cyww .spectrum--light .spectrum-Dialog-header {
+  background: rgb(245, 245, 245);
+}
+.cyww .spectrum--light .spectrum-Dialog-header:after {
+    background: rgb(225, 225, 225);
+  }
+.cyww .spectrum--light .spectrum-Dialog-title {
+  color: rgb(44, 44, 44);
+}
+.cyww .spectrum--light .spectrum-Dialog-content {
+  color: rgb(75, 75, 75);
+}
+.cyww .spectrum--light .spectrum-Dialog-typeIcon {
+  color: rgb(44, 44, 44);
+}
+.cyww .spectrum--light .spectrum-Dialog-footer {
+  background: rgb(245, 245, 245);
+}
+.cyww .spectrum--light .spectrum-Dialog--error .spectrum-Dialog-title {
+    color: rgb(201, 37, 45);
+  }
+.cyww .spectrum--light .spectrum-Dialog--error .spectrum-Dialog-typeIcon {
+    color: rgb(201, 37, 45);
+  }
+
+.cyww .spectrum--darkest .spectrum-Dialog {
+  background: rgb(30, 30, 30);
+}
+.cyww .spectrum--darkest .spectrum-Dialog-header {
+  background: rgb(30, 30, 30);
+}
+.cyww .spectrum--darkest .spectrum-Dialog-header:after {
+    background: rgb(57, 57, 57);
+  }
+.cyww .spectrum--darkest .spectrum-Dialog-title {
+  color: rgb(239, 239, 239);
+}
+.cyww .spectrum--darkest .spectrum-Dialog-content {
+  color: rgb(200, 200, 200);
+}
+.cyww .spectrum--darkest .spectrum-Dialog-typeIcon {
+  color: rgb(239, 239, 239);
+}
+.cyww .spectrum--darkest .spectrum-Dialog-footer {
+  background: rgb(30, 30, 30);
+}
+.cyww .spectrum--darkest .spectrum-Dialog--error .spectrum-Dialog-title {
+    color: rgb(236, 91, 98);
+  }
+.cyww .spectrum--darkest .spectrum-Dialog--error .spectrum-Dialog-typeIcon {
+    color: rgb(236, 91, 98);
+  }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .folder-breadcrumbs-popover {
+  margin-top: 0rem !important;
+  padding: 0.5rem 0 !important;
+  min-width: 14rem !important; }
+  .cyww .folder-breadcrumbs-popover .spectrum-Menu-itemLabel {
+    pointer-events: none; }
+  .cyww .folder-breadcrumbs-popover .spectrum-Popover-tip {
+    display: none; }
+  .cyww .folder-breadcrumbs-popover.is-hidden {
+    display: none; }
+  .cyww .folder-breadcrumbs-popover .item-highlight {
+    border-radius: unset; }
+
+.cyww .dropdown-button {
+  border-radius: 0.3125rem !important;
+  padding: 0rem 0.375rem !important;
+  min-width: 2rem !important; }
+  .cyww .dropdown-button.is-cta {
+    border: 0.0625rem !important; }
+
+.cyww .folderBreadcrumbs {
+  margin: 0 0 0 0.75rem;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: var(--background-color-primary);
+  align-items: center; }
+  .cyww .folderBreadcrumbs .topLevel {
+    padding: 0.25rem; }
+  .cyww .folderBreadcrumbs .topLevelWrapper {
+    font-size: 1rem;
+    color: var(--spectrum-global-color-gray-700);
+    line-height: 1.4rem; }
+    .cyww .folderBreadcrumbs .topLevelWrapper:hover {
+      color: var(--spectrum-global-color-gray-900);
+      text-decoration: underline;
+      cursor: pointer; }
+    .cyww .folderBreadcrumbs .topLevelWrapper:focus {
+      outline: none; }
+    .cyww .folderBreadcrumbs .topLevelWrapper.focus-ring {
+      box-shadow: 0 0 0 0.125rem var(--spectrum-global-color-blue-400);
+      border-color: var(--spectrum-global-color-blue-400);
+      border-radius: 0.25rem; }
+    .cyww .folderBreadcrumbs .topLevelWrapper *:focus {
+      outline: none; }
+  .cyww .folderBreadcrumbs .topLevelSingleWrapper {
+    font-weight: bold;
+    color: var(--spectrum-global-color-gray-900); }
+  .cyww .folderBreadcrumbs .separator {
+    margin: auto;
+    margin-left: 0.25rem;
+    margin-right: 0.25rem; }
+  .cyww .folderBreadcrumbs .dropdown {
+    margin: auto;
+    margin-left: 0.125rem;
+    margin-right: 0.125rem; }
+  .cyww .folderBreadcrumbs .spectrum-Heading {
+    margin: 0rem !important; }
+  .cyww .folderBreadcrumbs .spectrum-Heading--pageTitles {
+    margin: 0;
+    margin-top: 0.125rem; }
+  .cyww .folderBreadcrumbs .editableHeaderName__item {
+    margin: 0rem !important; }
+    .cyww .folderBreadcrumbs .editableHeaderName__item .heading_wrapper {
+      padding: 0.25rem !important; }
+  .cyww .folderBreadcrumbs .editableHeaderName * {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 20rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: var(--spectrum-global-color-gray-900); }
+  .cyww .folderBreadcrumbs .editableHeaderName__textField {
+    margin: 0rem !important;
+    padding: 0rem !important; }
+  .cyww .folderBreadcrumbs .editableHeaderName__item--editing {
+    padding: 0.25rem !important; }
+
+.cyww .folderBreadcrumbs-menu-item .spectrum-Menu-itemLabel {
+  white-space: nowrap;
+  max-width: 20rem;
+  overflow: hidden;
+  text-overflow: ellipsis; }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .containerSize, .cyww .horizontalContainer, .cyww .verticalContainer {
+  width: 100%;
+  height: 100%; }
+
+.cyww .horizontalContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: relative;
+  justify-content: center;
+  padding: 0.5rem 0rem;
+  box-sizing: border-box; }
+
+.cyww .verticalContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  padding: 0rem 0.5rem;
+  box-sizing: border-box; }
+
+.cyww .horizontalContainer__left {
+  position: absolute;
+  left: 1rem; }
+
+.cyww .horizontalContainer__right {
+  position: absolute;
+  right: 1rem; }
+
+.cyww .verticalContainer__top {
+  position: absolute;
+  top: 1rem; }
+
+.cyww .verticalContainer__bottom {
+  position: absolute;
+  bottom: 1rem; }
+
+.cyww .Frame__section {
+  display: flex;
+  flex-direction: row; }
+
+.cyww .Frame__VR {
+  border-left: 0.1rem solid #e9e3e3;
+  height: auto; }
+
+.cyww .ccdHeader {
+  height: 3rem; }
+
+.cyww .ccdHeader__item {
+  padding: 0rem; }
+
+.cyww .ccdFooter {
+  height: 3rem; }
+
+.cyww .ccdFooter__item {
+  padding: 0px; }
+
+.cyww .spectrum-Slider, .cyww .spectrum-Dial {
+  position: relative;
+  z-index: 1;
+  display: block;
+  min-height: 32px;
+  min-width: 100px;
+
+  -webkit-user-select: none;
+
+     -moz-user-select: none;
+
+      -ms-user-select: none;
+
+          user-select: none;
+}
+.cyww .spectrum-Slider-controls, .cyww .spectrum-Dial-controls {
+  display: inline-block;
+  box-sizing: border-box;
+
+  position: relative;
+  z-index: auto;
+  width: calc(100% - 16px);
+  margin-left: 8px;
+  min-height: 32px;
+
+  vertical-align: top;
+}
+.cyww .spectrum-Slider-track, .cyww .spectrum-Slider-buffer, .cyww .spectrum-Slider-ramp, .cyww .spectrum-Slider-fill {
+  height: 2px;
+  box-sizing: border-box;
+
+  position: absolute;
+  z-index: 1;
+  top: 16px;
+  left: 0;
+  right: auto;
+
+  margin-top: -1px;
+
+  pointer-events: none;
+}
+.cyww .spectrum-Slider-track, .cyww .spectrum-Slider-buffer, .cyww .spectrum-Slider-fill {
+  padding: 0 4px 0 0;
+  margin-left: -8px;
+}
+.cyww .spectrum-Slider-track::before, .cyww .spectrum-Slider-buffer::before, .cyww .spectrum-Slider-fill::before {
+    content: '';
+    display: block;
+    height: 100%;
+
+    border-radius: 1px;
+  }
+.cyww .spectrum-Slider-fill {
+  margin-left: 0;
+  padding: 0 0 0 12px;
+}
+.cyww .spectrum-Slider-fill--right {
+  padding: 0 12px 0 0;
+}
+.cyww .spectrum-Slider-buffer {
+  padding: 0 4px 0 0;
+}
+.cyww .spectrum-Slider-track ~ .spectrum-Slider-track, .cyww .spectrum-Slider-buffer ~ .spectrum-Slider-buffer {
+  left: auto;
+  right: 0;
+  padding: 0 0 0 4px;
+  margin-left: 0;
+  margin-right: -8px;
+}
+.cyww .spectrum-Slider-buffer ~ .spectrum-Slider-buffer {
+  margin-right: 0;
+  padding: 0 0 0 12px;
+}
+.cyww .spectrum-Slider-buffer ~ .spectrum-Slider-buffer:after {
+    display: none;
+  }
+.cyww .spectrum-Slider--range .spectrum-Slider-value {
+    -webkit-user-select: text;
+       -moz-user-select: text;
+        -ms-user-select: text;
+            user-select: text;
+  }
+.cyww .spectrum-Slider--range .spectrum-Slider-track:first-of-type {
+      padding: 0 4px 0 0;
+      left: 0;
+      right: auto;
+      margin-left: -8px;
+    }
+.cyww .spectrum-Slider--range .spectrum-Slider-track {
+      padding: 0 12px 0 12px;
+      left: auto;
+      right: auto;
+      margin: 0;
+    }
+.cyww .spectrum-Slider--range .spectrum-Slider-track:last-of-type {
+      padding: 0 0 0 4px;
+      left: auto;
+      right: 0;
+      margin-right: -8px;
+    }
+.cyww .spectrum-Slider-buffer {
+  z-index: 2;
+}
+.cyww .spectrum-Slider-ramp {
+  margin-top: 0;
+  height: 16px;
+
+  position: absolute;
+  left: -8px;
+  right: -8px;
+  top: 8px;
+}
+.cyww .spectrum-Slider-ramp svg {
+    width: 100%;
+    height: 100%;
+  }
+.cyww .spectrum-Slider-handle, .cyww .spectrum-Dial-handle {
+  position: absolute;
+  left: 0;
+  top: 16px;
+  z-index: 2;
+
+  display: inline-block;
+  box-sizing: border-box;
+
+  width: 16px;
+  height: 16px;
+
+  margin: -8px 0 0 -8px;
+
+  border-width: 2px;
+  border-style: solid;
+
+  border-radius: 8px;
+
+  transition: border-width 130ms ease-in-out;
+
+  outline: none;
+  cursor: pointer;
+  cursor: grab;
+}
+.cyww .spectrum-Slider-handle:active, .cyww .spectrum-Slider-handle.is-focused, .cyww .spectrum-Slider-handle.is-dragged, .cyww .spectrum-Dial-handle:active {
+    border-width: 6px;
+    cursor: ns-resize;
+    cursor: grabbing;
+  }
+.cyww .spectrum-Slider-handle:active, .cyww .spectrum-Slider-handle.is-focused, .cyww .spectrum-Slider-handle.is-dragged, .cyww .spectrum-Slider-handle.is-tophandle, .cyww .spectrum-Dial-handle:active {
+    z-index: 3;
+  }
+.cyww .spectrum-Slider-input, .cyww .spectrum-Dial-input {
+  margin: 0;
+
+  width: 16px;
+  height: 16px;
+  padding: 0;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  overflow: hidden;
+  opacity: .000001;
+  cursor: default;
+  -webkit-appearance: none;
+  border: 0;
+  pointer-events: none;
+}
+.cyww .spectrum-Slider-input:focus, .cyww .spectrum-Dial-input:focus {
+    outline: none;
+  }
+.cyww .spectrum-Slider-labelContainer, .cyww .spectrum-Dial-labelContainer {
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+
+  width: auto;
+
+  padding-top: 4px;
+
+  font-size: 12px;
+  line-height: 1.3;
+}
+.cyww .spectrum-Slider-label, .cyww .spectrum-Dial-label {
+  padding-left: 0;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
+}
+.cyww .spectrum-Slider-value, .cyww .spectrum-Dial-value {
+  -ms-flex-positive: 0;
+      flex-grow: 0;
+  padding-right: 0;
+  cursor: default;
+}
+.cyww .spectrum-Slider-value {
+  margin-left: 16px;
+}
+.cyww .spectrum-Slider-ticks {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+
+  z-index: 0;
+
+  margin: 0 -8px;
+  margin-top: 11px;
+}
+.cyww .spectrum-Slider-tick {
+  position: relative;
+
+  width: 2px;
+}
+.cyww .spectrum-Slider-tick:after {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 1px);
+    content: '';
+    width: 2px;
+    height: 10px;
+
+    border-radius: 1px;
+  }
+.cyww .spectrum-Slider-tick .spectrum-Slider-tickLabel {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+        align-items: center;
+    -ms-flex-pack: center;
+        justify-content: center;
+
+    margin: 16px -16px 0 -16px;
+
+    font-size: 12px;
+    line-height: 1.3;
+  }
+.cyww .spectrum-Slider-tick:first-of-type .spectrum-Slider-tickLabel, .cyww .spectrum-Slider-tick:last-of-type .spectrum-Slider-tickLabel {
+      display: block;
+      position: absolute;
+      margin: 16px 0 0 0;
+    }
+.cyww .spectrum-Slider-tick:first-of-type .spectrum-Slider-tickLabel {
+      left: 0;
+    }
+.cyww .spectrum-Slider-tick:last-of-type .spectrum-Slider-tickLabel {
+      right: 0;
+    }
+.cyww .spectrum-Slider--color .spectrum-Slider-labelContainer, .cyww .spectrum-Slider--color .spectrum-Dial-labelContainer {
+    padding-bottom: 5px;
+  }
+.cyww .spectrum-Slider--color .spectrum-Slider-controls, .cyww .spectrum-Slider--color .spectrum-Slider-controls::before, .cyww .spectrum-Slider--color .spectrum-Slider-track, .cyww .spectrum-Slider--color .spectrum-Dial-controls, .cyww .spectrum-Slider--color .spectrum-Dial-controls::before {
+    min-height: auto;
+    height: 24px;
+    margin-left: 0;
+    width: 100%;
+  }
+.cyww .spectrum-Slider--color .spectrum-Slider-controls::before, .cyww .spectrum-Slider--color .spectrum-Dial-controls::before {
+    display: block;
+    content: '';
+  }
+.cyww .spectrum-Slider--color .spectrum-Slider-controls::before, .cyww .spectrum-Slider--color .spectrum-Slider-track, .cyww .spectrum-Slider--color .spectrum-Dial-controls::before {
+    top: 0;
+    padding: 0;
+    margin-top: 0;
+    margin-right: 0;
+    border-radius: 4px;
+  }
+.cyww .spectrum-Slider--color .spectrum-Slider-handle, .cyww .spectrum-Slider--color .spectrum-Dial-handle {
+    top: 50%;
+  }
+.cyww .spectrum-Dial {
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+
+  height: auto;
+  min-width: 0;
+  min-height: 0;
+  width: 48px;
+}
+.cyww .spectrum-Dial-labelContainer {
+  margin-bottom: 5px;
+}
+.cyww .spectrum-Dial-label:only-child {
+    text-align: center;
+  }
+.cyww .spectrum-Dial-controls {
+  width: 32px;
+  height: 32px;
+  min-height: 0;
+
+  border-radius: 16px;
+  position: relative;
+  display: inline-block;
+  margin: 0;
+
+  box-sizing: border-box;
+  outline: none;
+}
+.cyww .spectrum-Dial-controls::before, .cyww .spectrum-Dial-controls::after {
+    content: '';
+    width: 4px;
+    height: 2px;
+    border-radius: 1px;
+    position: absolute;
+    bottom: 0;
+  }
+.cyww .spectrum-Dial-controls::before {
+    left: auto;
+    right: -2px;
+    transform: rotate(45deg);
+  }
+.cyww .spectrum-Dial-controls::after {
+    left: -2px;
+    transform: rotate(-45deg);
+  }
+.cyww .spectrum-Dial-handle {
+  width: 100%;
+  height: 100%;
+  border-width: 2px;
+  box-shadow: none;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  right: 8px;
+  bottom: 8px;
+  border-radius: 16px;
+  transform: rotate(-45deg);
+  cursor: pointer;
+  cursor: grab;
+
+  transition: background-color 130ms ease-in-out;
+}
+.cyww .spectrum-Dial-handle::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: -2px;
+    width: 12px;
+    height: 2px;
+    border-radius: 1px;
+    transform: translateY(-50%);
+    transition: background-color 130ms ease-in-out;
+  }
+.cyww .spectrum-Dial-handle:active, .cyww .spectrum-Dial-handle.is-focused, .cyww .spectrum-Dial-handle.is-dragged {
+    border-width: 2px;
+    cursor: ns-resize;
+    cursor: grabbing;
+  }
+.cyww .spectrum-Dial-input {
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+}
+.cyww .spectrum-Dial--small .spectrum-Dial-controls {
+    width: 24px;
+    height: 24px;
+  }
+.cyww .spectrum-Slider.is-disabled, .cyww .spectrum-Dial.is-disabled {
+    cursor: default;
+  }
+.cyww .spectrum-Slider.is-disabled .spectrum-Slider-handle, .cyww .spectrum-Dial.is-disabled .spectrum-Slider-handle, .cyww .spectrum-Slider.is-disabled .spectrum-Dial-handle, .cyww .spectrum-Dial.is-disabled .spectrum-Dial-handle {
+      cursor: default;
+      pointer-events: none;
+    }
+.cyww .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:hover, .cyww .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:active, .cyww .spectrum-Dial.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:hover, .cyww .spectrum-Dial.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:active, .cyww .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Dial-handle:hover, .cyww .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Dial-handle:active, .cyww .spectrum-Dial.is-disabled.spectrum-Slider--color .spectrum-Dial-handle:hover, .cyww .spectrum-Dial.is-disabled.spectrum-Slider--color .spectrum-Dial-handle:active {
+          border-width: 1px;
+        }
+.cyww .u-isGrabbing {
+  cursor: ns-resize;
+  cursor: grabbing;
+
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.cyww .u-isGrabbing .spectrum-Dial .spectrum-Dial-label, .cyww .u-isGrabbing .spectrum-Dial .spectrum-Dial-value {
+      cursor: inherit;
+    }
+.cyww .u-isGrabbing .spectrum-Slider .spectrum-Slider-label, .cyww .u-isGrabbing .spectrum-Slider .spectrum-Slider-value, .cyww .u-isGrabbing .spectrum-Dial .spectrum-Slider-label, .cyww .u-isGrabbing .spectrum-Dial .spectrum-Slider-value {
+      cursor: inherit;
+    }
+
+.cyww .spectrum--light .spectrum-Slider-track::before {
+    background: rgb(225, 225, 225);
+  }
+.cyww .spectrum--light .spectrum-Slider-labelContainer, .cyww .spectrum--light .spectrum-Dial-labelContainer {
+  color: rgb(110, 110, 110);
+}
+.cyww .spectrum--light .spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+      background: rgb(110, 110, 110);
+    }
+.cyww .spectrum--light .spectrum-Slider-fill::before {
+    background: rgb(110, 110, 110);
+  }
+.cyww .spectrum--light .spectrum-Slider-buffer::before, .cyww .spectrum--light .spectrum-Slider-buffer::after {
+    background: rgb(179, 179, 179);
+  }
+.cyww .spectrum--light .spectrum-Slider-ramp path {
+    fill: rgb(225, 225, 225);
+  }
+.cyww .spectrum--light .spectrum-Slider-handle {
+  border-color: rgb(110, 110, 110);
+  background: rgb(245, 245, 245);
+}
+.cyww .spectrum--light .spectrum-Slider-handle:hover {
+    border-color: rgb(75, 75, 75);
+  }
+.cyww .spectrum--light .spectrum-Slider-handle.is-focused {
+    border-color: rgb(38, 128, 235);
+  }
+.cyww .spectrum--light .spectrum-Slider-handle:active, .cyww .spectrum--light .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(75, 75, 75);
+  }
+.cyww .spectrum--light .spectrum-Slider--ramp .spectrum-Slider-handle {
+    box-shadow: 0 0 0 4px rgb(245, 245, 245);
+  }
+.cyww .spectrum--light .spectrum-Slider-input {
+  background: transparent;
+}
+.cyww .spectrum--light .spectrum-Slider-tick:after {
+    background-color: rgb(225, 225, 225);
+  }
+.cyww .spectrum--light .spectrum-Slider-handle.is-focused {
+    border-color: rgb(38, 128, 235);
+    background: rgb(38, 128, 235);
+  }
+.cyww .spectrum--light .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(75, 75, 75);
+    background: transparent;
+  }
+.cyww .spectrum--light .spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+        background: rgb(110, 110, 110);
+      }
+.cyww .spectrum--light .spectrum-Slider--color .spectrum-Slider-controls::before {
+    background-color: rgb(255, 255, 255);
+    background-image:
+      linear-gradient(-45deg, transparent 75.5%, rgb(188, 188, 188) 75.5%),
+      linear-gradient(45deg, transparent 75.5%, rgb(188, 188, 188) 75.5%),
+      linear-gradient(-45deg, rgb(188, 188, 188) 25.5%, transparent 25.5%),
+      linear-gradient(45deg, rgb(188, 188, 188) 25.5%, transparent 25.5%);
+    background-size:
+      16px
+      16px;
+    background-position:
+      0 0,
+      0 8px,
+      8px -8px,
+      -8px 0;
+    z-index: 0;
+  }
+.cyww .spectrum--light .spectrum-Slider--color .spectrum-Slider-track {
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(38, 128, 235), rgb(9, 90, 186));
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+  }
+.cyww .spectrum--light .spectrum-Slider--color .spectrum-Slider-track::before {
+      display: none;
+    }
+.cyww .spectrum--light .spectrum-Slider--color .spectrum-Slider-handle {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.05);
+    border-color: rgb(255, 255, 255);
+    background: transparent;
+  }
+.cyww .spectrum--light .spectrum-Slider--color .spectrum-Slider-handle.is-focused {
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+    }
+.cyww .spectrum--light .spectrum-Dial-handle {
+  box-shadow: none;
+}
+.cyww .spectrum--light .spectrum-Dial-handle::after {
+    background-color: rgb(110, 110, 110);
+  }
+.cyww .spectrum--light .spectrum-Dial-handle:hover::after {
+      background-color: rgb(75, 75, 75);
+    }
+.cyww .spectrum--light .spectrum-Dial-handle.is-focused {
+    background-color: rgb(38, 128, 235);
+
+    border-color: rgb(38, 128, 235);
+  }
+.cyww .spectrum--light .spectrum-Dial-handle.is-focused::after {
+      background-color: rgb(255, 255, 255);
+    }
+.cyww .spectrum--light .spectrum-Dial-handle:active, .cyww .spectrum--light .spectrum-Dial-handle.is-dragged {
+    background-color: rgb(75, 75, 75);
+
+    border-color: rgb(75, 75, 75);
+  }
+.cyww .spectrum--light .spectrum-Dial-handle:active::after, .cyww .spectrum--light .spectrum-Dial-handle.is-dragged::after {
+      background-color: rgb(255, 255, 255);
+    }
+.cyww .spectrum--light .spectrum-Dial-controls::before, .cyww .spectrum--light .spectrum-Dial-controls::after {
+    background-color: rgb(142, 142, 142);
+  }
+.cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-labelContainer {
+      color: rgb(179, 179, 179);
+    }
+.cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-controls::after, .cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-controls::before {
+        background-color: rgb(202, 202, 202);
+      }
+.cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-handle {
+      border-color: rgb(202, 202, 202);
+      background: rgb(245, 245, 245);
+    }
+.cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-handle:hover, .cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-handle:active {
+        border-color: rgb(202, 202, 202);
+        background: transparent;
+      }
+.cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-handle::after, .cyww .spectrum--light .spectrum-Dial.is-disabled .spectrum-Dial-handle::before {
+        background-color: rgb(225, 225, 225);
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-labelContainer, .cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Dial-labelContainer {
+      color: rgb(179, 179, 179);
+    }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-handle {
+      border-color: rgb(202, 202, 202);
+      background: rgb(245, 245, 245);
+    }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-handle:hover, .cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-handle:active {
+        border-color: rgb(202, 202, 202);
+        background: transparent;
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-track::before {
+        background: rgb(225, 225, 225);
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+          background: rgb(225, 225, 225);
+        }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-fill::before {
+        background: rgb(225, 225, 225);
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-buffer::before {
+        background: rgb(225, 225, 225);
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled .spectrum-Slider-ramp path {
+        fill: rgb(234, 234, 234);
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-track {
+        background: rgb(234, 234, 234) !important;
+        box-shadow: none;
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle {
+        background: transparent;
+        box-shadow: none;
+        border-color: rgb(202, 202, 202);
+      }
+.cyww .spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:hover, .cyww .spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:active {
+          background: transparent;
+          box-shadow: none;
+          border-color: rgb(202, 202, 202);
+        }
+.cyww .spectrum--light .spectrum-Slider.is-disabled.spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+            background: rgb(225, 225, 225);
+          }
+
+.cyww .spectrum--darkest .spectrum-Slider-track::before {
+    background: rgb(57, 57, 57);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-labelContainer, .cyww .spectrum--darkest .spectrum-Dial-labelContainer {
+  color: rgb(162, 162, 162);
+}
+.cyww .spectrum--darkest .spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+      background: rgb(162, 162, 162);
+    }
+.cyww .spectrum--darkest .spectrum-Slider-fill::before {
+    background: rgb(162, 162, 162);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-buffer::before, .cyww .spectrum--darkest .spectrum-Slider-buffer::after {
+    background: rgb(92, 92, 92);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-ramp path {
+    fill: rgb(57, 57, 57);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-handle {
+  border-color: rgb(162, 162, 162);
+  background: rgb(30, 30, 30);
+}
+.cyww .spectrum--darkest .spectrum-Slider-handle:hover {
+    border-color: rgb(200, 200, 200);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-handle.is-focused {
+    border-color: rgb(20, 115, 230);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-handle:active, .cyww .spectrum--darkest .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(200, 200, 200);
+  }
+.cyww .spectrum--darkest .spectrum-Slider--ramp .spectrum-Slider-handle {
+    box-shadow: 0 0 0 4px rgb(30, 30, 30);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-input {
+  background: transparent;
+}
+.cyww .spectrum--darkest .spectrum-Slider-tick:after {
+    background-color: rgb(57, 57, 57);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-handle.is-focused {
+    border-color: rgb(20, 115, 230);
+    background: rgb(20, 115, 230);
+  }
+.cyww .spectrum--darkest .spectrum-Slider-handle.is-dragged {
+    border-color: rgb(200, 200, 200);
+    background: transparent;
+  }
+.cyww .spectrum--darkest .spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+        background: rgb(162, 162, 162);
+      }
+.cyww .spectrum--darkest .spectrum-Slider--color .spectrum-Slider-controls::before {
+    background-color: rgb(255, 255, 255);
+    background-image:
+      linear-gradient(-45deg, transparent 75.5%, rgb(188, 188, 188) 75.5%),
+      linear-gradient(45deg, transparent 75.5%, rgb(188, 188, 188) 75.5%),
+      linear-gradient(-45deg, rgb(188, 188, 188) 25.5%, transparent 25.5%),
+      linear-gradient(45deg, rgb(188, 188, 188) 25.5%, transparent 25.5%);
+    background-size:
+      16px
+      16px;
+    background-position:
+      0 0,
+      0 8px,
+      8px -8px,
+      -8px 0;
+    z-index: 0;
+  }
+.cyww .spectrum--darkest .spectrum-Slider--color .spectrum-Slider-track {
+    background-color: transparent;
+    background-image: linear-gradient(to right, rgb(20, 115, 230), rgb(75, 156, 245));
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05);
+  }
+.cyww .spectrum--darkest .spectrum-Slider--color .spectrum-Slider-track::before {
+      display: none;
+    }
+.cyww .spectrum--darkest .spectrum-Slider--color .spectrum-Slider-handle {
+    box-shadow: inset 0 0 0 1px rgba(0,0,0,0.05), 0 0 0 1px rgba(0,0,0,0.05);
+    border-color: rgb(8, 8, 8);
+    background: transparent;
+  }
+.cyww .spectrum--darkest .spectrum-Slider--color .spectrum-Slider-handle.is-focused {
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.05);
+    }
+.cyww .spectrum--darkest .spectrum-Dial-handle {
+  box-shadow: none;
+}
+.cyww .spectrum--darkest .spectrum-Dial-handle::after {
+    background-color: rgb(162, 162, 162);
+  }
+.cyww .spectrum--darkest .spectrum-Dial-handle:hover::after {
+      background-color: rgb(200, 200, 200);
+    }
+.cyww .spectrum--darkest .spectrum-Dial-handle.is-focused {
+    background-color: rgb(20, 115, 230);
+
+    border-color: rgb(20, 115, 230);
+  }
+.cyww .spectrum--darkest .spectrum-Dial-handle.is-focused::after {
+      background-color: rgb(8, 8, 8);
+    }
+.cyww .spectrum--darkest .spectrum-Dial-handle:active, .cyww .spectrum--darkest .spectrum-Dial-handle.is-dragged {
+    background-color: rgb(200, 200, 200);
+
+    border-color: rgb(200, 200, 200);
+  }
+.cyww .spectrum--darkest .spectrum-Dial-handle:active::after, .cyww .spectrum--darkest .spectrum-Dial-handle.is-dragged::after {
+      background-color: rgb(8, 8, 8);
+    }
+.cyww .spectrum--darkest .spectrum-Dial-controls::before, .cyww .spectrum--darkest .spectrum-Dial-controls::after {
+    background-color: rgb(124, 124, 124);
+  }
+.cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-labelContainer {
+      color: rgb(92, 92, 92);
+    }
+.cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-controls::after, .cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-controls::before {
+        background-color: rgb(73, 73, 73);
+      }
+.cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-handle {
+      border-color: rgb(73, 73, 73);
+      background: rgb(30, 30, 30);
+    }
+.cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-handle:hover, .cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-handle:active {
+        border-color: rgb(73, 73, 73);
+        background: transparent;
+      }
+.cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-handle::after, .cyww .spectrum--darkest .spectrum-Dial.is-disabled .spectrum-Dial-handle::before {
+        background-color: rgb(57, 57, 57);
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-labelContainer, .cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Dial-labelContainer {
+      color: rgb(92, 92, 92);
+    }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-handle {
+      border-color: rgb(73, 73, 73);
+      background: rgb(30, 30, 30);
+    }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-handle:hover, .cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-handle:active {
+        border-color: rgb(73, 73, 73);
+        background: transparent;
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-track::before {
+        background: rgb(57, 57, 57);
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled.spectrum-Slider--filled .spectrum-Slider-track:first-child::before {
+          background: rgb(57, 57, 57);
+        }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-fill::before {
+        background: rgb(57, 57, 57);
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-buffer::before {
+        background: rgb(57, 57, 57);
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled .spectrum-Slider-ramp path {
+        fill: rgb(44, 44, 44);
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-track {
+        background: rgb(44, 44, 44) !important;
+        box-shadow: none;
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle {
+        background: transparent;
+        box-shadow: none;
+        border-color: rgb(73, 73, 73);
+      }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:hover, .cyww .spectrum--darkest .spectrum-Slider.is-disabled.spectrum-Slider--color .spectrum-Slider-handle:active {
+          background: transparent;
+          box-shadow: none;
+          border-color: rgb(73, 73, 73);
+        }
+.cyww .spectrum--darkest .spectrum-Slider.is-disabled.spectrum-Slider--range .spectrum-Slider-track:not(:first-of-type):not(:last-of-type):before {
+            background: rgb(57, 57, 57);
+          }
+
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+* Copyright 2019 Adobe
+* All Rights Reserved.
+*
+* NOTICE: All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+.cyww .spectrum-Slider-controls .spectrum-Slider-leftClickZone, .cyww .spectrum-Slider-controls .spectrum-Slider-rightClickZone {
+  width: 8px;
+  position: absolute;
+  height: 32px;
+}
+
+.cyww .spectrum-Slider-controls .spectrum-Slider-leftClickZone {
+  left: -8px;
+}
+
+.cyww .spectrum-Slider-controls .spectrum-Slider-rightClickZone {
+  right: -8px;
+}
+
+.cyww .spectrum--large .spectrum-Slider-controls .spectrum-Slider-leftClickZone, .cyww .spectrum--large .spectrum-Slider-controls .spectrum-Slider-rightClickZone {
+  width: 10px;
+  height: 40px;
+}
+
+.cyww .spectrum--large .spectrum-Slider-controls .spectrum-Slider-leftClickZone {
+  left: -10px;
+}
+
+.cyww .spectrum--large .spectrum-Slider-controls .spectrum-Slider-rightClickZone {
+  right: -10px;
+}
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .assets-footer {
+  height: 3rem;
+  background-color: var(--background-color-primary);
+  border-top: 0.125rem solid var(--spectrum-global-color-gray-200); }
+  .cyww .assets-footer .ccdFooter__item {
+    padding-left: 0.125rem;
+    padding-right: 0.125rem; }
+  .cyww .assets-footer .Frame__VR {
+    margin-left: 0.375rem;
+    margin-right: 0.375rem;
+    border: solid var(--spectrum-global-color-gray-300);
+    border-width: 0 0.0625rem 0 0; }
+  .cyww .assets-footer .left-area {
+    left: 0.375rem; }
+  .cyww .assets-footer .right-area {
+    right: 0.375rem; }
+  .cyww .assets-footer .slider {
+    display: flex; }
+    .cyww .assets-footer .slider .spectrum-Slider {
+      min-width: 5rem; }
+    .cyww .assets-footer .slider .plus-button {
+      margin-left: 0.5rem; }
+    .cyww .assets-footer .slider .minus-button {
+      margin-right: 0.5rem; }
+
+.cyww .hidden {
+  display: none; }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .ccdRail {
+  width: 3rem;
+  height: 40rem; }
+
+.cyww .ccdRail__section {
+  display: flex;
+  flex-direction: column; }
+
+.cyww .ccdRail__item {
+  padding: 0px; }
+
+.cyww .ccdRail__HR {
+  border: 0.05rem solid var(--spectrum-global-color-gray-200); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .assets-rail {
+  width: 3rem;
+  background-color: var(--background-color-primary); }
+  .cyww .assets-rail .top-area {
+    top: 0.5rem; }
+  .cyww .assets-rail .bottom-area {
+    bottom: 0.5rem; }
+  .cyww .assets-rail .ccdRail__HR {
+    margin: .25rem;
+    border: solid var(--spectrum-global-color-gray-300);
+    border-width: 0.0625rem 0 0 0; }
+
+.cyww .left-rail {
+  height: 100%;
+  border-right: 0.125rem solid var(--spectrum-global-color-gray-200); }
+  .cyww .left-rail .rail-item {
+    margin-bottom: 0.25rem; }
+  .cyww .left-rail .ccdRail__HR {
+    margin-top: unset; }
+  .cyww .left-rail .cta-button {
+    border-width: 1px;
+    min-width: 32px;
+    padding: 0 6px;
+    border-radius: 4px; }
+
+.cyww .right-rail {
+  border-left: 0.125rem solid var(--spectrum-global-color-gray-200);
+  /* placeholder styling. Will be updated when specs are available*/ }
+  .cyww .right-rail .cta-button {
+    border-width: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 32px;
+    padding: 0 6px; }
+  .cyww .right-rail .cta-count {
+    border-radius: 4px; }
+  .cyww .right-rail .rail-item {
+    margin-bottom: 0.25rem; }
+  .cyww .right-rail .disabled-button-tooltip-trigger-container {
+    pointer-events: auto;
+    border-width: 0.0625rem;
+    border-color: transparent;
+    border-radius: 0.25rem; }
+    .cyww .right-rail .disabled-button-tooltip-trigger-container.focus-ring {
+      border-color: var(--spectrum-global-color-blue-400);
+      box-shadow: 0 0 0 0.0625rem var(--spectrum-global-color-blue-400);
+      border-style: solid; }
+    .cyww .right-rail .disabled-button-tooltip-trigger-container:focus {
+      outline: none; }
+    .cyww .right-rail .disabled-button-tooltip-trigger-container .disabled-button-tooltip-trigger-children {
+      pointer-events: none; }
+
+.cyww .assets-rail > div {
+  height: 100%; }
+
+.cyww .hidden {
+  display: none; }
+
+.cyww .right-rail-multi-actions-popover {
+  padding: 0.5rem 0 0.5rem 0 !important;
+  margin-left: 0;
+  min-width: 14rem !important;
+  list-style-type: none; }
+  .cyww .right-rail-multi-actions-popover .spectrum-Popover-tip {
+    display: none; }
+
+.cyww .view-port-resize-popover {
+  padding: 4px 0px 4px 0px !important;
+  margin-left: 0;
+  min-width: 14rem !important;
+  margin-right: 8px !important;
+  list-style-type: none; }
+  .cyww .view-port-resize-popover .spectrum-Popover-tip {
+    display: none; }
+
+.cyww .view-port-popover-item {
+  display: flex; }
+
+.cyww .right-rail-more-actions .spectrum-Menu-itemLabel {
+  min-width: unset !important;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden; }
+
+.cyww ._spectrum-Icon_8ac98, .cyww ._spectrum-UIIcon_8ac98{display:inline-block;color:inherit;fill:currentColor;pointer-events:none}.cyww ._spectrum-Icon_8ac98:not(:root), .cyww ._spectrum-UIIcon_8ac98:not(:root){overflow:hidden}.cyww ._spectrum-Icon--sizeXXS_8ac98, .cyww ._spectrum-Icon--sizeXXS_8ac98 img, .cyww ._spectrum-Icon--sizeXXS_8ac98 svg{height:calc(var(--spectrum-global-dimension-size-225) / 2);width:calc(var(--spectrum-global-dimension-size-225) / 2)}.cyww ._spectrum-Icon--sizeXS_8ac98, .cyww ._spectrum-Icon--sizeXS_8ac98 img, .cyww ._spectrum-Icon--sizeXS_8ac98 svg{height:calc(var(--spectrum-global-dimension-size-300) / 2);width:calc(var(--spectrum-global-dimension-size-300) / 2)}.cyww ._spectrum-Icon--sizeS_8ac98, .cyww ._spectrum-Icon--sizeS_8ac98 img, .cyww ._spectrum-Icon--sizeS_8ac98 svg{height:var(--spectrum-global-dimension-size-225);width:var(--spectrum-global-dimension-size-225)}.cyww ._spectrum-Icon--sizeM_8ac98, .cyww ._spectrum-Icon--sizeM_8ac98 img, .cyww ._spectrum-Icon--sizeM_8ac98 svg{height:var(--spectrum-global-dimension-size-300);width:var(--spectrum-global-dimension-size-300)}.cyww ._spectrum-Icon--sizeL_8ac98, .cyww ._spectrum-Icon--sizeL_8ac98 img, .cyww ._spectrum-Icon--sizeL_8ac98 svg{height:calc(var(--spectrum-global-dimension-size-225) * 2);width:calc(var(--spectrum-global-dimension-size-225) * 2)}.cyww ._spectrum-Icon--sizeXL_8ac98, .cyww ._spectrum-Icon--sizeXL_8ac98 img, .cyww ._spectrum-Icon--sizeXL_8ac98 svg{height:calc(var(--spectrum-global-dimension-size-300) * 2);width:calc(var(--spectrum-global-dimension-size-300) * 2)}.cyww ._spectrum-Icon--sizeXXL_8ac98, .cyww ._spectrum-Icon--sizeXXL_8ac98 img, .cyww ._spectrum-Icon--sizeXXL_8ac98 svg{height:calc(var(--spectrum-global-dimension-size-300) * 3);width:calc(var(--spectrum-global-dimension-size-300) * 3)}.cyww ._spectrum--medium_8ac98 ._spectrum-UIIcon--large_8ac98{display:none}.cyww ._spectrum--medium_8ac98 ._spectrum-UIIcon--medium_8ac98{display:inline}.cyww ._spectrum--large_8ac98 ._spectrum-UIIcon--medium_8ac98{display:none}.cyww ._spectrum--large_8ac98 ._spectrum-UIIcon--large_8ac98{display:inline}.cyww ._spectrum--large_8ac98{--ui-icon-large-display:block;--ui-icon-medium-display:none}.cyww ._spectrum--medium_8ac98{--ui-icon-medium-display:block;--ui-icon-large-display:none}.cyww ._spectrum-UIIcon--large_8ac98{display:var(--ui-icon-large-display)}.cyww ._spectrum-UIIcon--medium_8ac98{display:var(--ui-icon-medium-display)}.cyww ._spectrum-UIIcon-AlertMedium_8ac98{width:var(--spectrum-global-dimension-size-225);height:var(--spectrum-global-dimension-size-225)}.cyww ._spectrum-UIIcon-AlertSmall_8ac98{width:var(--spectrum-global-dimension-size-175);height:var(--spectrum-global-dimension-size-175)}.cyww ._spectrum-UIIcon-ArrowDownSmall_8ac98{width:var(--spectrum-global-dimension-size-100);height:var(--spectrum-icon-arrow-down-small-height)}.cyww ._spectrum-UIIcon-ArrowLeftMedium_8ac98{width:var(--spectrum-global-dimension-size-175);height:var(--spectrum-icon-arrow-left-medium-height)}.cyww ._spectrum-UIIcon-Asterisk_8ac98{width:var(--spectrum-global-dimension-size-100);height:var(--spectrum-global-dimension-size-100)}.cyww ._spectrum-UIIcon-CheckmarkMedium_8ac98{width:var(--spectrum-icon-checkmark-medium-width);height:var(--spectrum-icon-checkmark-medium-height)}.cyww ._spectrum-UIIcon-CheckmarkSmall_8ac98{width:var(--spectrum-icon-checkmark-small-width);height:var(--spectrum-icon-checkmark-small-height)}.cyww ._spectrum-UIIcon-ChevronDownMedium_8ac98{width:var(--spectrum-icon-chevron-down-medium-width);height:var(--spectrum-global-dimension-size-75)}.cyww ._spectrum-UIIcon-ChevronDownSmall_8ac98{width:var(--spectrum-global-dimension-size-100);height:var(--spectrum-global-dimension-size-75)}.cyww ._spectrum-UIIcon-ChevronLeftLarge_8ac98{width:var(--spectrum-icon-chevron-left-large-width);height:var(--spectrum-global-dimension-size-200)}.cyww ._spectrum-UIIcon-ChevronLeftMedium_8ac98{width:var(--spectrum-global-dimension-size-75);height:var(--spectrum-icon-chevron-left-medium-height)}.cyww ._spectrum-UIIcon-ChevronRightLarge_8ac98{width:var(--spectrum-icon-chevron-right-large-width);height:var(--spectrum-global-dimension-size-200)}.cyww ._spectrum-UIIcon-ChevronRightMedium_8ac98{width:var(--spectrum-global-dimension-size-75);height:var(--spectrum-icon-chevron-right-medium-height)}.cyww ._spectrum-UIIcon-ChevronRightSmall_8ac98{width:var(--spectrum-global-dimension-size-75);height:var(--spectrum-global-dimension-size-100)}.cyww ._spectrum-UIIcon-ChevronUpSmall_8ac98{width:var(--spectrum-global-dimension-size-100);height:var(--spectrum-global-dimension-size-75)}.cyww ._spectrum-UIIcon-CornerTriangle_8ac98{width:var(--spectrum-global-dimension-size-65);height:var(--spectrum-global-dimension-size-65)}.cyww ._spectrum-UIIcon-CrossLarge_8ac98{width:var(--spectrum-icon-cross-large-width);height:var(--spectrum-icon-cross-large-height)}.cyww ._spectrum-UIIcon-CrossMedium_8ac98, .cyww ._spectrum-UIIcon-CrossSmall_8ac98{width:var(--spectrum-global-dimension-size-100);height:var(--spectrum-global-dimension-size-100)}.cyww ._spectrum-UIIcon-DashSmall_8ac98{width:var(--spectrum-icon-dash-small-width);height:var(--spectrum-icon-dash-small-height)}.cyww ._spectrum-UIIcon-DoubleGripper_8ac98{width:var(--spectrum-global-dimension-size-200);height:var(--spectrum-global-dimension-size-50)}.cyww ._spectrum-UIIcon-FolderBreadcrumb_8ac98, .cyww ._spectrum-UIIcon-HelpMedium_8ac98{width:var(--spectrum-global-dimension-size-225);height:var(--spectrum-global-dimension-size-225)}.cyww ._spectrum-UIIcon-HelpSmall_8ac98{width:var(--spectrum-global-dimension-size-175);height:var(--spectrum-global-dimension-size-175)}.cyww ._spectrum-UIIcon-InfoMedium_8ac98{width:var(--spectrum-global-dimension-size-225);height:var(--spectrum-global-dimension-size-225)}.cyww ._spectrum-UIIcon-InfoSmall_8ac98{width:var(--spectrum-global-dimension-size-175);height:var(--spectrum-global-dimension-size-175)}.cyww ._spectrum-UIIcon-Magnifier_8ac98{width:var(--spectrum-global-dimension-size-200);height:var(--spectrum-global-dimension-size-200)}.cyww ._spectrum-UIIcon-SkipLeft_8ac98{width:var(--spectrum-icon-skip-left-width);height:var(--spectrum-icon-skip-left-height)}.cyww ._spectrum-UIIcon-SkipRight_8ac98{width:var(--spectrum-icon-skip-right-width);height:var(--spectrum-icon-skip-right-height)}.cyww ._spectrum-UIIcon-Star_8ac98, .cyww ._spectrum-UIIcon-StarOutline_8ac98, .cyww ._spectrum-UIIcon-SuccessMedium_8ac98{width:var(--spectrum-global-dimension-size-225);height:var(--spectrum-global-dimension-size-225)}.cyww ._spectrum-UIIcon-SuccessSmall_8ac98{width:var(--spectrum-global-dimension-size-175);height:var(--spectrum-global-dimension-size-175)}.cyww ._spectrum-UIIcon-TripleGripper_8ac98{width:var(--spectrum-icon-triplegripper-width);height:var(--spectrum-global-dimension-size-85)}
+
+.cyww ._spectrum_d43d2{background-color:var(--spectrum-global-color-gray-100);-webkit-tap-highlight-color:rgba(0,0,0,0)}.cyww ._spectrum_60105{font-family:adobe-clean-ux,adobe-clean,Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif;font-size:var(--spectrum-global-dimension-font-size-100);color:var(--spectrum-global-color-gray-800)}.cyww ._spectrum_60105:lang(ar){font-family:adobe-arabic,myriad-arabic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}.cyww ._spectrum_60105:lang(he){font-family:adobe-hebrew,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}.cyww ._spectrum_60105:lang(zh), .cyww ._spectrum_60105:lang(zh-Hans){font-family:adobe-clean-han-simplified-c,SimSun,Heiti SC Light,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}.cyww ._spectrum_60105:lang(ko){font-family:adobe-clean-han-korean,Malgun Gothic,Apple Gothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}.cyww ._spectrum_60105:lang(ja){font-family:adobe-clean-han-japanese,Yu Gothic,"\30E1  \30A4  \30EA  \30AA","\30D2  \30E9  \30AE  \30CE  \89D2  \30B4   Pro W3",Hiragino Kaku Gothic Pro W3,Osaka,"\FF2D  \FF33  \FF30  \30B4  \30B7  \30C3  \30AF",MS PGothic,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,sans-serif}.cyww ._spectrum-Body_60105, .cyww ._spectrum_60105, .cyww ._spectrum_60105._spectrum-Body_60105{font-size:var(--spectrum-alias-font-size-default,var(--spectrum-global-dimension-font-size-100));font-weight:var(--spectrum-alias-body-text-font-weight,var(--spectrum-global-font-weight-regular));line-height:var(--spectrum-alias-body-text-line-height,var(--spectrum-global-font-line-height-medium));font-style:var(--spectrum-global-font-style-regular,normal)}.cyww ._spectrum-Body--italic_60105{font-style:var(--spectrum-global-font-style-italic,italic)}
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .your-work {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.cyww .your-work-assets {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.cyww .your-work-assets-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: var(--background-color-primary); }
+
+.cyww .mid-area {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 0;
+  overflow: hidden; }
+
+.cyww .ccd-yw-provider {
+  height: 100%;
+  overflow: hidden; }
+
+.cyww .max-height {
+  height: 100%; }
+
+.cyww .your-work-init {
+  width: 100%;
+  height: 100%;
+  background-color: var(--spectrum-global-color-gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cyww .your-work-init .init-wait-text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .your-work-init .init-failed-heading {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .your-work-init .init-failed-text {
+    margin: 0.5rem 0 1rem;
+    text-align: center;
+    width: 9.375rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-800); }
+
+.cyww .assets-side-nav-error-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cyww .assets-side-nav-error-view .sideNav-failed-heading {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .assets-side-nav-error-view .sideNav-failed-text {
+    margin: 0.5rem 0 1rem;
+    text-align: center;
+    width: 9.375rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .assets-side-nav-error-view .sideNav-failed-img {
+    width: 8rem;
+    height: 8rem; }
+
+.cyww .assets-side-nav, .cyww .assets-side-nav-error-view {
+  padding-left: 1rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  white-space: nowrap;
+  display: flex;
+  flex-flow: column nowrap;
+  width: 16rem;
+  border-right: 0.125rem solid var(--spectrum-global-color-gray-200);
+  position: relative;
+  background: var(--background-color-primary); }
+  .cyww .assets-side-nav > *, .cyww .assets-side-nav-error-view > * {
+    padding-right: 1rem; }
+  .cyww .assets-side-nav .top-nav, .cyww .assets-side-nav-error-view .top-nav {
+    height: 0rem;
+    flex-grow: 1;
+    overflow-x: hidden;
+    overflow-y: auto; }
+  .cyww .assets-side-nav .react-spectrum-SideNav, .cyww .assets-side-nav-error-view .react-spectrum-SideNav {
+    width: unset; }
+  .cyww .assets-side-nav .spectrum-SideNav-heading, .cyww .assets-side-nav-error-view .spectrum-SideNav-heading {
+    padding: 0 0;
+    margin-top: 0rem;
+    margin-bottom: 0.75rem;
+    height: unset;
+    line-height: unset;
+    font-size: 0.6875rem;
+    font-weight: normal; }
+  .cyww .assets-side-nav .spectrum-SideNav-itemIcon, .cyww .assets-side-nav-error-view .spectrum-SideNav-itemIcon {
+    margin-right: 0.75rem;
+    min-width: 18px; }
+  .cyww .assets-side-nav .assets-SideNav-item-highlight .spectrum-SideNav-itemLink, .cyww .assets-side-nav-error-view .assets-SideNav-item-highlight .spectrum-SideNav-itemLink {
+    background-color: var(--spectrum-global-color-blue-400) !important;
+    color: var(--spectrum-global-color-gray-50) !important;
+    white-space: normal; }
+  .cyww .assets-side-nav .assets-SideNav-item-small .spectrum-SideNav-itemLink, .cyww .assets-side-nav-error-view .assets-SideNav-item-small .spectrum-SideNav-itemLink {
+    font-weight: normal;
+    font-size: 0.875rem;
+    white-space: normal; }
+  .cyww .assets-side-nav .assets-SideNav-item-small .spectrum-SideNav-itemLink.is-disabled, .cyww .assets-side-nav-error-view .assets-SideNav-item-small .spectrum-SideNav-itemLink.is-disabled {
+    color: var(--spectrum-global-color-gray-500) !important; }
+  .cyww .assets-side-nav .assets-SideNav-item-big .spectrum-SideNav-itemLink, .cyww .assets-side-nav-error-view .assets-SideNav-item-big .spectrum-SideNav-itemLink {
+    padding-top: 0.5625rem;
+    padding-bottom: 0.5625rem;
+    font-weight: bold;
+    font-size: 0.875rem;
+    white-space: normal; }
+  .cyww .assets-side-nav .assets-SideNav-item-big .spectrum-SideNav-heading, .cyww .assets-side-nav-error-view .assets-SideNav-item-big .spectrum-SideNav-heading {
+    margin-bottom: 0.5rem; }
+
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .info-panel {
+  height: 100%; }
+  .cyww .info-panel .header {
+    padding: 1.5rem;
+    border-bottom: 0.0625rem solid var(--spectrum-global-color-gray-200);
+    flex-wrap: wrap;
+    height: 90px; }
+    .cyww .info-panel .header .title {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: var(--spectrum-global-color-gray-800);
+      flex: 0 0 100%; }
+    .cyww .info-panel .header .subtitle {
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      margin-top: 0.25rem;
+      font-size: 0.6875rem;
+      font-style: normal;
+      color: var(--spectrum-global-color-gray-700);
+      flex: 0 0 100%;
+      text-transform: uppercase; }
+    .cyww .info-panel .header .note {
+      margin-top: 0.5rem;
+      margin-bottom: 0rem;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      font-size: 0.875rem;
+      font-style: normal;
+      color: var(--spectrum-global-color-gray-700); }
+  .cyww .info-panel .content {
+    padding: 1.5rem;
+    overflow-y: auto; }
+    .cyww .info-panel .content .title {
+      margin-bottom: 1.5rem;
+      font-size: 0.875rem;
+      font-weight: bold;
+      color: var(--spectrum-global-color-gray-800); }
+    .cyww .info-panel .content .field {
+      margin-bottom: 1rem;
+      display: flex; }
+    .cyww .info-panel .content .label {
+      min-width: 5rem;
+      text-align: left;
+      font-size: 0.875rem;
+      font-style: normal;
+      color: var(--spectrum-global-color-gray-700); }
+    .cyww .info-panel .content .value {
+      margin-left: 0.5rem;
+      text-align: left;
+      font-size: 0.875rem;
+      font-style: normal;
+      color: var(--spectrum-global-color-gray-800); }
+    .cyww .info-panel .content .color-theme-field {
+      display: flex;
+      flex-direction: column; }
+    .cyww .info-panel .content .color-info {
+      margin-top: 0.5rem;
+      display: flex; }
+    .cyww .info-panel .content .color-format {
+      display: flex;
+      flex-direction: column; }
+    .cyww .info-panel .content .color-format-field {
+      display: flex;
+      margin-bottom: 0.25rem; }
+      .cyww .info-panel .content .color-format-field .label {
+        min-width: 2.625rem; }
+    .cyww .info-panel .content .color-swatches {
+      display: flex;
+      margin-top: 0.5rem; }
+      .cyww .info-panel .content .color-swatches .color-swatch {
+        border-radius: 0.25rem;
+        width: 2.25rem;
+        height: 2.25rem;
+        margin-right: 0.5rem; }
+        .cyww .info-panel .content .color-swatches .color-swatch:last-child {
+          margin-right: 0; }
+        .cyww .info-panel .content .color-swatches .color-swatch:focus {
+          outline: none; }
+      .cyww .info-panel .content .color-swatches .is-selected {
+        box-sizing: border-box;
+        border: 0.125rem solid var(--spectrum-global-color-blue-500); }
+  .cyww .info-panel:focus {
+    outline: none; }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2020 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .assets-empty-view {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column; }
+  .cyww .assets-empty-view .view {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center; }
+  .cyww .assets-empty-view .message {
+    font-size: 0.875rem;
+    font-weight: bold;
+    color: var(--spectrum-global-color-gray-800);
+    margin-left: auto;
+    margin-right: auto; }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+.cyww .assets-right-conainer {
+  width: 16rem;
+  z-index: 1;
+  background-color: var(--spectrum-global-color-gray-50);
+  border-left: 0.125rem solid var(--spectrum-global-color-gray-200);
+  opacity: 1;
+  transition: all .3s ease-in-out; }
+
+.cyww .right-container-empty {
+  pointer-events: none; }
+  .cyww .right-container-empty .message {
+    width: 8.75rem; }
+  .cyww .right-container-empty .icon {
+    height: 12rem;
+    width: 12rem; }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .assets-content {
+  min-width: 10rem;
+  min-height: 10rem;
+  position: relative;
+  flex: 1 1 0;
+  overflow: hidden; }
+
+.cyww .assets-content > div {
+  height: 100%; }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2021 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .spectrum--light, .cyww .spectrum--lightest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-50);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--dark, .cyww .spectrum--darkest {
+  --primary-ccd-bg-color: var(--spectrum-global-color-gray-100);
+  --secondary-ccd-bg-color: var(--spectrum-global-color-gray-75); }
+
+.cyww .spectrum--light {
+  --background-color-primary: var(--spectrum-global-color-gray-50);
+  --background-color-secondary: var(--spectrum-global-color-gray-100); }
+
+.cyww .spectrum--darkest {
+  --background-color-primary: var(--spectrum-global-color-gray-100);
+  --background-color-secondary: var(--spectrum-global-color-gray-75); }
+
+/* eslint-disable-next-line spaced-comment */
+/*************************************************************************
+ *
+ * Copyright 2019 Adobe
+ * All Rights Reserved.
+ *
+ * NOTICE: All information contained herein is, and remains
+ * the property of Adobe and its suppliers, if any. The intellectual
+ * and technical concepts contained herein are proprietary to Adobe
+ * and its suppliers and are protected by all applicable intellectual
+ * property laws, including trade secret and copyright laws.
+ * Dissemination of this information or reproduction of this material
+ * is strictly forbidden unless prior written permission is obtained
+ * from Adobe.
+ **************************************************************************/
+.cyww .your-work {
+  display: flex;
+  flex-flow: row nowrap;
+  text-align: left;
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.cyww .your-work-assets {
+  width: 100%;
+  height: 100%;
+  margin: 0; }
+
+.cyww .your-work-assets-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  background-color: var(--background-color-primary); }
+
+.cyww .mid-area {
+  display: flex;
+  flex-flow: column nowrap;
+  flex: 1 1 0;
+  overflow: hidden; }
+
+.cyww .ccd-yw-provider {
+  height: 100%;
+  overflow: hidden; }
+
+.cyww .max-height {
+  height: 100%; }
+
+.cyww .your-work-init {
+  width: 100%;
+  height: 100%;
+  background-color: var(--spectrum-global-color-gray-100);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; }
+  .cyww .your-work-init .init-wait-text {
+    margin-top: 1.5rem;
+    font-size: 1rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .your-work-init .init-failed-heading {
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: var(--spectrum-global-color-gray-800); }
+  .cyww .your-work-init .init-failed-text {
+    margin: 0.5rem 0 1rem;
+    text-align: center;
+    width: 9.375rem;
+    font-size: 0.875rem;
+    font-style: normal;
+    color: var(--spectrum-global-color-gray-800); }
+
