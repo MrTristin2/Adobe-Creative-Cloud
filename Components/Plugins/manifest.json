@@ -1,0 +1,14 @@
+{
+  "id": "CCDPlugins",
+  "version": "2.8.0.31",
+  "resources": {
+    "js": "./resources/index.js",
+    "css": "./resources/index.css"
+  },
+  "packageName": "Plugins",
+  "packageDependencies": [
+    "UPI",
+    "UPI64",
+    "Apps"
+  ]
+}
