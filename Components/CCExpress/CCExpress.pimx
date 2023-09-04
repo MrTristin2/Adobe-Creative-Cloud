@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<package_installation_info version="2.0">
+	<packageid>C471F50E-1027-42F3-91E0-C9345808F820</packageid>
+	<name>CCExpress</name>
+	<version>5.11.0.522</version>
+	<target_location>/Components/CCExpress/</target_location>
+	<packages>
+		<pimaInfo>
+			<packagetype>zip</packagetype>
+			<name>CCExpress</name>
+			<assets_size>7899790</assets_size>
+			<validation_info><validation_xml>PD94bWwgdmVyc2lvbj0iMS4wIj8+PFZhbGlkYXRpb25JbmZvLz4=</validation_xml>
+				<sig>OAUaGcTeGTT111oRFKAC8SP4Tx1mw0TbiyKe/F74NO4/a/zp+CHbxx3IjgJa82cZMnTY7kSryXzQH7VnkoJyuICR+fCqlPzzcCrBa7n9PLLYDsG31yCEUMm14/FxMF1lrkXgdZk6fGZMg4DtIMv/Wzzi+KwqznVYTs7uNNbFfB53+l+s7OWIywqfpSznw4rF71DPTAD/06mzqhb+S5sujQK1ZNCgTWycIT3cpyzIsNtfF56jrKAtAdw2KytjwBLwLaGAzdjCYu9GIUExZex3g1YYjjSQ14/sBTI6RhLnWmtN5vAK7eYAFKxQzkhXcGGA605pK1NZTjrIxTZzm6SaLjdlVMZadID5K2tT/B5xotsrjBNc1YEgtL3N8YFSSNsN/A8DaqEQNheBL8u6oBlawmRBZkGfVm1Io5TsElxrznG+t442Iu/eOPENyC7WXXMpQWappR+KTsghYg31QUm+4ItEFp2j9VMLw1EsWDI4cKk2gjqypAGdqzXAWIhlYilI</sig>
+			</validation_info>
+		</pimaInfo>
+	</packages>
+</package_installation_info>

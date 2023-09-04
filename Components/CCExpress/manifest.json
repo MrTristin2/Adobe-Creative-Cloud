@@ -1,0 +1,10 @@
+{
+    "id": "CCExpress",
+    "resourcePath": "./resources",
+    "resources": {
+        "js": "./quickActions.js",
+        "css": "./quickActions.css"
+    },
+    "packageName": "CCExpress",
+    "packageDependencies": ["Apps"]
+}
