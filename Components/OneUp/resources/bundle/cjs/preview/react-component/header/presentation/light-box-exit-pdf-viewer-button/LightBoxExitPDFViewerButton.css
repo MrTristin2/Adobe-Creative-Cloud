@@ -1,0 +1,36 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2019 Adobe
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+.sdk-LightBoxExitPDFViewerButton-lightBoxExitPDFViewerButtonTopBarRight {
+    border-left: 1px solid #d6d6d6;
+    margin: 0 4px 0 -5px;
+    padding-left: 5px;
+}
+
+.sdk-LightBoxExitPDFViewerButton-lightBoxExitPDFViewerButtonTopBarLeft {
+    border-right: 1px solid #d6d6d6;
+    margin: 0 9px 0 -8px;
+    padding: 0 9px 0 4px;
+}
+
+.sdk-LightBoxExitPDFViewerButton-lightBoxExitPDFViewerButtonTopBarLeft .spectrum-Tool .spectrum-Icon {
+    color: #2c2c2c;
+}
+
+.sdk-LightBoxExitPDFViewerButton-lightBoxExitPDFViewerButtonTopBarRight .spectrum-Tool .spectrum-Icon {
+    color: #2c2c2c;
+}
