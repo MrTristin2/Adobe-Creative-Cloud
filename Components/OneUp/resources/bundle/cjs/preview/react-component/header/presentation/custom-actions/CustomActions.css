@@ -1,0 +1,51 @@
+/*************************************************************************
+* ADOBE CONFIDENTIAL
+* ___________________
+*
+*  Copyright 2019 Adobe
+*  All Rights Reserved.
+*
+* NOTICE:  All information contained herein is, and remains
+* the property of Adobe and its suppliers, if any. The intellectual
+* and technical concepts contained herein are proprietary to Adobe
+* and its suppliers and are protected by all applicable intellectual
+* property laws, including trade secret and copyright laws.
+* Dissemination of this information or reproduction of this material
+* is strictly forbidden unless prior written permission is obtained
+* from Adobe.
+**************************************************************************/
+
+.sdk-CustomActions-actions {
+    display: flex;
+    flex: 0 0 auto;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.sdk-CustomActions-actionItem {
+    margin: 0 4px;
+}
+
+/* Forcing fill as we don't have dark theme yet */
+.sdk-CustomActions-actionItem svg g {
+    fill: #6a6a6a !important;
+}
+
+.sdk-CustomActions-actionItemWhite {
+    margin: 0 4px;
+}
+
+/*
+.actionItemWhite button svg path {
+    fill: #fff;
+}
+*/
+
+.sdk-CustomActions-actionItemHidden {
+    display: none;
+}
+
+/* overriding tools disabled class fill (from comments dropin) to make them look enabled */
+.sdk-CustomActions-actionItem-inactive svg path {
+    fill: #707070 !important;
+}
